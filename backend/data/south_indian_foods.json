@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Idli",
+    "servingSize": {
+      "amount": 70,
+      "unit": "g"
+    },
+    "calories": 154,
+    "protein": 5.2,
+    "carbs": 30,
+    "fat": 0.4,
+    "fiber": 1.5,
+    "sugar": 1.5,
+    "sodium": 120,
+    "category": "breakfast",
+    "isVerified": true
+  },
+  {
+    "name": "Dosa (Plain)",
+    "servingSize": {
+      "amount": 70,
+      "unit": "g"
+    },
+    "calories": 133,
+    "protein": 2.7,
+    "carbs": 30,
+    "fat": 1.5,
+    "fiber": 1.5,
+    "sugar": 0.5,
+    "sodium": 150,
+    "category": "breakfast",
+    "isVerified": true
+  },
+  {
+    "name": "Vada (Medu Vada)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 97,
+    "protein": 1.2,
+    "carbs": 10,
+    "fat": 5,
+    "fiber": 0.8,
+    "sugar": 0.3,
+    "sodium": 150,
+    "category": "snack",
+    "isVerified": true
+  },
+  {
+    "name": "Sambar",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 120,
+    "protein": 5,
+    "carbs": 18,
+    "fat": 3,
+    "fiber": 3.5,
+    "sugar": 3,
+    "sodium": 200,
+    "category": "curry",
+    "isVerified": true
+  },
+  {
+    "name": "Rasam",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 60,
+    "protein": 2,
+    "carbs": 10,
+    "fat": 1,
+    "fiber": 1,
+    "sugar": 1,
+    "sodium": 180,
+    "category": "curry",
+    "isVerified": true
+  },
+  {
+    "name": "Curd Rice",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 210,
+    "protein": 6,
+    "carbs": 35,
+    "fat": 4,
+    "fiber": 0.5,
+    "sugar": 4,
+    "sodium": 220,
+    "category": "rice",
+    "isVerified": true
+  },
+  {
+    "name": "Lemon Rice",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 230,
+    "protein": 4,
+    "carbs": 45,
+    "fat": 5,
+    "fiber": 2,
+    "sugar": 1,
+    "sodium": 250,
+    "category": "rice",
+    "isVerified": true
+  },
+  {
+    "name": "Vegetable Upma",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 180,
+    "protein": 4,
+    "carbs": 32,
+    "fat": 5,
+    "fiber": 3,
+    "sugar": 2,
+    "sodium": 180,
+    "category": "breakfast",
+    "isVerified": true
+  },
+  {
+    "name": "Chapati",
+    "servingSize": {
+      "amount": 40,
+      "unit": "g"
+    },
+    "calories": 120,
+    "protein": 3.6,
+    "carbs": 20,
+    "fat": 1.5,
+    "fiber": 3,
+    "sugar": 0.5,
+    "sodium": 50,
+    "category": "bread",
+    "isVerified": true
+  },
+  {
+    "name": "Pongal (Ven Pongal)",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 7,
+    "fiber": 2,
+    "sugar": 1,
+    "sodium": 250,
+    "category": "breakfast",
+    "isVerified": true
+  }
+]
