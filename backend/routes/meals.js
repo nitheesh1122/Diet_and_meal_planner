@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { protect } = require('../middleware/auth');
-const { getMealsByUser, addMealForUser } = require('../controllers/meals');
+const { getMealsByUser, addMealForUser, clearMealsByUser } = require('../controllers/meals');
 const { getRecommendations } = require('../controllers/recommendations');
 const { generatePlans } = require('../controllers/generate');
 
@@ -16,5 +16,8 @@ router.get('/:userId/recommendations', protect, getRecommendations);
 
 // POST /api/meals/:userId/generate
 router.post('/:userId/generate', protect, generatePlans);
+
+// DELETE /api/meals/:userId
+router.delete('/:userId', protect, clearMealsByUser);
 
 module.exports = router;

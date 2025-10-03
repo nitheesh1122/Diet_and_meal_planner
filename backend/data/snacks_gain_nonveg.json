@@ -1,0 +1,2604 @@
+[
+  {
+    "name": "Boiled Egg (1) with Fruits",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 265,
+    "protein": 16.2,
+    "carbs": 30,
+    "fat": 8.9,
+    "fiber": 3.2,
+    "sugar": 3.6,
+    "sodium": 93,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Veggies",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 393,
+    "protein": 20.6,
+    "carbs": 41,
+    "fat": 16.3,
+    "fiber": 2.1,
+    "sugar": 4.6,
+    "sodium": 166,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 402,
+    "protein": 21.6,
+    "carbs": 39,
+    "fat": 17.7,
+    "fiber": 3.5,
+    "sugar": 6.2,
+    "sodium": 278,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Apple with Veggies",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 400,
+    "protein": 23.2,
+    "carbs": 42,
+    "fat": 15.6,
+    "fiber": 1.8,
+    "sugar": 9.8,
+    "sodium": 179,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1)",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Spicy",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 390,
+    "protein": 23.1,
+    "carbs": 36,
+    "fat": 17.0,
+    "fiber": 1.5,
+    "sugar": 10.9,
+    "sodium": 105,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Apple with Veggies grilled Var1",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 400,
+    "protein": 23.2,
+    "carbs": 42,
+    "fat": 15.6,
+    "fiber": 1.8,
+    "sugar": 9.8,
+    "sodium": 179,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with masala Var2",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) fried Var3",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Apple with Veggies grilled Var4",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 400,
+    "protein": 23.2,
+    "carbs": 42,
+    "fat": 15.6,
+    "fiber": 1.8,
+    "sugar": 9.8,
+    "sodium": 179,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies with salad Var5",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with pickle Var6",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with raita Var7",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with raita Var8",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with chutney Var9",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with curd Var10",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies fried Var11",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with sambar Var12",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Veggies with curd Var13",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 393,
+    "protein": 20.6,
+    "carbs": 41,
+    "fat": 16.3,
+    "fiber": 2.1,
+    "sugar": 4.6,
+    "sodium": 166,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with chutney Var14",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Veggies with pickle Var15",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 393,
+    "protein": 20.6,
+    "carbs": 41,
+    "fat": 16.3,
+    "fiber": 2.1,
+    "sugar": 4.6,
+    "sodium": 166,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Fruits with sambar Var16",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 265,
+    "protein": 16.2,
+    "carbs": 30,
+    "fat": 8.9,
+    "fiber": 3.2,
+    "sugar": 3.6,
+    "sodium": 93,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with raita Var17",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with masala Var18",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with curd Var19",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) with Veggies with pickle Var20",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 402,
+    "protein": 21.6,
+    "carbs": 39,
+    "fat": 17.7,
+    "fiber": 3.5,
+    "sugar": 6.2,
+    "sodium": 278,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies with dal Var21",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies with masala Var22",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with masala Var23",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) fried Var24",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies grilled Var25",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with salad Var26",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with dal Var27",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with masala Var28",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Fruits with salad Var29",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 265,
+    "protein": 16.2,
+    "carbs": 30,
+    "fat": 8.9,
+    "fiber": 3.2,
+    "sugar": 3.6,
+    "sodium": 93,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with curry Var30",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Veggies with sambar Var31",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 393,
+    "protein": 20.6,
+    "carbs": 41,
+    "fat": 16.3,
+    "fiber": 2.1,
+    "sugar": 4.6,
+    "sodium": 166,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) with Veggies with dal Var32",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 402,
+    "protein": 21.6,
+    "carbs": 39,
+    "fat": 17.7,
+    "fiber": 3.5,
+    "sugar": 6.2,
+    "sodium": 278,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with sambar Var33",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with curd Var34",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with chutney Var35",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Apple with Veggies grilled Var36",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 400,
+    "protein": 23.2,
+    "carbs": 42,
+    "fat": 15.6,
+    "fiber": 1.8,
+    "sugar": 9.8,
+    "sodium": 179,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Fruits with sambar Var37",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 265,
+    "protein": 16.2,
+    "carbs": 30,
+    "fat": 8.9,
+    "fiber": 3.2,
+    "sugar": 3.6,
+    "sodium": 93,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies stuffed Var38",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with curd Var39",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies stuffed Var40",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Fruits grilled Var41",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 265,
+    "protein": 16.2,
+    "carbs": 30,
+    "fat": 8.9,
+    "fiber": 3.2,
+    "sugar": 3.6,
+    "sodium": 93,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with raita Var42",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with masala Var43",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies with curd Var44",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with curd Var45",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies stuffed Var46",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with sambar Var47",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey fried Var48",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Spicy with curry Var49",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 390,
+    "protein": 23.1,
+    "carbs": 36,
+    "fat": 17.0,
+    "fiber": 1.5,
+    "sugar": 10.9,
+    "sodium": 105,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with pickle Var50",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) with Veggies with sambar Var51",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 402,
+    "protein": 21.6,
+    "carbs": 39,
+    "fat": 17.7,
+    "fiber": 3.5,
+    "sugar": 6.2,
+    "sodium": 278,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with salad Var52",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with masala Var53",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with sambar Var54",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with masala Var55",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) with Veggies with pickle Var56",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 402,
+    "protein": 21.6,
+    "carbs": 39,
+    "fat": 17.7,
+    "fiber": 3.5,
+    "sugar": 6.2,
+    "sodium": 278,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with dal Var57",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies fried Var58",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies grilled Var59",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with pickle Var60",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with sambar Var61",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies grilled Var62",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies with sambar Var63",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Apple with Veggies with sambar Var64",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 400,
+    "protein": 23.2,
+    "carbs": 42,
+    "fat": 15.6,
+    "fiber": 1.8,
+    "sugar": 9.8,
+    "sodium": 179,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies stuffed Var65",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Spicy fried Var66",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 390,
+    "protein": 23.1,
+    "carbs": 36,
+    "fat": 17.0,
+    "fiber": 1.5,
+    "sugar": 10.9,
+    "sodium": 105,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with masala Var67",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 395,
+    "protein": 19.5,
+    "carbs": 37,
+    "fat": 18.6,
+    "fiber": 1.9,
+    "sugar": 6.4,
+    "sodium": 149,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies with dal Var68",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey stuffed Var69",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with sambar Var70",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Fruits with pickle Var71",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 265,
+    "protein": 16.2,
+    "carbs": 30,
+    "fat": 8.9,
+    "fiber": 3.2,
+    "sugar": 3.6,
+    "sodium": 93,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with curry Var72",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Spicy with masala Var73",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 390,
+    "protein": 23.1,
+    "carbs": 36,
+    "fat": 17.0,
+    "fiber": 1.5,
+    "sugar": 10.9,
+    "sodium": 105,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey stuffed Var74",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 289,
+    "protein": 19.9,
+    "carbs": 30,
+    "fat": 9.9,
+    "fiber": 2.1,
+    "sugar": 8.2,
+    "sodium": 189,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Veggies with dal Var75",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 393,
+    "protein": 20.6,
+    "carbs": 41,
+    "fat": 16.3,
+    "fiber": 2.1,
+    "sugar": 4.6,
+    "sodium": 166,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with curry Var76",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with curd Var77",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Veggies stuffed Var78",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 319,
+    "protein": 16.4,
+    "carbs": 37,
+    "fat": 11.8,
+    "fiber": 1.6,
+    "sugar": 4.3,
+    "sodium": 38,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) stuffed Var79",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 306,
+    "protein": 19.9,
+    "carbs": 29,
+    "fat": 12.4,
+    "fiber": 3.5,
+    "sugar": 4.3,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with pickle Var80",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Spicy stuffed Var81",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 390,
+    "protein": 23.1,
+    "carbs": 36,
+    "fat": 17.0,
+    "fiber": 1.5,
+    "sugar": 10.9,
+    "sodium": 105,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Milkshake (banana) with Veggies with dal Var82",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Veggies fried Var83",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 393,
+    "protein": 20.6,
+    "carbs": 41,
+    "fat": 16.3,
+    "fiber": 2.1,
+    "sugar": 4.6,
+    "sodium": 166,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Veggies with masala Var84",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 250,
+    "protein": 13.4,
+    "carbs": 28,
+    "fat": 9.4,
+    "fiber": 1.5,
+    "sugar": 2.1,
+    "sodium": 267,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Apple with Veggies with chutney Var85",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 400,
+    "protein": 23.2,
+    "carbs": 42,
+    "fat": 15.6,
+    "fiber": 1.8,
+    "sugar": 9.8,
+    "sodium": 179,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies fried Var86",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 252,
+    "protein": 17.4,
+    "carbs": 26,
+    "fat": 8.9,
+    "fiber": 0.8,
+    "sugar": 1.4,
+    "sodium": 91,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Energy Bar with Veggies with curd Var87",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 315,
+    "protein": 19.8,
+    "carbs": 30,
+    "fat": 12.8,
+    "fiber": 1.1,
+    "sugar": 1.0,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  }
+]

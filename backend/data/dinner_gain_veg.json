@@ -1,0 +1,2415 @@
+[
+  {
+    "name": "Pav Bhaji (small) with Fruits",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 884,
+    "protein": 60.2,
+    "carbs": 86,
+    "fat": 33.1,
+    "fiber": 2.4,
+    "sugar": 10.7,
+    "sodium": 368,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti High Protein",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 810,
+    "protein": 53.5,
+    "carbs": 89,
+    "fat": 26.8,
+    "fiber": 3.1,
+    "sugar": 8.6,
+    "sodium": 333,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pasta (tomato sauce)",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 785,
+    "protein": 46.3,
+    "carbs": 89,
+    "fat": 27.0,
+    "fiber": 5.3,
+    "sugar": 6.9,
+    "sodium": 219,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Stuffed Paratha (1) Low Sugar",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 838,
+    "protein": 44.4,
+    "carbs": 95,
+    "fat": 31.3,
+    "fiber": 1.7,
+    "sugar": 7.1,
+    "sodium": 378,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 710,
+    "protein": 48.0,
+    "carbs": 77,
+    "fat": 23.1,
+    "fiber": 4.9,
+    "sugar": 10.8,
+    "sodium": 50,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma (small) + Roti",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 710,
+    "protein": 35.6,
+    "carbs": 80,
+    "fat": 27.5,
+    "fiber": 2.1,
+    "sugar": 7.5,
+    "sodium": 226,
+    "category": "grains",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices)",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 51.0,
+    "carbs": 79,
+    "fat": 28.4,
+    "fiber": 3.9,
+    "sugar": 2.6,
+    "sodium": 304,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with Raita",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 866,
+    "protein": 47.0,
+    "carbs": 101,
+    "fat": 30.2,
+    "fiber": 3.0,
+    "sugar": 8.5,
+    "sodium": 230,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 735,
+    "protein": 34.5,
+    "carbs": 68,
+    "fat": 36.1,
+    "fiber": 6.5,
+    "sugar": 4.5,
+    "sodium": 173,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Nuts",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 785,
+    "protein": 42.0,
+    "carbs": 79,
+    "fat": 33.4,
+    "fiber": 7.8,
+    "sugar": 8.4,
+    "sodium": 180,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 812,
+    "protein": 56.3,
+    "carbs": 69,
+    "fat": 34.7,
+    "fiber": 1.7,
+    "sugar": 3.5,
+    "sodium": 325,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Curry + Roti",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 769,
+    "protein": 38.8,
+    "carbs": 90,
+    "fat": 28.4,
+    "fiber": 3.2,
+    "sugar": 10.0,
+    "sodium": 100,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Soup + Salad with Fruits",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 881,
+    "protein": 49.1,
+    "carbs": 96,
+    "fat": 33.6,
+    "fiber": 2.8,
+    "sugar": 2.2,
+    "sodium": 286,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti with Honey",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 836,
+    "protein": 46.4,
+    "carbs": 87,
+    "fat": 33.4,
+    "fiber": 3.0,
+    "sugar": 2.6,
+    "sodium": 146,
+    "category": "grains",
+    "tags": [
+      "high-protein"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli with Sambar (light)",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 703,
+    "protein": 41.2,
+    "carbs": 79,
+    "fat": 24.6,
+    "fiber": 7.3,
+    "sugar": 4.9,
+    "sodium": 319,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pav Bhaji (small)",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 745,
+    "protein": 44.8,
+    "carbs": 71,
+    "fat": 31.2,
+    "fiber": 4.0,
+    "sugar": 5.0,
+    "sodium": 274,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with Nuts",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 888,
+    "protein": 41.0,
+    "carbs": 108,
+    "fat": 32.7,
+    "fiber": 1.3,
+    "sugar": 3.6,
+    "sodium": 154,
+    "category": "fats",
+    "tags": [
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dosa (plain) small Spicy",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 719,
+    "protein": 37.2,
+    "carbs": 74,
+    "fat": 30.3,
+    "fiber": 4.1,
+    "sugar": 7.1,
+    "sodium": 152,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Curry + Roti with Raita",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 826,
+    "protein": 42.7,
+    "carbs": 95,
+    "fat": 30.6,
+    "fiber": 4.2,
+    "sugar": 7.7,
+    "sodium": 212,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Curry + Roti with Nuts",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 858,
+    "protein": 40.7,
+    "carbs": 100,
+    "fat": 32.9,
+    "fiber": 7.4,
+    "sugar": 10.7,
+    "sodium": 287,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 833,
+    "protein": 45.8,
+    "carbs": 75,
+    "fat": 38.7,
+    "fiber": 2.1,
+    "sugar": 5.8,
+    "sodium": 323,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Saut\u00e9ed Veg Bowl",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 831,
+    "protein": 56.8,
+    "carbs": 69,
+    "fat": 36.3,
+    "fiber": 5.2,
+    "sugar": 10.3,
+    "sodium": 189,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Soup + Salad with Chutney",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 900,
+    "protein": 46.6,
+    "carbs": 94,
+    "fat": 37.6,
+    "fiber": 6.6,
+    "sugar": 2.0,
+    "sodium": 335,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Soup + Salad",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 856,
+    "protein": 58.7,
+    "carbs": 77,
+    "fat": 35.0,
+    "fiber": 5.2,
+    "sugar": 7.8,
+    "sodium": 249,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with Raita",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 766,
+    "protein": 39.3,
+    "carbs": 84,
+    "fat": 30.5,
+    "fiber": 6.9,
+    "sugar": 2.2,
+    "sodium": 104,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 761,
+    "protein": 42.3,
+    "carbs": 70,
+    "fat": 34.8,
+    "fiber": 1.7,
+    "sugar": 8.9,
+    "sodium": 117,
+    "category": "grains",
+    "tags": [
+      "high-protein"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma (small) + Roti Spicy",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 710,
+    "protein": 40.7,
+    "carbs": 73,
+    "fat": 28.3,
+    "fiber": 2.3,
+    "sugar": 1.1,
+    "sodium": 94,
+    "category": "grains",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) Spicy",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 756,
+    "protein": 52.4,
+    "carbs": 66,
+    "fat": 31.5,
+    "fiber": 5.3,
+    "sugar": 2.5,
+    "sodium": 92,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka with Raita",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 798,
+    "protein": 46.8,
+    "carbs": 74,
+    "fat": 35.0,
+    "fiber": 2.8,
+    "sugar": 5.4,
+    "sodium": 345,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Saut\u00e9ed Veg Bowl Spicy",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 794,
+    "protein": 46.7,
+    "carbs": 87,
+    "fat": 28.9,
+    "fiber": 3.1,
+    "sugar": 11.9,
+    "sodium": 90,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1)",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 812,
+    "protein": 52.9,
+    "carbs": 74,
+    "fat": 33.9,
+    "fiber": 7.3,
+    "sugar": 9.9,
+    "sodium": 184,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) with Raita",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 882,
+    "protein": 59.4,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 6.5,
+    "sodium": 237,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli with Sambar (light) Whole Grain",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 50.6,
+    "carbs": 83,
+    "fat": 38.4,
+    "fiber": 1.5,
+    "sugar": 1.7,
+    "sodium": 284,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti with Nuts",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 705,
+    "protein": 39.1,
+    "carbs": 80,
+    "fat": 25.3,
+    "fiber": 1.0,
+    "sugar": 11.8,
+    "sodium": 261,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with Honey",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 837,
+    "protein": 47.7,
+    "carbs": 82,
+    "fat": 35.3,
+    "fiber": 7.3,
+    "sugar": 7.3,
+    "sodium": 207,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Honey",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 870,
+    "protein": 59.3,
+    "carbs": 73,
+    "fat": 38.1,
+    "fiber": 2.2,
+    "sugar": 6.1,
+    "sodium": 262,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Masala",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 859,
+    "protein": 59.9,
+    "carbs": 78,
+    "fat": 34.1,
+    "fiber": 1.9,
+    "sugar": 4.8,
+    "sodium": 163,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices) with Nuts",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 887,
+    "protein": 43.8,
+    "carbs": 92,
+    "fat": 38.2,
+    "fiber": 1.5,
+    "sugar": 5.5,
+    "sodium": 217,
+    "category": "fats",
+    "tags": [
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lentil Soup",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 738,
+    "protein": 39.7,
+    "carbs": 70,
+    "fat": 33.1,
+    "fiber": 6.4,
+    "sugar": 8.2,
+    "sodium": 221,
+    "category": "vegetables",
+    "tags": [
+      "healthy"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pasta (tomato sauce) with Raita",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 836,
+    "protein": 50.0,
+    "carbs": 73,
+    "fat": 38.4,
+    "fiber": 1.8,
+    "sugar": 9.9,
+    "sodium": 281,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) with Nuts",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 737,
+    "protein": 41.6,
+    "carbs": 75,
+    "fat": 30.2,
+    "fiber": 6.3,
+    "sugar": 8.4,
+    "sodium": 225,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices) Masala",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 733,
+    "protein": 43.2,
+    "carbs": 84,
+    "fat": 25.0,
+    "fiber": 3.2,
+    "sugar": 8.1,
+    "sodium": 308,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Stuffed Paratha (1) Masala",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 53.2,
+    "carbs": 64,
+    "fat": 34.2,
+    "fiber": 7.8,
+    "sugar": 1.9,
+    "sodium": 233,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Stir Fry + Roti",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 827,
+    "protein": 49.7,
+    "carbs": 77,
+    "fat": 35.4,
+    "fiber": 7.9,
+    "sugar": 4.7,
+    "sodium": 258,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lentil Soup with Raita",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 726,
+    "protein": 42.2,
+    "carbs": 66,
+    "fat": 32.7,
+    "fiber": 5.4,
+    "sugar": 7.3,
+    "sodium": 254,
+    "category": "vegetables",
+    "tags": [
+      "healthy"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Spicy",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 713,
+    "protein": 34.1,
+    "carbs": 76,
+    "fat": 30.4,
+    "fiber": 6.8,
+    "sugar": 2.5,
+    "sodium": 314,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices) with Chutney",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 744,
+    "protein": 43.6,
+    "carbs": 74,
+    "fat": 30.5,
+    "fiber": 4.3,
+    "sugar": 5.2,
+    "sodium": 123,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Stir Fry + Roti High Protein",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 704,
+    "protein": 32.6,
+    "carbs": 72,
+    "fat": 31.7,
+    "fiber": 5.1,
+    "sugar": 6.7,
+    "sodium": 185,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti Low Sugar",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 789,
+    "protein": 51.2,
+    "carbs": 84,
+    "fat": 27.5,
+    "fiber": 8.0,
+    "sugar": 11.0,
+    "sodium": 236,
+    "category": "grains",
+    "tags": [
+      "high-protein"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dosa (plain) small with Raita",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 715,
+    "protein": 32.9,
+    "carbs": 75,
+    "fat": 31.5,
+    "fiber": 5.4,
+    "sugar": 3.7,
+    "sodium": 165,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Maggie (one bowl)",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 826,
+    "protein": 49.9,
+    "carbs": 74,
+    "fat": 36.8,
+    "fiber": 5.6,
+    "sugar": 4.1,
+    "sodium": 261,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dosa (plain) small",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 58.2,
+    "carbs": 72,
+    "fat": 34.7,
+    "fiber": 7.6,
+    "sugar": 6.2,
+    "sodium": 287,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Saut\u00e9ed Veg Bowl with Raita",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 810,
+    "protein": 42.5,
+    "carbs": 88,
+    "fat": 32.1,
+    "fiber": 2.0,
+    "sugar": 7.7,
+    "sodium": 150,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices) Low Sugar",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 884,
+    "protein": 40.5,
+    "carbs": 86,
+    "fat": 42.0,
+    "fiber": 7.1,
+    "sugar": 4.1,
+    "sodium": 327,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pasta (tomato sauce) with Nuts",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 760,
+    "protein": 41.4,
+    "carbs": 76,
+    "fat": 32.3,
+    "fiber": 4.1,
+    "sugar": 11.0,
+    "sodium": 394,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dosa (plain) small Low Sugar",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 888,
+    "protein": 50.0,
+    "carbs": 94,
+    "fat": 34.6,
+    "fiber": 3.2,
+    "sugar": 7.8,
+    "sodium": 207,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pav Bhaji (small) with Honey",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 892,
+    "protein": 46.5,
+    "carbs": 89,
+    "fat": 39.1,
+    "fiber": 7.9,
+    "sugar": 5.1,
+    "sodium": 215,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma (small) + Roti Low Sugar",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 792,
+    "protein": 54.4,
+    "carbs": 73,
+    "fat": 31.5,
+    "fiber": 5.0,
+    "sugar": 6.5,
+    "sodium": 236,
+    "category": "grains",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lentil Soup High Protein",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 706,
+    "protein": 47.5,
+    "carbs": 61,
+    "fat": 30.4,
+    "fiber": 6.8,
+    "sugar": 1.3,
+    "sodium": 385,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Light Khichdi",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 754,
+    "protein": 45.4,
+    "carbs": 65,
+    "fat": 34.8,
+    "fiber": 7.2,
+    "sugar": 7.2,
+    "sodium": 118,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with Fruits",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 756,
+    "protein": 48.8,
+    "carbs": 82,
+    "fat": 25.8,
+    "fiber": 3.2,
+    "sugar": 7.3,
+    "sodium": 135,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli with Sambar (light) Spicy",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 755,
+    "protein": 51.4,
+    "carbs": 79,
+    "fat": 26.1,
+    "fiber": 6.3,
+    "sugar": 7.0,
+    "sodium": 117,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pasta (tomato sauce) with Chutney",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 804,
+    "protein": 39.6,
+    "carbs": 80,
+    "fat": 36.1,
+    "fiber": 5.0,
+    "sugar": 9.2,
+    "sodium": 305,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Saut\u00e9ed Veg Bowl with Fruits",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 803,
+    "protein": 43.3,
+    "carbs": 72,
+    "fat": 38.0,
+    "fiber": 5.6,
+    "sugar": 3.7,
+    "sodium": 395,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti Whole Grain",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 754,
+    "protein": 51.2,
+    "carbs": 77,
+    "fat": 26.9,
+    "fiber": 7.3,
+    "sugar": 2.6,
+    "sodium": 390,
+    "category": "grains",
+    "tags": [
+      "high-protein"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread Low Sugar",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 746,
+    "protein": 45.3,
+    "carbs": 66,
+    "fat": 33.5,
+    "fiber": 5.9,
+    "sugar": 5.7,
+    "sodium": 287,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) with Chutney",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 803,
+    "protein": 49.7,
+    "carbs": 85,
+    "fat": 29.4,
+    "fiber": 5.5,
+    "sugar": 6.1,
+    "sodium": 205,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Chutney",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 880,
+    "protein": 41.5,
+    "carbs": 90,
+    "fat": 39.5,
+    "fiber": 5.2,
+    "sugar": 5.3,
+    "sodium": 225,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Light Khichdi with Nuts",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 870,
+    "protein": 55.7,
+    "carbs": 94,
+    "fat": 30.1,
+    "fiber": 3.8,
+    "sugar": 8.6,
+    "sodium": 351,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli with Sambar (light) with Raita",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 752,
+    "protein": 47.8,
+    "carbs": 80,
+    "fat": 26.7,
+    "fiber": 3.7,
+    "sugar": 5.5,
+    "sodium": 345,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Low Sugar",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 783,
+    "protein": 43.3,
+    "carbs": 79,
+    "fat": 32.7,
+    "fiber": 6.5,
+    "sugar": 6.1,
+    "sodium": 104,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka with Honey",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 787,
+    "protein": 46.7,
+    "carbs": 88,
+    "fat": 27.6,
+    "fiber": 5.4,
+    "sugar": 1.1,
+    "sodium": 107,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with Chutney",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 850,
+    "protein": 43.6,
+    "carbs": 79,
+    "fat": 40.1,
+    "fiber": 1.9,
+    "sugar": 2.2,
+    "sodium": 126,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti stuffed Var1",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 761,
+    "protein": 42.3,
+    "carbs": 70,
+    "fat": 34.8,
+    "fiber": 1.7,
+    "sugar": 8.9,
+    "sodium": 117,
+    "category": "grains",
+    "tags": [
+      "high-protein"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dosa (plain) small with raita Var2",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 58.2,
+    "carbs": 72,
+    "fat": 34.7,
+    "fiber": 7.6,
+    "sugar": 6.2,
+    "sodium": 287,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with salad Var3",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 833,
+    "protein": 45.8,
+    "carbs": 75,
+    "fat": 38.7,
+    "fiber": 2.1,
+    "sugar": 5.8,
+    "sodium": 323,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices) with Chutney with salad Var4",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 744,
+    "protein": 43.6,
+    "carbs": 74,
+    "fat": 30.5,
+    "fiber": 4.3,
+    "sugar": 5.2,
+    "sodium": 123,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Honey with dal Var5",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 870,
+    "protein": 59.3,
+    "carbs": 73,
+    "fat": 38.1,
+    "fiber": 2.2,
+    "sugar": 6.1,
+    "sodium": 262,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with Fruits with raita Var6",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 756,
+    "protein": 48.8,
+    "carbs": 82,
+    "fat": 25.8,
+    "fiber": 3.2,
+    "sugar": 7.3,
+    "sodium": 135,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pav Bhaji (small) with chutney Var7",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 745,
+    "protein": 44.8,
+    "carbs": 71,
+    "fat": 31.2,
+    "fiber": 4.0,
+    "sugar": 5.0,
+    "sodium": 274,
+    "category": "other",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Low Sugar with salad Var8",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 783,
+    "protein": 43.3,
+    "carbs": 79,
+    "fat": 32.7,
+    "fiber": 6.5,
+    "sugar": 6.1,
+    "sodium": 104,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) with Nuts with raita Var9",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 737,
+    "protein": 41.6,
+    "carbs": 75,
+    "fat": 30.2,
+    "fiber": 6.3,
+    "sugar": 8.4,
+    "sodium": 225,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) Spicy fried Var10",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 756,
+    "protein": 52.4,
+    "carbs": 66,
+    "fat": 31.5,
+    "fiber": 5.3,
+    "sugar": 2.5,
+    "sodium": 92,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pizza (1-2 slices) grilled Var11",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 51.0,
+    "carbs": 79,
+    "fat": 28.4,
+    "fiber": 3.9,
+    "sugar": 2.6,
+    "sodium": 304,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Spicy with curd Var12",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 713,
+    "protein": 34.1,
+    "carbs": 76,
+    "fat": 30.4,
+    "fiber": 6.8,
+    "sugar": 2.5,
+    "sodium": 314,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma (small) + Roti with curry Var13",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 710,
+    "protein": 35.6,
+    "carbs": 80,
+    "fat": 27.5,
+    "fiber": 2.1,
+    "sugar": 7.5,
+    "sodium": 226,
+    "category": "grains",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Curry + Roti with Nuts with sambar Var14",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 858,
+    "protein": 40.7,
+    "carbs": 100,
+    "fat": 32.9,
+    "fiber": 7.4,
+    "sugar": 10.7,
+    "sodium": 287,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) Spicy with chutney Var15",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 756,
+    "protein": 52.4,
+    "carbs": 66,
+    "fat": 31.5,
+    "fiber": 5.3,
+    "sugar": 2.5,
+    "sodium": 92,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Curry + Roti with Raita stuffed Var16",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 826,
+    "protein": 42.7,
+    "carbs": 95,
+    "fat": 30.6,
+    "fiber": 4.2,
+    "sugar": 7.7,
+    "sodium": 212,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dosa (plain) small Spicy fried Var17",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 719,
+    "protein": 37.2,
+    "carbs": 74,
+    "fat": 30.3,
+    "fiber": 4.1,
+    "sugar": 7.1,
+    "sodium": 152,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Saut\u00e9ed Veg Bowl with Fruits with curd Var18",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 803,
+    "protein": 43.3,
+    "carbs": 72,
+    "fat": 38.0,
+    "fiber": 5.6,
+    "sugar": 3.7,
+    "sodium": 395,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Methi Paratha (1) Spicy with raita Var19",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 756,
+    "protein": 52.4,
+    "carbs": 66,
+    "fat": 31.5,
+    "fiber": 5.3,
+    "sugar": 2.5,
+    "sodium": 92,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Masala with curry Var20",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 859,
+    "protein": 59.9,
+    "carbs": 78,
+    "fat": 34.1,
+    "fiber": 1.9,
+    "sugar": 4.8,
+    "sodium": 163,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma (small) + Roti Low Sugar fried Var21",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 792,
+    "protein": 54.4,
+    "carbs": 73,
+    "fat": 31.5,
+    "fiber": 5.0,
+    "sugar": 6.5,
+    "sodium": 236,
+    "category": "grains",
+    "tags": [],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tofu Stir Fry + Roti High Protein with dal Var22",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 810,
+    "protein": 53.5,
+    "carbs": 89,
+    "fat": 26.8,
+    "fiber": 3.1,
+    "sugar": 8.6,
+    "sodium": 333,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roti + Dal Tadka Masala with chutney Var23",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 859,
+    "protein": 59.9,
+    "carbs": 78,
+    "fat": 34.1,
+    "fiber": 1.9,
+    "sugar": 4.8,
+    "sodium": 163,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Stew with Honey fried Var24",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 837,
+    "protein": 47.7,
+    "carbs": 82,
+    "fat": 35.3,
+    "fiber": 7.3,
+    "sugar": 7.3,
+    "sodium": 207,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Saut\u00e9ed Veg Bowl with Fruits grilled Var25",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 803,
+    "protein": 43.3,
+    "carbs": 72,
+    "fat": 38.0,
+    "fiber": 5.6,
+    "sugar": 3.7,
+    "sodium": 395,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with salad Var26",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 812,
+    "protein": 56.3,
+    "carbs": 69,
+    "fat": 34.7,
+    "fiber": 1.7,
+    "sugar": 3.5,
+    "sodium": 325,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Stir Fry + Roti High Protein with salad Var27",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 704,
+    "protein": 32.6,
+    "carbs": 72,
+    "fat": 31.7,
+    "fiber": 5.1,
+    "sugar": 6.7,
+    "sodium": 185,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  }
+]

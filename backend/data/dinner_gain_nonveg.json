@@ -1,0 +1,2637 @@
+[
+  {
+    "name": "Grilled Fish + Salad with Nuts",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 789,
+    "protein": 46.1,
+    "carbs": 72,
+    "fat": 35.0,
+    "fiber": 8.0,
+    "sugar": 11.4,
+    "sodium": 318,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 711,
+    "protein": 38.3,
+    "carbs": 81,
+    "fat": 26.0,
+    "fiber": 1.3,
+    "sugar": 11.0,
+    "sodium": 114,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Honey",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 783,
+    "protein": 54.7,
+    "carbs": 79,
+    "fat": 27.5,
+    "fiber": 4.1,
+    "sugar": 6.8,
+    "sodium": 259,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Raita",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 777,
+    "protein": 37.4,
+    "carbs": 75,
+    "fat": 36.5,
+    "fiber": 5.7,
+    "sugar": 6.8,
+    "sodium": 332,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg High Protein",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 37.5,
+    "carbs": 88,
+    "fat": 34.6,
+    "fiber": 4.6,
+    "sugar": 5.2,
+    "sodium": 240,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roti + Dal Tadka with Veggies",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 787,
+    "protein": 35.9,
+    "carbs": 88,
+    "fat": 32.4,
+    "fiber": 5.6,
+    "sugar": 2.7,
+    "sodium": 303,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 48.5,
+    "carbs": 93,
+    "fat": 34.8,
+    "fiber": 5.1,
+    "sugar": 5.2,
+    "sodium": 353,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Veggies",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 40.6,
+    "carbs": 69,
+    "fat": 30.8,
+    "fiber": 3.3,
+    "sugar": 10.4,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small)",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 709,
+    "protein": 47.7,
+    "carbs": 72,
+    "fat": 25.6,
+    "fiber": 5.4,
+    "sugar": 8.9,
+    "sodium": 185,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad High Protein",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 857,
+    "protein": 43.4,
+    "carbs": 94,
+    "fat": 33.9,
+    "fiber": 7.6,
+    "sugar": 6.4,
+    "sodium": 202,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Curry (small) + Roti",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 798,
+    "protein": 55.5,
+    "carbs": 81,
+    "fat": 28.1,
+    "fiber": 7.4,
+    "sugar": 8.7,
+    "sodium": 267,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Chutney",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 39.0,
+    "carbs": 69,
+    "fat": 31.8,
+    "fiber": 7.3,
+    "sugar": 10.5,
+    "sodium": 117,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Veggies",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 37.4,
+    "carbs": 97,
+    "fat": 31.3,
+    "fiber": 4.1,
+    "sugar": 10.2,
+    "sodium": 270,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with Veggies",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 862,
+    "protein": 46.0,
+    "carbs": 100,
+    "fat": 30.8,
+    "fiber": 7.5,
+    "sugar": 7.4,
+    "sodium": 79,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Masala",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 45.0,
+    "carbs": 94,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 10.1,
+    "sodium": 383,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Fruits",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 848,
+    "protein": 47.5,
+    "carbs": 95,
+    "fat": 31.1,
+    "fiber": 3.8,
+    "sugar": 7.5,
+    "sodium": 322,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dal Soup + Salad with Veggies",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 810,
+    "protein": 55.5,
+    "carbs": 69,
+    "fat": 34.5,
+    "fiber": 1.0,
+    "sugar": 8.0,
+    "sodium": 305,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Lentil Soup with Veggies",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 805,
+    "protein": 41.4,
+    "carbs": 85,
+    "fat": 33.4,
+    "fiber": 5.9,
+    "sugar": 0.9,
+    "sodium": 354,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Light Khichdi with Veggies",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 804,
+    "protein": 47.7,
+    "carbs": 75,
+    "fat": 34.7,
+    "fiber": 7.1,
+    "sugar": 6.2,
+    "sodium": 232,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 730,
+    "protein": 37.6,
+    "carbs": 79,
+    "fat": 29.2,
+    "fiber": 2.6,
+    "sugar": 1.2,
+    "sodium": 289,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Nuts",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 47.0,
+    "carbs": 72,
+    "fat": 33.9,
+    "fiber": 4.2,
+    "sugar": 1.7,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Stew with Veggies",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 824,
+    "protein": 48.0,
+    "carbs": 85,
+    "fat": 32.6,
+    "fiber": 2.3,
+    "sugar": 1.1,
+    "sodium": 132,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Low Sugar",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 53.7,
+    "carbs": 80,
+    "fat": 38.1,
+    "fiber": 2.2,
+    "sugar": 0.7,
+    "sodium": 97,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with Fruits",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 788,
+    "protein": 45.4,
+    "carbs": 74,
+    "fat": 34.7,
+    "fiber": 6.4,
+    "sugar": 5.1,
+    "sodium": 99,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) Low Sugar",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 753,
+    "protein": 51.1,
+    "carbs": 73,
+    "fat": 28.4,
+    "fiber": 4.5,
+    "sugar": 3.4,
+    "sodium": 273,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Curry (small) + Roti with sambar Var1",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 798,
+    "protein": 55.5,
+    "carbs": 81,
+    "fat": 28.1,
+    "fiber": 7.4,
+    "sugar": 8.7,
+    "sodium": 267,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Low Sugar grilled Var2",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 53.7,
+    "carbs": 80,
+    "fat": 38.1,
+    "fiber": 2.2,
+    "sugar": 0.7,
+    "sodium": 97,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with Veggies stuffed Var3",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 862,
+    "protein": 46.0,
+    "carbs": 100,
+    "fat": 30.8,
+    "fiber": 7.5,
+    "sugar": 7.4,
+    "sodium": 79,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey with chutney Var4",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) Low Sugar with raita Var5",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 753,
+    "protein": 51.1,
+    "carbs": 73,
+    "fat": 28.4,
+    "fiber": 4.5,
+    "sugar": 3.4,
+    "sodium": 273,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Fruits with chutney Var6",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 848,
+    "protein": 47.5,
+    "carbs": 95,
+    "fat": 31.1,
+    "fiber": 3.8,
+    "sugar": 7.5,
+    "sodium": 322,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Raita with curd Var7",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 777,
+    "protein": 37.4,
+    "carbs": 75,
+    "fat": 36.5,
+    "fiber": 5.7,
+    "sugar": 6.8,
+    "sodium": 332,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Nuts with salad Var8",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 47.0,
+    "carbs": 72,
+    "fat": 33.9,
+    "fiber": 4.2,
+    "sugar": 1.7,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with Veggies with masala Var9",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 862,
+    "protein": 46.0,
+    "carbs": 100,
+    "fat": 30.8,
+    "fiber": 7.5,
+    "sugar": 7.4,
+    "sodium": 79,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Light Khichdi with Veggies with curd Var10",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 804,
+    "protein": 47.7,
+    "carbs": 75,
+    "fat": 34.7,
+    "fiber": 7.1,
+    "sugar": 6.2,
+    "sodium": 232,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Nuts with pickle Var11",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 47.0,
+    "carbs": 72,
+    "fat": 33.9,
+    "fiber": 4.2,
+    "sugar": 1.7,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with masala Var12",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Honey with pickle Var13",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 783,
+    "protein": 54.7,
+    "carbs": 79,
+    "fat": 27.5,
+    "fiber": 4.1,
+    "sugar": 6.8,
+    "sodium": 259,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad High Protein with masala Var14",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 857,
+    "protein": 43.4,
+    "carbs": 94,
+    "fat": 33.9,
+    "fiber": 7.6,
+    "sugar": 6.4,
+    "sodium": 202,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) Low Sugar with dal Var15",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 753,
+    "protein": 51.1,
+    "carbs": 73,
+    "fat": 28.4,
+    "fiber": 4.5,
+    "sugar": 3.4,
+    "sodium": 273,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) Low Sugar grilled Var16",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 753,
+    "protein": 51.1,
+    "carbs": 73,
+    "fat": 28.4,
+    "fiber": 4.5,
+    "sugar": 3.4,
+    "sodium": 273,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Lentil Soup with Veggies with sambar Var17",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 805,
+    "protein": 41.4,
+    "carbs": 85,
+    "fat": 33.4,
+    "fiber": 5.9,
+    "sugar": 0.9,
+    "sodium": 354,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Lentil Soup with Veggies with chutney Var18",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 805,
+    "protein": 41.4,
+    "carbs": 85,
+    "fat": 33.4,
+    "fiber": 5.9,
+    "sugar": 0.9,
+    "sodium": 354,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with sambar Var19",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with Fruits with sambar Var20",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 788,
+    "protein": 45.4,
+    "carbs": 74,
+    "fat": 34.7,
+    "fiber": 6.4,
+    "sugar": 5.1,
+    "sodium": 99,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Nuts with sambar Var21",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 47.0,
+    "carbs": 72,
+    "fat": 33.9,
+    "fiber": 4.2,
+    "sugar": 1.7,
+    "sodium": 167,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey grilled Var22",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with sambar Var23",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Veggies with raita Var24",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 37.4,
+    "carbs": 97,
+    "fat": 31.3,
+    "fiber": 4.1,
+    "sugar": 10.2,
+    "sodium": 270,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Fruits grilled Var25",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 848,
+    "protein": 47.5,
+    "carbs": 95,
+    "fat": 31.1,
+    "fiber": 3.8,
+    "sugar": 7.5,
+    "sodium": 322,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Raita stuffed Var26",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 777,
+    "protein": 37.4,
+    "carbs": 75,
+    "fat": 36.5,
+    "fiber": 5.7,
+    "sugar": 6.8,
+    "sodium": 332,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Masala with masala Var27",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 45.0,
+    "carbs": 94,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 10.1,
+    "sodium": 383,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Veggies with pickle Var28",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 40.6,
+    "carbs": 69,
+    "fat": 30.8,
+    "fiber": 3.3,
+    "sugar": 10.4,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Soup + Bread with Veggies fried Var29",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 40.6,
+    "carbs": 69,
+    "fat": 30.8,
+    "fiber": 3.3,
+    "sugar": 10.4,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Veggies fried Var30",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 37.4,
+    "carbs": 97,
+    "fat": 31.3,
+    "fiber": 4.1,
+    "sugar": 10.2,
+    "sodium": 270,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with Nuts with salad Var31",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 789,
+    "protein": 46.1,
+    "carbs": 72,
+    "fat": 35.0,
+    "fiber": 8.0,
+    "sugar": 11.4,
+    "sodium": 318,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Stew with Veggies with curd Var32",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 824,
+    "protein": 48.0,
+    "carbs": 85,
+    "fat": 32.6,
+    "fiber": 2.3,
+    "sugar": 1.1,
+    "sodium": 132,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with dal Var33",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with raita Var34",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with Fruits with raita Var35",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 788,
+    "protein": 45.4,
+    "carbs": 74,
+    "fat": 34.7,
+    "fiber": 6.4,
+    "sugar": 5.1,
+    "sodium": 99,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Raita with pickle Var36",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 777,
+    "protein": 37.4,
+    "carbs": 75,
+    "fat": 36.5,
+    "fiber": 5.7,
+    "sugar": 6.8,
+    "sodium": 332,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey with masala Var37",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with curry Var38",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with salad Var39",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 709,
+    "protein": 47.7,
+    "carbs": 72,
+    "fat": 25.6,
+    "fiber": 5.4,
+    "sugar": 8.9,
+    "sodium": 185,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Honey with pickle Var40",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 783,
+    "protein": 54.7,
+    "carbs": 79,
+    "fat": 27.5,
+    "fiber": 4.1,
+    "sugar": 6.8,
+    "sodium": 259,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with curd Var41",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 730,
+    "protein": 37.6,
+    "carbs": 79,
+    "fat": 29.2,
+    "fiber": 2.6,
+    "sugar": 1.2,
+    "sodium": 289,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey stuffed Var42",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chapati (2) + Vegetable Curry with Veggies with pickle Var43",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 862,
+    "protein": 46.0,
+    "carbs": 100,
+    "fat": 30.8,
+    "fiber": 7.5,
+    "sugar": 7.4,
+    "sodium": 79,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Curry (small) + Roti with curd Var44",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 798,
+    "protein": 55.5,
+    "carbs": 81,
+    "fat": 28.1,
+    "fiber": 7.4,
+    "sugar": 8.7,
+    "sodium": 267,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Raita grilled Var45",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 777,
+    "protein": 37.4,
+    "carbs": 75,
+    "fat": 36.5,
+    "fiber": 5.7,
+    "sugar": 6.8,
+    "sodium": 332,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Masala with raita Var46",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 45.0,
+    "carbs": 94,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 10.1,
+    "sodium": 383,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg fried Var47",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 48.5,
+    "carbs": 93,
+    "fat": 34.8,
+    "fiber": 5.1,
+    "sugar": 5.2,
+    "sodium": 353,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey with curry Var48",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with sambar Var49",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Lentil Soup with Veggies stuffed Var50",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 805,
+    "protein": 41.4,
+    "carbs": 85,
+    "fat": 33.4,
+    "fiber": 5.9,
+    "sugar": 0.9,
+    "sodium": 354,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roti + Dal Tadka with Veggies with raita Var51",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 787,
+    "protein": 35.9,
+    "carbs": 88,
+    "fat": 32.4,
+    "fiber": 5.6,
+    "sugar": 2.7,
+    "sodium": 303,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) Low Sugar with pickle Var52",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 753,
+    "protein": 51.1,
+    "carbs": 73,
+    "fat": 28.4,
+    "fiber": 4.5,
+    "sugar": 3.4,
+    "sodium": 273,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad High Protein grilled Var53",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 857,
+    "protein": 43.4,
+    "carbs": 94,
+    "fat": 33.9,
+    "fiber": 7.6,
+    "sugar": 6.4,
+    "sodium": 202,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Veggies with raita Var54",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 37.4,
+    "carbs": 97,
+    "fat": 31.3,
+    "fiber": 4.1,
+    "sugar": 10.2,
+    "sodium": 270,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Raita with masala Var55",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 777,
+    "protein": 37.4,
+    "carbs": 75,
+    "fat": 36.5,
+    "fiber": 5.7,
+    "sugar": 6.8,
+    "sodium": 332,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roti + Dal Tadka with Veggies with pickle Var56",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 787,
+    "protein": 35.9,
+    "carbs": 88,
+    "fat": 32.4,
+    "fiber": 5.6,
+    "sugar": 2.7,
+    "sodium": 303,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with sambar Var57",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 711,
+    "protein": 38.3,
+    "carbs": 81,
+    "fat": 26.0,
+    "fiber": 1.3,
+    "sugar": 11.0,
+    "sodium": 114,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with Nuts with chutney Var58",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 789,
+    "protein": 46.1,
+    "carbs": 72,
+    "fat": 35.0,
+    "fiber": 8.0,
+    "sugar": 11.4,
+    "sodium": 318,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad with Fruits with dal Var59",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 788,
+    "protein": 45.4,
+    "carbs": 74,
+    "fat": 34.7,
+    "fiber": 6.4,
+    "sugar": 5.1,
+    "sodium": 99,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies grilled Var60",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with raita Var61",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 48.5,
+    "carbs": 93,
+    "fat": 34.8,
+    "fiber": 5.1,
+    "sugar": 5.2,
+    "sodium": 353,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Steamed Fish + Veg with Honey with salad Var62",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 782,
+    "protein": 53.9,
+    "carbs": 67,
+    "fat": 33.0,
+    "fiber": 4.8,
+    "sugar": 5.7,
+    "sodium": 364,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Low Sugar stuffed Var63",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 53.7,
+    "carbs": 80,
+    "fat": 38.1,
+    "fiber": 2.2,
+    "sugar": 0.7,
+    "sodium": 97,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Masala with salad Var64",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 45.0,
+    "carbs": 94,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 10.1,
+    "sodium": 383,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with pickle Var65",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies stuffed Var66",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Veggies with curry Var67",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 813,
+    "protein": 54.4,
+    "carbs": 86,
+    "fat": 28.0,
+    "fiber": 3.5,
+    "sugar": 11.9,
+    "sodium": 140,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Low Sugar with chutney Var68",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 879,
+    "protein": 53.7,
+    "carbs": 80,
+    "fat": 38.1,
+    "fiber": 2.2,
+    "sugar": 0.7,
+    "sodium": 97,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dal Soup + Salad with Veggies grilled Var69",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 810,
+    "protein": 55.5,
+    "carbs": 69,
+    "fat": 34.5,
+    "fiber": 1.0,
+    "sugar": 8.0,
+    "sodium": 305,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken + Steamed Veg with Chutney with chutney Var70",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 39.0,
+    "carbs": 69,
+    "fat": 31.8,
+    "fiber": 7.3,
+    "sugar": 10.5,
+    "sodium": 117,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roti + Dal Tadka with Veggies stuffed Var71",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 787,
+    "protein": 35.9,
+    "carbs": 88,
+    "fat": 32.4,
+    "fiber": 5.6,
+    "sugar": 2.7,
+    "sodium": 303,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Fried Rice (small) with Honey with pickle Var72",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 783,
+    "protein": 54.7,
+    "carbs": 79,
+    "fat": 27.5,
+    "fiber": 4.1,
+    "sugar": 6.8,
+    "sodium": 259,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Fish + Salad Masala with dal Var73",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 835,
+    "protein": 45.0,
+    "carbs": 94,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 10.1,
+    "sodium": 383,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "non-vegetarian"
+    ],
+    "mealType": "dinner",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  }
+]

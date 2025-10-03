@@ -6,12 +6,30 @@ const ErrorResponse = require('../utils/errorResponse');
 // @access  Public
 const listFoods = async (req, res, next) => {
   try {
-    const { q, page = 1, limit = 25 } = req.query;
+    const { q, page = 1, limit = 25, mealType, category, tags, goal, verified } = req.query;
     const skip = (Number(page) - 1) * Number(limit);
 
-    let query = {};
+    const query = {};
     if (q && q.trim()) {
-      query = { $text: { $search: q.trim() } };
+      query.$text = { $search: q.trim() };
+    }
+    if (mealType && mealType !== 'all') {
+      query.mealType = mealType;
+    }
+    if (category && category !== 'all') {
+      query.category = category.toLowerCase();
+    }
+    if (tags) {
+      const arr = String(tags).split(',').map(s => s.trim()).filter(Boolean);
+      if (arr.length) query.tags = { $all: arr };
+    }
+    if (goal && goal !== 'all') {
+      query.goal = goal;
+    }
+    if (typeof verified !== 'undefined') {
+      const v = String(verified).toLowerCase();
+      if (v === 'true' || v === '1') query.isVerified = true;
+      if (v === 'false' || v === '0') query.isVerified = false;
     }
 
     const [items, total] = await Promise.all([
@@ -19,7 +37,7 @@ const listFoods = async (req, res, next) => {
         .sort(q ? { score: { $meta: 'textScore' } } : { name: 1 })
         .skip(skip)
         .limit(Number(limit))
-        .select('name calories protein carbs fat servingSize category'),
+        .select('name calories protein carbs fat servingSize category mealType goal tags source'),
       Food.countDocuments(query)
     ]);
 

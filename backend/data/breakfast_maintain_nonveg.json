@@ -1,0 +1,2564 @@
+[
+  {
+    "name": "Egg Omelette (2 eggs) Spicy",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 19.0,
+    "carbs": 42,
+    "fat": 16.5,
+    "fiber": 6.2,
+    "sugar": 7.9,
+    "sodium": 312,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 396,
+    "protein": 14.1,
+    "carbs": 43,
+    "fat": 18.6,
+    "fiber": 6.7,
+    "sugar": 4.8,
+    "sodium": 57,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts with curry Var1",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with curry Var2",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) Spicy with masala Var3",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with pickle Var4",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies with pickle Var5",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with chutney Var6",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey with salad Var7",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with curd Var8",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits with sambar Var9",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies stuffed Var10",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with salad Var11",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich grilled Var12",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 396,
+    "protein": 14.1,
+    "carbs": 43,
+    "fat": 18.6,
+    "fiber": 6.7,
+    "sugar": 4.8,
+    "sodium": 57,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with pickle Var13",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies fried Var14",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits fried Var15",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) Spicy with curry Var16",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts with sambar Var17",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies grilled Var18",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies with raita Var19",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey with sambar Var20",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with curry Var21",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 396,
+    "protein": 14.1,
+    "carbs": 43,
+    "fat": 18.6,
+    "fiber": 6.7,
+    "sugar": 4.8,
+    "sodium": 57,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts stuffed Var22",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with salad Var23",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with sambar Var24",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies with sambar Var25",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with pickle Var26",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with dal Var27",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies with salad Var28",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with dal Var29",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with curry Var30",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies with pickle Var31",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast grilled Var32",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 19.0,
+    "carbs": 42,
+    "fat": 16.5,
+    "fiber": 6.2,
+    "sugar": 7.9,
+    "sodium": 312,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with raita Var33",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey with pickle Var34",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts with dal Var35",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with chutney Var36",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with masala Var37",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies stuffed Var38",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with dal Var39",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies with sambar Var40",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies with salad Var41",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with dal Var42",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with masala Var43",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts with curry Var44",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with chutney Var45",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with pickle Var46",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with sambar Var47",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts with sambar Var48",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey with raita Var49",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with sambar Var50",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts with pickle Var51",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies with raita Var52",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with raita Var53",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with sambar Var54",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with curry Var55",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 19.0,
+    "carbs": 42,
+    "fat": 16.5,
+    "fiber": 6.2,
+    "sugar": 7.9,
+    "sodium": 312,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies with curry Var56",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with chutney Var57",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 19.0,
+    "carbs": 42,
+    "fat": 16.5,
+    "fiber": 6.2,
+    "sugar": 7.9,
+    "sodium": 312,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits with curd Var58",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with pickle Var59",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Oats Porridge with Veggies with pickle Var60",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 15.9,
+    "carbs": 41,
+    "fat": 18.6,
+    "fiber": 1.7,
+    "sugar": 10.7,
+    "sodium": 179,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits with pickle Var61",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) Spicy with curd Var62",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits stuffed Var63",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with dal Var64",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 394,
+    "protein": 19.0,
+    "carbs": 42,
+    "fat": 16.5,
+    "fiber": 6.2,
+    "sugar": 7.9,
+    "sodium": 312,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with curd Var65",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) Spicy with chutney Var66",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with dal Var67",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 396,
+    "protein": 14.1,
+    "carbs": 43,
+    "fat": 18.6,
+    "fiber": 6.7,
+    "sugar": 4.8,
+    "sodium": 57,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) Spicy grilled Var68",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) Spicy grilled Var69",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 328,
+    "protein": 22.8,
+    "carbs": 33,
+    "fat": 20.6,
+    "fiber": 4.7,
+    "sugar": 9.5,
+    "sodium": 263,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies with sambar Var70",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Bhurji with Toast with Nuts stuffed Var71",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 371,
+    "protein": 14.1,
+    "carbs": 37,
+    "fat": 18.7,
+    "fiber": 7.0,
+    "sugar": 6.8,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with masala Var72",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits grilled Var73",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich with Fruits with pickle Var74",
+    "servingSize": {
+      "amount": 150,
+      "unit": "g"
+    },
+    "calories": 363,
+    "protein": 13.5,
+    "carbs": 40,
+    "fat": 16.7,
+    "fiber": 7.5,
+    "sugar": 7.3,
+    "sodium": 191,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich grilled Var75",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 396,
+    "protein": 14.1,
+    "carbs": 43,
+    "fat": 18.6,
+    "fiber": 6.7,
+    "sugar": 4.8,
+    "sodium": 57,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies grilled Var76",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey stuffed Var77",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain stuffed Var78",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with salad Var79",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich stuffed Var80",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 396,
+    "protein": 14.1,
+    "carbs": 43,
+    "fat": 18.6,
+    "fiber": 6.7,
+    "sugar": 4.8,
+    "sodium": 57,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Ragi Dosa with Veggies with salad Var81",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 392,
+    "protein": 17.0,
+    "carbs": 42,
+    "fat": 17.5,
+    "fiber": 4.7,
+    "sugar": 1.2,
+    "sodium": 70,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Corn Upma with Veggies stuffed Var82",
+    "servingSize": {
+      "amount": 220,
+      "unit": "g"
+    },
+    "calories": 406,
+    "protein": 17.4,
+    "carbs": 42,
+    "fat": 18.6,
+    "fiber": 4.5,
+    "sugar": 6.9,
+    "sodium": 396,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey with masala Var83",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies stuffed Var84",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Sandwich Whole Grain with masala Var85",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 367,
+    "protein": 14.0,
+    "carbs": 35,
+    "fat": 18.9,
+    "fiber": 6.5,
+    "sugar": 9.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Avocado Toast with Veggies with raita Var86",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 352,
+    "protein": 15.0,
+    "carbs": 39,
+    "fat": 15.1,
+    "fiber": 7.0,
+    "sugar": 8.9,
+    "sodium": 77,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Aloo Paratha with Veggies with masala Var87",
+    "servingSize": {
+      "amount": 180,
+      "unit": "g"
+    },
+    "calories": 364,
+    "protein": 12.7,
+    "carbs": 39,
+    "fat": 17.5,
+    "fiber": 1.9,
+    "sugar": 10.4,
+    "sodium": 125,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Omelette (2 eggs) with Honey with salad Var88",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 353,
+    "protein": 23.0,
+    "carbs": 36,
+    "fat": 22.2,
+    "fiber": 3.5,
+    "sugar": 7.0,
+    "sodium": 213,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "breakfast",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  }
+]

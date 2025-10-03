@@ -1,0 +1,2565 @@
+[
+  {
+    "name": "Prawn Curry with Rice",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 610,
+    "protein": 26.5,
+    "carbs": 67,
+    "fat": 26.4,
+    "fiber": 1.8,
+    "sugar": 3.7,
+    "sodium": 162,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice Spicy",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 731,
+    "protein": 25.3,
+    "carbs": 79,
+    "fat": 34.8,
+    "fiber": 6.7,
+    "sugar": 2.3,
+    "sodium": 66,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Kothu Parotta with Veggies",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 750,
+    "protein": 35.5,
+    "carbs": 82,
+    "fat": 30.9,
+    "fiber": 1.7,
+    "sugar": 3.0,
+    "sodium": 146,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice Masala",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 613,
+    "protein": 20.1,
+    "carbs": 67,
+    "fat": 29.6,
+    "fiber": 5.3,
+    "sugar": 9.4,
+    "sodium": 337,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Millet Khichdi with Veggies",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 743,
+    "protein": 27.1,
+    "carbs": 86,
+    "fat": 32.2,
+    "fiber": 4.7,
+    "sugar": 6.4,
+    "sodium": 218,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with Raita",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 22.8,
+    "carbs": 66,
+    "fat": 33.6,
+    "fiber": 2.3,
+    "sugar": 8.4,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 26.6,
+    "carbs": 60,
+    "fat": 30.6,
+    "fiber": 5.9,
+    "sugar": 11.5,
+    "sodium": 389,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 767,
+    "protein": 35.2,
+    "carbs": 75,
+    "fat": 36.1,
+    "fiber": 1.3,
+    "sugar": 9.2,
+    "sodium": 192,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Whole Grain",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 648,
+    "protein": 27.3,
+    "carbs": 62,
+    "fat": 32.3,
+    "fiber": 1.8,
+    "sugar": 7.6,
+    "sodium": 211,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice Spicy",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 604,
+    "protein": 26.1,
+    "carbs": 63,
+    "fat": 27.4,
+    "fiber": 3.0,
+    "sugar": 2.1,
+    "sodium": 237,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 28.1,
+    "carbs": 72,
+    "fat": 28.3,
+    "fiber": 1.2,
+    "sugar": 6.1,
+    "sodium": 256,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice High Protein",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 755,
+    "protein": 37.2,
+    "carbs": 77,
+    "fat": 33.0,
+    "fiber": 5.2,
+    "sugar": 0.6,
+    "sodium": 180,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 793,
+    "protein": 27.2,
+    "carbs": 87,
+    "fat": 37.4,
+    "fiber": 6.6,
+    "sugar": 10.0,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani High Protein",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 703,
+    "protein": 24.4,
+    "carbs": 78,
+    "fat": 32.4,
+    "fiber": 7.7,
+    "sugar": 7.0,
+    "sodium": 340,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 712,
+    "protein": 28.3,
+    "carbs": 77,
+    "fat": 32.5,
+    "fiber": 1.6,
+    "sugar": 9.9,
+    "sodium": 210,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 684,
+    "protein": 32.3,
+    "carbs": 66,
+    "fat": 32.3,
+    "fiber": 7.7,
+    "sugar": 3.7,
+    "sodium": 358,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti Spicy",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 600,
+    "protein": 25.7,
+    "carbs": 59,
+    "fat": 28.8,
+    "fiber": 6.2,
+    "sugar": 11.3,
+    "sodium": 157,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Low Sugar",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 646,
+    "protein": 25.6,
+    "carbs": 67,
+    "fat": 30.5,
+    "fiber": 1.6,
+    "sugar": 3.3,
+    "sodium": 143,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap Low Sugar",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 619,
+    "protein": 24.8,
+    "carbs": 61,
+    "fat": 30.9,
+    "fiber": 3.6,
+    "sugar": 9.7,
+    "sodium": 150,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti with Nuts",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 633,
+    "protein": 30.1,
+    "carbs": 70,
+    "fat": 25.8,
+    "fiber": 4.2,
+    "sugar": 3.8,
+    "sodium": 187,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Lentil Curry with Veggies",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 724,
+    "protein": 34.4,
+    "carbs": 76,
+    "fat": 31.2,
+    "fiber": 7.8,
+    "sugar": 11.9,
+    "sodium": 365,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with Honey",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 31.7,
+    "carbs": 85,
+    "fat": 34.6,
+    "fiber": 7.1,
+    "sugar": 9.8,
+    "sodium": 72,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Fry with Rice with Honey",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 29.5,
+    "carbs": 82,
+    "fat": 30.1,
+    "fiber": 2.0,
+    "sugar": 4.7,
+    "sodium": 153,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice with Veggies",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 642,
+    "protein": 27.5,
+    "carbs": 63,
+    "fat": 31.2,
+    "fiber": 6.3,
+    "sugar": 2.0,
+    "sodium": 242,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Curry + Rice with Raita",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 675,
+    "protein": 29.7,
+    "carbs": 63,
+    "fat": 33.6,
+    "fiber": 2.4,
+    "sugar": 4.1,
+    "sodium": 378,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Veggies",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 702,
+    "protein": 26.2,
+    "carbs": 78,
+    "fat": 31.5,
+    "fiber": 4.2,
+    "sugar": 10.9,
+    "sodium": 309,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap Low Sugar with sambar Var1",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 619,
+    "protein": 24.8,
+    "carbs": 61,
+    "fat": 30.9,
+    "fiber": 3.6,
+    "sugar": 9.7,
+    "sodium": 150,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice Spicy grilled Var2",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 731,
+    "protein": 25.3,
+    "carbs": 79,
+    "fat": 34.8,
+    "fiber": 6.7,
+    "sugar": 2.3,
+    "sodium": 66,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Whole Grain with dal Var3",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 648,
+    "protein": 27.3,
+    "carbs": 62,
+    "fat": 32.3,
+    "fiber": 1.8,
+    "sugar": 7.6,
+    "sodium": 211,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita stuffed Var4",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with masala Var5",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with salad Var6",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita fried Var7",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice with chutney Var8",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 28.1,
+    "carbs": 72,
+    "fat": 28.3,
+    "fiber": 1.2,
+    "sugar": 6.1,
+    "sodium": 256,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Fry with Rice with Honey grilled Var9",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 29.5,
+    "carbs": 82,
+    "fat": 30.1,
+    "fiber": 2.0,
+    "sugar": 4.7,
+    "sodium": 153,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita with pickle Var10",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap with chutney Var11",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 712,
+    "protein": 28.3,
+    "carbs": 77,
+    "fat": 32.5,
+    "fiber": 1.6,
+    "sugar": 9.9,
+    "sodium": 210,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Lentil Curry with Veggies with chutney Var12",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 724,
+    "protein": 34.4,
+    "carbs": 76,
+    "fat": 31.2,
+    "fiber": 7.8,
+    "sugar": 11.9,
+    "sodium": 365,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with dal Var13",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 610,
+    "protein": 26.5,
+    "carbs": 67,
+    "fat": 26.4,
+    "fiber": 1.8,
+    "sugar": 3.7,
+    "sodium": 162,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti with pickle Var14",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 767,
+    "protein": 35.2,
+    "carbs": 75,
+    "fat": 36.1,
+    "fiber": 1.3,
+    "sugar": 9.2,
+    "sodium": 192,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice stuffed Var15",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 28.1,
+    "carbs": 72,
+    "fat": 28.3,
+    "fiber": 1.2,
+    "sugar": 6.1,
+    "sodium": 256,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Whole Grain with curd Var16",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 648,
+    "protein": 27.3,
+    "carbs": 62,
+    "fat": 32.3,
+    "fiber": 1.8,
+    "sugar": 7.6,
+    "sodium": 211,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with Raita with masala Var17",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 22.8,
+    "carbs": 66,
+    "fat": 33.6,
+    "fiber": 2.3,
+    "sugar": 8.4,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with Honey with chutney Var18",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 31.7,
+    "carbs": 85,
+    "fat": 34.6,
+    "fiber": 7.1,
+    "sugar": 9.8,
+    "sodium": 72,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Curry + Rice with Raita with pickle Var19",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 675,
+    "protein": 29.7,
+    "carbs": 63,
+    "fat": 33.6,
+    "fiber": 2.4,
+    "sugar": 4.1,
+    "sodium": 378,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice Masala with dal Var20",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 613,
+    "protein": 20.1,
+    "carbs": 67,
+    "fat": 29.6,
+    "fiber": 5.3,
+    "sugar": 9.4,
+    "sodium": 337,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice Spicy with pickle Var21",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 604,
+    "protein": 26.1,
+    "carbs": 63,
+    "fat": 27.4,
+    "fiber": 3.0,
+    "sugar": 2.1,
+    "sodium": 237,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap Low Sugar with sambar Var22",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 619,
+    "protein": 24.8,
+    "carbs": 61,
+    "fat": 30.9,
+    "fiber": 3.6,
+    "sugar": 9.7,
+    "sodium": 150,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Veggies with pickle Var23",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 702,
+    "protein": 26.2,
+    "carbs": 78,
+    "fat": 31.5,
+    "fiber": 4.2,
+    "sugar": 10.9,
+    "sodium": 309,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Low Sugar with pickle Var24",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 646,
+    "protein": 25.6,
+    "carbs": 67,
+    "fat": 30.5,
+    "fiber": 1.6,
+    "sugar": 3.3,
+    "sodium": 143,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with Raita with masala Var25",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 22.8,
+    "carbs": 66,
+    "fat": 33.6,
+    "fiber": 2.3,
+    "sugar": 8.4,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti with Nuts with salad Var26",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 633,
+    "protein": 30.1,
+    "carbs": 70,
+    "fat": 25.8,
+    "fiber": 4.2,
+    "sugar": 3.8,
+    "sodium": 187,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with salad Var27",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 610,
+    "protein": 26.5,
+    "carbs": 67,
+    "fat": 26.4,
+    "fiber": 1.8,
+    "sugar": 3.7,
+    "sodium": 162,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Low Sugar with raita Var28",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 646,
+    "protein": 25.6,
+    "carbs": 67,
+    "fat": 30.5,
+    "fiber": 1.6,
+    "sugar": 3.3,
+    "sodium": 143,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita with raita Var29",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani fried Var30",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice Spicy with curry Var31",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 731,
+    "protein": 25.3,
+    "carbs": 79,
+    "fat": 34.8,
+    "fiber": 6.7,
+    "sugar": 2.3,
+    "sodium": 66,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice with salad Var32",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 684,
+    "protein": 32.3,
+    "carbs": 66,
+    "fat": 32.3,
+    "fiber": 7.7,
+    "sugar": 3.7,
+    "sodium": 358,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Fry with Rice with Honey stuffed Var33",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 29.5,
+    "carbs": 82,
+    "fat": 30.1,
+    "fiber": 2.0,
+    "sugar": 4.7,
+    "sodium": 153,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice High Protein stuffed Var34",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 755,
+    "protein": 37.2,
+    "carbs": 77,
+    "fat": 33.0,
+    "fiber": 5.2,
+    "sugar": 0.6,
+    "sodium": 180,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice High Protein with pickle Var35",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 755,
+    "protein": 37.2,
+    "carbs": 77,
+    "fat": 33.0,
+    "fiber": 5.2,
+    "sugar": 0.6,
+    "sodium": 180,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti with Nuts with pickle Var36",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 633,
+    "protein": 30.1,
+    "carbs": 70,
+    "fat": 25.8,
+    "fiber": 4.2,
+    "sugar": 3.8,
+    "sodium": 187,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Veggies with chutney Var37",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 702,
+    "protein": 26.2,
+    "carbs": 78,
+    "fat": 31.5,
+    "fiber": 4.2,
+    "sugar": 10.9,
+    "sodium": 309,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Lentil Curry with Veggies grilled Var38",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 724,
+    "protein": 34.4,
+    "carbs": 76,
+    "fat": 31.2,
+    "fiber": 7.8,
+    "sugar": 11.9,
+    "sodium": 365,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Curry + Rice with Raita with chutney Var39",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 675,
+    "protein": 29.7,
+    "carbs": 63,
+    "fat": 33.6,
+    "fiber": 2.4,
+    "sugar": 4.1,
+    "sodium": 378,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Fry with Rice with Honey grilled Var40",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 29.5,
+    "carbs": 82,
+    "fat": 30.1,
+    "fiber": 2.0,
+    "sugar": 4.7,
+    "sodium": 153,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice with chutney Var41",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 26.6,
+    "carbs": 60,
+    "fat": 30.6,
+    "fiber": 5.9,
+    "sugar": 11.5,
+    "sodium": 389,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani grilled Var42",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with raita Var43",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 610,
+    "protein": 26.5,
+    "carbs": 67,
+    "fat": 26.4,
+    "fiber": 1.8,
+    "sugar": 3.7,
+    "sodium": 162,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with Raita fried Var44",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 22.8,
+    "carbs": 66,
+    "fat": 33.6,
+    "fiber": 2.3,
+    "sugar": 8.4,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap Low Sugar grilled Var45",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 619,
+    "protein": 24.8,
+    "carbs": 61,
+    "fat": 30.9,
+    "fiber": 3.6,
+    "sugar": 9.7,
+    "sodium": 150,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice with dal Var46",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 28.1,
+    "carbs": 72,
+    "fat": 28.3,
+    "fiber": 1.2,
+    "sugar": 6.1,
+    "sodium": 256,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with Honey with dal Var47",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 31.7,
+    "carbs": 85,
+    "fat": 34.6,
+    "fiber": 7.1,
+    "sugar": 9.8,
+    "sodium": 72,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with Honey with salad Var48",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 776,
+    "protein": 31.7,
+    "carbs": 85,
+    "fat": 34.6,
+    "fiber": 7.1,
+    "sugar": 9.8,
+    "sodium": 72,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mixed Lentil Curry with Veggies with pickle Var49",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 724,
+    "protein": 34.4,
+    "carbs": 76,
+    "fat": 31.2,
+    "fiber": 7.8,
+    "sugar": 11.9,
+    "sodium": 365,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani High Protein with chutney Var50",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 703,
+    "protein": 24.4,
+    "carbs": 78,
+    "fat": 32.4,
+    "fiber": 7.7,
+    "sugar": 7.0,
+    "sodium": 340,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita with pickle Var51",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice Spicy with sambar Var52",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 604,
+    "protein": 26.1,
+    "carbs": 63,
+    "fat": 27.4,
+    "fiber": 3.0,
+    "sugar": 2.1,
+    "sodium": 237,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with Raita with raita Var53",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 22.8,
+    "carbs": 66,
+    "fat": 33.6,
+    "fiber": 2.3,
+    "sugar": 8.4,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Egg Curry + Rice Masala with salad Var54",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 613,
+    "protein": 20.1,
+    "carbs": 67,
+    "fat": 29.6,
+    "fiber": 5.3,
+    "sugar": 9.4,
+    "sodium": 337,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice with pickle Var55",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 684,
+    "protein": 32.3,
+    "carbs": 66,
+    "fat": 32.3,
+    "fiber": 7.7,
+    "sugar": 3.7,
+    "sodium": 358,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita fried Var56",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Fry with Rice with Honey with pickle Var57",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 717,
+    "protein": 29.5,
+    "carbs": 82,
+    "fat": 30.1,
+    "fiber": 2.0,
+    "sugar": 4.7,
+    "sodium": 153,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Millet Khichdi with Veggies fried Var58",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 743,
+    "protein": 27.1,
+    "carbs": 86,
+    "fat": 32.2,
+    "fiber": 4.7,
+    "sugar": 6.4,
+    "sodium": 218,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Millet Khichdi with Veggies with pickle Var59",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 743,
+    "protein": 27.1,
+    "carbs": 86,
+    "fat": 32.2,
+    "fiber": 4.7,
+    "sugar": 6.4,
+    "sodium": 218,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice Spicy stuffed Var60",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 604,
+    "protein": 26.1,
+    "carbs": 63,
+    "fat": 27.4,
+    "fiber": 3.0,
+    "sugar": 2.1,
+    "sodium": 237,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Kothu Parotta with Veggies with masala Var61",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 750,
+    "protein": 35.5,
+    "carbs": 82,
+    "fat": 30.9,
+    "fiber": 1.7,
+    "sugar": 3.0,
+    "sodium": 146,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani Whole Grain with pickle Var62",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 648,
+    "protein": 27.3,
+    "carbs": 62,
+    "fat": 32.3,
+    "fiber": 1.8,
+    "sugar": 7.6,
+    "sodium": 211,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with sambar Var63",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 793,
+    "protein": 27.2,
+    "carbs": 87,
+    "fat": 37.4,
+    "fiber": 6.6,
+    "sugar": 10.0,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with Raita grilled Var64",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 749,
+    "protein": 26.5,
+    "carbs": 79,
+    "fat": 36.4,
+    "fiber": 4.4,
+    "sugar": 2.9,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Grilled Chicken with Rice Spicy stuffed Var65",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 731,
+    "protein": 25.3,
+    "carbs": 79,
+    "fat": 34.8,
+    "fiber": 6.7,
+    "sugar": 2.3,
+    "sodium": 66,
+    "category": "grains",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani with curd Var66",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Mutton Biryani with Raita with salad Var67",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 656,
+    "protein": 22.8,
+    "carbs": 66,
+    "fat": 33.6,
+    "fiber": 2.3,
+    "sugar": 8.4,
+    "sodium": 224,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Fish Curry with Rice with chutney Var68",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 684,
+    "protein": 32.3,
+    "carbs": 66,
+    "fat": 32.3,
+    "fiber": 7.7,
+    "sugar": 3.7,
+    "sodium": 358,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Tandoori Chicken + Roti with Nuts with sambar Var69",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 633,
+    "protein": 30.1,
+    "carbs": 70,
+    "fat": 25.8,
+    "fiber": 4.2,
+    "sugar": 3.8,
+    "sodium": 187,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Wrap Low Sugar with sambar Var70",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 619,
+    "protein": 24.8,
+    "carbs": 61,
+    "fat": 30.9,
+    "fiber": 3.6,
+    "sugar": 9.7,
+    "sodium": 150,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chicken Biryani stuffed Var71",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 622,
+    "protein": 28.4,
+    "carbs": 65,
+    "fat": 27.4,
+    "fiber": 5.3,
+    "sugar": 4.8,
+    "sodium": 216,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Prawn Curry with Rice with masala Var72",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 610,
+    "protein": 26.5,
+    "carbs": 67,
+    "fat": 26.4,
+    "fiber": 1.8,
+    "sugar": 3.7,
+    "sodium": 162,
+    "category": "grains",
+    "tags": [
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  }
+]

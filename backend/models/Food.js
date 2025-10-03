@@ -5,7 +5,6 @@ const foodSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please provide a food name'],
     trim: true,
-    unique: true,
     maxlength: [100, 'Food name cannot be more than 100 characters']
   },
   servingSize: {
@@ -63,6 +62,12 @@ const foodSchema = new mongoose.Schema({
     ],
     default: 'other'
   },
+  dietaryType: {
+    type: String,
+    enum: ['vegetarian', 'non-vegetarian', 'vegan'],
+    default: 'vegetarian',
+    index: true
+  },
   source: {
     type: String, // filename or dataset key
     index: true,
@@ -71,6 +76,18 @@ const foodSchema = new mongoose.Schema({
   tags: {
     type: [String],
     default: []
+  },
+  mealType: {
+    type: String,
+    enum: ['breakfast', 'lunch', 'dinner', 'snacks', null],
+    index: true,
+    default: null
+  },
+  goal: {
+    type: String,
+    enum: ['lose', 'maintain', 'gain', null],
+    index: true,
+    default: null
   },
   isCustom: {
     type: Boolean,
@@ -97,6 +114,9 @@ const foodSchema = new mongoose.Schema({
 
 // Index for text search
 foodSchema.index({ name: 'text', category: 'text' });
+// Useful composite indexes for lookups/upserts
+foodSchema.index({ name: 1, mealType: 1 }, { unique: false });
+foodSchema.index({ name: 1, mealType: 1, goal: 1 }, { unique: false });
 
 // Virtual for formatted serving size
 foodSchema.virtual('formattedServingSize').get(function() {

@@ -58,7 +58,8 @@ const userSchema = new mongoose.Schema({
   preferences: {
     dietaryRestrictions: [{
       type: String,
-      enum: ['vegetarian', 'vegan', 'gluten-free', 'dairy-free', 'nut-free', 'none']
+      enum: ['vegetarian', 'non-vegetarian', 'vegan', 'gluten-free', 'dairy-free', 'nut-free', 'none'],
+      default: ['none']
     }],
     allergies: [String],
     dislikedFoods: [String],

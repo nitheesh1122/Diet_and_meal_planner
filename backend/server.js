@@ -20,10 +20,19 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
 
-// Connect to MongoDB
+// Connect to MongoDB and start server only after successful connection
 mongoose.connect(process.env.MONGO_URI)
-.then(() => console.log('MongoDB connected'))
-.catch(err => console.error('MongoDB connection error:', err));
+.then(() => {
+  console.log('MongoDB connected');
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+})
+.catch(err => {
+  console.error('MongoDB connection error:', err);
+  process.exit(1);
+});
 
 // Routes
 app.use('/api/auth', authRoutes);
@@ -46,8 +55,4 @@ app.use((req, res, next) => {
 // Error handler
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
+// Note: server is started inside the MongoDB connect .then() above

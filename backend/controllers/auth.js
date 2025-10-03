@@ -7,7 +7,7 @@ const generateToken = require('../utils/generateToken');
 // @access  Public
 const registerUser = async (req, res, next) => {
   try {
-    const { name, email, password, age, gender, height, weight, goal, activityLevel } = req.body;
+    const { name, email, password, age, gender, height, weight, goal, activityLevel, dietaryRestrictions } = req.body;
 
     // Check if user exists
     const userExists = await User.findOne({ email });
@@ -25,7 +25,10 @@ const registerUser = async (req, res, next) => {
       height,
       weight,
       goal,
-      activityLevel
+      activityLevel,
+      preferences: {
+        dietaryRestrictions: dietaryRestrictions || ['none']
+      }
     });
 
     // Calculate daily calorie needs

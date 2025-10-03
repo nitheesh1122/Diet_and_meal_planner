@@ -1,0 +1,2422 @@
+[
+  {
+    "name": "Millet Khichdi",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 1058,
+    "protein": 57.9,
+    "carbs": 111,
+    "fat": 42.6,
+    "fiber": 1.3,
+    "sugar": 2.6,
+    "sodium": 336,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Pulao",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 975,
+    "protein": 61.8,
+    "carbs": 93,
+    "fat": 39.7,
+    "fiber": 7.2,
+    "sugar": 11.9,
+    "sodium": 380,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Puliyodarai (Tamarind Rice)",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 948,
+    "protein": 49.5,
+    "carbs": 98,
+    "fat": 39.9,
+    "fiber": 5.5,
+    "sugar": 9.0,
+    "sodium": 320,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Quinoa Salad with Veg",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 863,
+    "protein": 41.2,
+    "carbs": 87,
+    "fat": 39.1,
+    "fiber": 5.2,
+    "sugar": 10.9,
+    "sodium": 277,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma Chawal High Protein",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 890,
+    "protein": 52.8,
+    "carbs": 96,
+    "fat": 32.8,
+    "fiber": 5.1,
+    "sugar": 10.2,
+    "sodium": 166,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pulao with Raita with Honey",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1009,
+    "protein": 50.7,
+    "carbs": 102,
+    "fat": 44.3,
+    "fiber": 6.5,
+    "sugar": 2.6,
+    "sodium": 332,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Coconut Rice",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 1015,
+    "protein": 51.0,
+    "carbs": 102,
+    "fat": 44.7,
+    "fiber": 4.4,
+    "sugar": 7.5,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Soya Chunks Curry + Rice with Honey",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1045,
+    "protein": 49.3,
+    "carbs": 115,
+    "fat": 43.0,
+    "fiber": 6.2,
+    "sugar": 11.1,
+    "sodium": 92,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 1040,
+    "protein": 63.4,
+    "carbs": 110,
+    "fat": 38.6,
+    "fiber": 4.7,
+    "sugar": 2.9,
+    "sodium": 390,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Chutney",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 1061,
+    "protein": 54.2,
+    "carbs": 107,
+    "fat": 46.1,
+    "fiber": 7.8,
+    "sugar": 2.2,
+    "sodium": 128,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma Chawal",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1035,
+    "protein": 47.9,
+    "carbs": 115,
+    "fat": 42.6,
+    "fiber": 7.4,
+    "sugar": 1.8,
+    "sodium": 358,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pulao with Raita Masala",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 854,
+    "protein": 46.8,
+    "carbs": 77,
+    "fat": 40.1,
+    "fiber": 5.1,
+    "sugar": 11.8,
+    "sodium": 74,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Soya Chunks Curry + Rice Spicy",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 881,
+    "protein": 44.8,
+    "carbs": 86,
+    "fat": 39.9,
+    "fiber": 7.9,
+    "sugar": 3.8,
+    "sodium": 161,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice High Protein",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 919,
+    "protein": 52.7,
+    "carbs": 87,
+    "fat": 40.0,
+    "fiber": 7.3,
+    "sugar": 8.4,
+    "sodium": 207,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Lentil Curry with Chutney",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 936,
+    "protein": 57.4,
+    "carbs": 94,
+    "fat": 36.6,
+    "fiber": 5.5,
+    "sugar": 6.0,
+    "sodium": 58,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Kathi Roll (Veg)",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 840,
+    "protein": 43.8,
+    "carbs": 99,
+    "fat": 29.9,
+    "fiber": 4.6,
+    "sugar": 6.0,
+    "sodium": 346,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Biryani",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 979,
+    "protein": 68.4,
+    "carbs": 87,
+    "fat": 39.6,
+    "fiber": 4.2,
+    "sugar": 10.4,
+    "sodium": 255,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sambar Rice",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1015,
+    "protein": 50.6,
+    "carbs": 107,
+    "fat": 43.0,
+    "fiber": 2.4,
+    "sugar": 6.8,
+    "sodium": 230,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Tikka Wrap Masala",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 831,
+    "protein": 41.0,
+    "carbs": 78,
+    "fat": 39.4,
+    "fiber": 4.9,
+    "sugar": 3.9,
+    "sodium": 96,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chole Bhature (1 serving)",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 982,
+    "protein": 64.9,
+    "carbs": 92,
+    "fat": 39.5,
+    "fiber": 5.3,
+    "sugar": 6.2,
+    "sodium": 137,
+    "category": "other",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti with Fruits",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 1071,
+    "protein": 58.2,
+    "carbs": 97,
+    "fat": 50.1,
+    "fiber": 7.5,
+    "sugar": 3.0,
+    "sodium": 340,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cooked White Rice + Dal + Vegetable Sabzi Low Sugar",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 964,
+    "protein": 50.8,
+    "carbs": 94,
+    "fat": 42.8,
+    "fiber": 6.7,
+    "sugar": 11.3,
+    "sodium": 303,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Butter Masala + Rice",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 919,
+    "protein": 51.2,
+    "carbs": 95,
+    "fat": 37.0,
+    "fiber": 3.0,
+    "sugar": 5.1,
+    "sodium": 352,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Curd Rice",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 1094,
+    "protein": 51.1,
+    "carbs": 103,
+    "fat": 53.1,
+    "fiber": 7.3,
+    "sugar": 2.4,
+    "sodium": 145,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Hyderabadi Biryani",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 977,
+    "protein": 61.9,
+    "carbs": 94,
+    "fat": 39.4,
+    "fiber": 1.8,
+    "sugar": 8.9,
+    "sodium": 200,
+    "category": "grains",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Puliyodarai (Tamarind Rice) with Honey",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 890,
+    "protein": 44.5,
+    "carbs": 93,
+    "fat": 37.7,
+    "fiber": 4.3,
+    "sugar": 9.4,
+    "sodium": 184,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Nuts",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 967,
+    "protein": 60.8,
+    "carbs": 95,
+    "fat": 38.2,
+    "fiber": 1.8,
+    "sugar": 8.1,
+    "sodium": 158,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Lentil Curry",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 1094,
+    "protein": 63.3,
+    "carbs": 101,
+    "fat": 48.4,
+    "fiber": 2.7,
+    "sugar": 3.6,
+    "sodium": 218,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 892,
+    "protein": 54.2,
+    "carbs": 80,
+    "fat": 39.4,
+    "fiber": 6.3,
+    "sugar": 6.7,
+    "sodium": 95,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice Masala",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 1048,
+    "protein": 61.8,
+    "carbs": 91,
+    "fat": 48.4,
+    "fiber": 4.3,
+    "sugar": 3.1,
+    "sodium": 355,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal Whole Grain",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 945,
+    "protein": 61.8,
+    "carbs": 94,
+    "fat": 35.7,
+    "fiber": 7.7,
+    "sugar": 11.3,
+    "sodium": 283,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cooked White Rice + Dal + Vegetable Sabzi",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 923,
+    "protein": 43.7,
+    "carbs": 86,
+    "fat": 44.8,
+    "fiber": 5.2,
+    "sugar": 8.2,
+    "sodium": 186,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 881,
+    "protein": 41.4,
+    "carbs": 99,
+    "fat": 35.6,
+    "fiber": 2.1,
+    "sugar": 4.1,
+    "sodium": 158,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Kothu Parotta",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 830,
+    "protein": 48.7,
+    "carbs": 78,
+    "fat": 35.8,
+    "fiber": 2.0,
+    "sugar": 6.6,
+    "sodium": 337,
+    "category": "other",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Hyderabadi Biryani High Protein",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 1057,
+    "protein": 60.3,
+    "carbs": 117,
+    "fat": 38.6,
+    "fiber": 1.8,
+    "sugar": 0.9,
+    "sodium": 62,
+    "category": "grains",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Dal + Sabzi",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1052,
+    "protein": 52.8,
+    "carbs": 117,
+    "fat": 41.5,
+    "fiber": 3.3,
+    "sugar": 10.8,
+    "sodium": 263,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice Low Sugar",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 895,
+    "protein": 62.6,
+    "carbs": 82,
+    "fat": 35.3,
+    "fiber": 4.2,
+    "sugar": 8.1,
+    "sodium": 387,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lemon Rice",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 1075,
+    "protein": 62.5,
+    "carbs": 114,
+    "fat": 41.1,
+    "fiber": 6.3,
+    "sugar": 5.4,
+    "sodium": 299,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Bisi Bele Bath",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 863,
+    "protein": 43.2,
+    "carbs": 82,
+    "fat": 40.3,
+    "fiber": 5.3,
+    "sugar": 8.1,
+    "sodium": 228,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal with Chutney",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 998,
+    "protein": 62.3,
+    "carbs": 87,
+    "fat": 44.5,
+    "fiber": 3.1,
+    "sugar": 3.8,
+    "sodium": 157,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Millet Khichdi with Nuts",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1053,
+    "protein": 52.7,
+    "carbs": 114,
+    "fat": 42.8,
+    "fiber": 4.8,
+    "sugar": 5.6,
+    "sodium": 146,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tomato Rice",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 45.1,
+    "carbs": 77,
+    "fat": 36.5,
+    "fiber": 7.4,
+    "sugar": 10.3,
+    "sodium": 109,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice with Honey",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 1094,
+    "protein": 58.4,
+    "carbs": 99,
+    "fat": 51.6,
+    "fiber": 1.7,
+    "sugar": 1.7,
+    "sodium": 389,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Kothu Parotta Whole Grain",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 1059,
+    "protein": 65.9,
+    "carbs": 108,
+    "fat": 40.5,
+    "fiber": 5.7,
+    "sugar": 1.1,
+    "sodium": 179,
+    "category": "other",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Kathi Roll (Veg) with Raita",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 1087,
+    "protein": 55.0,
+    "carbs": 129,
+    "fat": 39.1,
+    "fiber": 7.0,
+    "sugar": 9.0,
+    "sodium": 279,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Pulao with Raita with Raita",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 854,
+    "protein": 57.2,
+    "carbs": 78,
+    "fat": 34.9,
+    "fiber": 2.9,
+    "sugar": 11.2,
+    "sodium": 298,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Kothu Parotta High Protein",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 905,
+    "protein": 54.0,
+    "carbs": 91,
+    "fat": 36.1,
+    "fiber": 6.7,
+    "sugar": 2.2,
+    "sodium": 165,
+    "category": "other",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Quinoa Salad with Veg with Honey",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 823,
+    "protein": 52.7,
+    "carbs": 71,
+    "fat": 36.4,
+    "fiber": 2.3,
+    "sugar": 3.5,
+    "sodium": 348,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma Chawal with Fruits",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 949,
+    "protein": 43.9,
+    "carbs": 91,
+    "fat": 45.5,
+    "fiber": 6.4,
+    "sugar": 2.6,
+    "sodium": 380,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti with Raita",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 957,
+    "protein": 64.1,
+    "carbs": 105,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 8.3,
+    "sodium": 343,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Kathi Roll (Veg) Spicy",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 990,
+    "protein": 62.4,
+    "carbs": 92,
+    "fat": 41.5,
+    "fiber": 2.2,
+    "sugar": 0.6,
+    "sodium": 365,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Dal + Sabzi Low Sugar",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1014,
+    "protein": 62.0,
+    "carbs": 86,
+    "fat": 46.7,
+    "fiber": 7.2,
+    "sugar": 10.5,
+    "sodium": 116,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lemon Rice with Fruits",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1024,
+    "protein": 54.6,
+    "carbs": 107,
+    "fat": 41.9,
+    "fiber": 7.7,
+    "sugar": 10.2,
+    "sodium": 105,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Soya Chunks Curry + Rice with Fruits",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 875,
+    "protein": 48.1,
+    "carbs": 101,
+    "fat": 30.9,
+    "fiber": 5.8,
+    "sugar": 4.6,
+    "sodium": 59,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Millet Khichdi Masala",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 822,
+    "protein": 56.7,
+    "carbs": 77,
+    "fat": 31.9,
+    "fiber": 4.9,
+    "sugar": 5.7,
+    "sodium": 236,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal with Fruits",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 995,
+    "protein": 55.8,
+    "carbs": 115,
+    "fat": 34.8,
+    "fiber": 5.4,
+    "sugar": 7.3,
+    "sodium": 380,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice with Nuts",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1036,
+    "protein": 55.2,
+    "carbs": 113,
+    "fat": 40.1,
+    "fiber": 5.3,
+    "sugar": 1.5,
+    "sodium": 398,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti with Chutney",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1048,
+    "protein": 56.4,
+    "carbs": 95,
+    "fat": 49.2,
+    "fiber": 5.9,
+    "sugar": 8.8,
+    "sodium": 132,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tomato Rice with Raita",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 938,
+    "protein": 55.9,
+    "carbs": 105,
+    "fat": 32.8,
+    "fiber": 3.1,
+    "sugar": 9.1,
+    "sodium": 249,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Dal + Sabzi Whole Grain",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 919,
+    "protein": 54.7,
+    "carbs": 81,
+    "fat": 41.8,
+    "fiber": 6.8,
+    "sugar": 1.5,
+    "sodium": 353,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Lentil Curry Low Sugar",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 804,
+    "protein": 45.9,
+    "carbs": 82,
+    "fat": 32.5,
+    "fiber": 5.1,
+    "sugar": 3.8,
+    "sodium": 247,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Rajma Chawal Spicy",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 934,
+    "protein": 44.1,
+    "carbs": 112,
+    "fat": 34.4,
+    "fiber": 8.0,
+    "sugar": 6.3,
+    "sodium": 300,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sambar Rice Whole Grain",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 836,
+    "protein": 54.1,
+    "carbs": 87,
+    "fat": 30.2,
+    "fiber": 2.5,
+    "sugar": 8.9,
+    "sodium": 122,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Quinoa Salad with Veg with Nuts",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1021,
+    "protein": 56.6,
+    "carbs": 94,
+    "fat": 46.4,
+    "fiber": 7.1,
+    "sugar": 3.8,
+    "sodium": 120,
+    "category": "vegetables",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cooked White Rice + Dal + Vegetable Sabzi with Fruits",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 803,
+    "protein": 42.4,
+    "carbs": 94,
+    "fat": 28.6,
+    "fiber": 6.8,
+    "sugar": 8.0,
+    "sodium": 359,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tomato Rice with Honey",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 967,
+    "protein": 51.1,
+    "carbs": 103,
+    "fat": 38.9,
+    "fiber": 2.5,
+    "sugar": 3.4,
+    "sodium": 176,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Dal + Sabzi High Protein",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 802,
+    "protein": 41.6,
+    "carbs": 84,
+    "fat": 33.4,
+    "fiber": 6.1,
+    "sugar": 1.7,
+    "sodium": 361,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Soya Chunks Curry + Rice",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 806,
+    "protein": 51.9,
+    "carbs": 71,
+    "fat": 35.1,
+    "fiber": 2.5,
+    "sugar": 3.2,
+    "sodium": 278,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Puliyodarai (Tamarind Rice) Whole Grain",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1022,
+    "protein": 53.9,
+    "carbs": 99,
+    "fat": 45.4,
+    "fiber": 1.1,
+    "sugar": 8.1,
+    "sodium": 343,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 952,
+    "protein": 47.0,
+    "carbs": 109,
+    "fat": 36.3,
+    "fiber": 6.1,
+    "sugar": 2.3,
+    "sodium": 361,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lemon Rice with Nuts",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 959,
+    "protein": 57.9,
+    "carbs": 94,
+    "fat": 39.2,
+    "fiber": 6.3,
+    "sugar": 10.6,
+    "sodium": 185,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal with Nuts",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 1025,
+    "protein": 59.9,
+    "carbs": 113,
+    "fat": 37.1,
+    "fiber": 3.8,
+    "sugar": 1.9,
+    "sodium": 318,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Lentil Curry Masala",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 1079,
+    "protein": 65.3,
+    "carbs": 122,
+    "fat": 36.8,
+    "fiber": 3.7,
+    "sugar": 10.3,
+    "sodium": 333,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Dal + Sabzi Low Sugar fried Var1",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1014,
+    "protein": 62.0,
+    "carbs": 86,
+    "fat": 46.7,
+    "fiber": 7.2,
+    "sugar": 10.5,
+    "sodium": 116,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti stuffed Var2",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 881,
+    "protein": 41.4,
+    "carbs": 99,
+    "fat": 35.6,
+    "fiber": 2.1,
+    "sugar": 4.1,
+    "sodium": 158,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cooked White Rice + Dal + Vegetable Sabzi Low Sugar with pickle Var3",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 964,
+    "protein": 50.8,
+    "carbs": 94,
+    "fat": 42.8,
+    "fiber": 6.7,
+    "sugar": 11.3,
+    "sodium": 303,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Soya Chunks Curry + Rice Spicy with sambar Var4",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 881,
+    "protein": 44.8,
+    "carbs": 86,
+    "fat": 39.9,
+    "fiber": 7.9,
+    "sugar": 3.8,
+    "sodium": 161,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tomato Rice with raita Var5",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 45.1,
+    "carbs": 77,
+    "fat": 36.5,
+    "fiber": 7.4,
+    "sugar": 10.3,
+    "sodium": 109,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Lemon Rice with Nuts with pickle Var6",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 959,
+    "protein": 57.9,
+    "carbs": 94,
+    "fat": 39.2,
+    "fiber": 6.3,
+    "sugar": 10.6,
+    "sodium": 185,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Puliyodarai (Tamarind Rice) with Honey with raita Var7",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 890,
+    "protein": 44.5,
+    "carbs": 93,
+    "fat": 37.7,
+    "fiber": 4.3,
+    "sugar": 9.4,
+    "sodium": 184,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Nuts with chutney Var8",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 967,
+    "protein": 60.8,
+    "carbs": 95,
+    "fat": 38.2,
+    "fiber": 1.8,
+    "sugar": 8.1,
+    "sodium": 158,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti with Chutney fried Var9",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 1048,
+    "protein": 56.4,
+    "carbs": 95,
+    "fat": 49.2,
+    "fiber": 5.9,
+    "sugar": 8.8,
+    "sodium": 132,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal with Fruits with dal Var10",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 995,
+    "protein": 55.8,
+    "carbs": 115,
+    "fat": 34.8,
+    "fiber": 5.4,
+    "sugar": 7.3,
+    "sodium": 380,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Butter Masala + Rice with salad Var11",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 919,
+    "protein": 51.2,
+    "carbs": 95,
+    "fat": 37.0,
+    "fiber": 3.0,
+    "sugar": 5.1,
+    "sodium": 352,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice Low Sugar with raita Var12",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 895,
+    "protein": 62.6,
+    "carbs": 82,
+    "fat": 35.3,
+    "fiber": 4.2,
+    "sugar": 8.1,
+    "sodium": 387,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Coconut Rice with dal Var13",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 1015,
+    "protein": 51.0,
+    "carbs": 102,
+    "fat": 44.7,
+    "fiber": 4.4,
+    "sugar": 7.5,
+    "sodium": 272,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tomato Rice grilled Var14",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 45.1,
+    "carbs": 77,
+    "fat": 36.5,
+    "fiber": 7.4,
+    "sugar": 10.3,
+    "sodium": 109,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Vegetable Curry + Roti with Raita with pickle Var15",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 957,
+    "protein": 64.1,
+    "carbs": 105,
+    "fat": 31.2,
+    "fiber": 3.8,
+    "sugar": 8.3,
+    "sodium": 343,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Brown Rice Bowl with Veg & Dal with Fruits with sambar Var16",
+    "servingSize": {
+      "amount": 350,
+      "unit": "g"
+    },
+    "calories": 995,
+    "protein": 55.8,
+    "carbs": 115,
+    "fat": 34.8,
+    "fiber": 5.4,
+    "sugar": 7.3,
+    "sodium": 380,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Tomato Rice stuffed Var17",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 819,
+    "protein": 45.1,
+    "carbs": 77,
+    "fat": 36.5,
+    "fiber": 7.4,
+    "sugar": 10.3,
+    "sodium": 109,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cooked White Rice + Dal + Vegetable Sabzi with Fruits with chutney Var18",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 803,
+    "protein": 42.4,
+    "carbs": 94,
+    "fat": 28.6,
+    "fiber": 6.8,
+    "sugar": 8.0,
+    "sodium": 359,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Millet Khichdi Masala with masala Var19",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 822,
+    "protein": 56.7,
+    "carbs": 77,
+    "fat": 31.9,
+    "fiber": 4.9,
+    "sugar": 5.7,
+    "sodium": 236,
+    "category": "other",
+    "tags": [],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Hyderabadi Biryani stuffed Var20",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 977,
+    "protein": 61.9,
+    "carbs": 94,
+    "fat": 39.4,
+    "fiber": 1.8,
+    "sugar": 8.9,
+    "sodium": 200,
+    "category": "grains",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Paneer Butter Masala + Rice with salad Var21",
+    "servingSize": {
+      "amount": 250,
+      "unit": "g"
+    },
+    "calories": 919,
+    "protein": 51.2,
+    "carbs": 95,
+    "fat": 37.0,
+    "fiber": 3.0,
+    "sugar": 5.1,
+    "sodium": 352,
+    "category": "grains",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sambar Rice Whole Grain grilled Var22",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 836,
+    "protein": 54.1,
+    "carbs": 87,
+    "fat": 30.2,
+    "fiber": 2.5,
+    "sugar": 8.9,
+    "sodium": 122,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with Nuts stuffed Var23",
+    "servingSize": {
+      "amount": 300,
+      "unit": "g"
+    },
+    "calories": 967,
+    "protein": 60.8,
+    "carbs": 95,
+    "fat": 38.2,
+    "fiber": 1.8,
+    "sugar": 8.1,
+    "sodium": 158,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-fat",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dal Tadka + Jeera Rice High Protein with sambar Var24",
+    "servingSize": {
+      "amount": 200,
+      "unit": "g"
+    },
+    "calories": 919,
+    "protein": 52.7,
+    "carbs": 87,
+    "fat": 40.0,
+    "fiber": 7.3,
+    "sugar": 8.4,
+    "sodium": 207,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chapati (2) + Dal + Sabzi Low Sugar with pickle Var25",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 1014,
+    "protein": 62.0,
+    "carbs": 86,
+    "fat": 46.7,
+    "fiber": 7.2,
+    "sugar": 10.5,
+    "sodium": 116,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Mixed Green Salad + Grilled Paneer with pickle Var26",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 892,
+    "protein": 54.2,
+    "carbs": 80,
+    "fat": 39.4,
+    "fiber": 6.3,
+    "sugar": 6.7,
+    "sodium": 95,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sambar Rice Whole Grain with curry Var27",
+    "servingSize": {
+      "amount": 400,
+      "unit": "g"
+    },
+    "calories": 836,
+    "protein": 54.1,
+    "carbs": 87,
+    "fat": 30.2,
+    "fiber": 2.5,
+    "sugar": 8.9,
+    "sodium": 122,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "lunch",
+    "goal": "gain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  }
+]

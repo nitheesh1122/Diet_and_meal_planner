@@ -1,0 +1,2630 @@
+[
+  {
+    "name": "Boiled Egg (1) with Honey",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.5,
+    "carbs": 9,
+    "fat": 7.1,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 248,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with salad Var1",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies stuffed Var2",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies fried Var3",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar fried Var4",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies fried Var5",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies with chutney Var6",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with chutney Var7",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies with raita Var8",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with curry Var9",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies with curd Var10",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies fried Var11",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein with dal Var12",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with raita Var13",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.5,
+    "carbs": 9,
+    "fat": 7.1,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 248,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with curry Var14",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita with curd Var15",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies with raita Var16",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with pickle Var17",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies stuffed Var18",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein with raita Var19",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies grilled Var20",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with masala Var21",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies stuffed Var22",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita with dal Var23",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies fried Var24",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with salad Var25",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita with masala Var26",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita with masala Var27",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar fried Var28",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with sambar Var29",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.5,
+    "carbs": 9,
+    "fat": 7.1,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 248,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies with salad Var30",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies with raita Var31",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with curry Var32",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.5,
+    "carbs": 9,
+    "fat": 7.1,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 248,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with dal Var33",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with masala Var34",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.5,
+    "carbs": 9,
+    "fat": 7.1,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 248,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies fried Var35",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with raita Var36",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies with dal Var37",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with sambar Var38",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with dal Var39",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with raita Var40",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies with salad Var41",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies grilled Var42",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies with raita Var43",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with dal Var44",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with chutney Var45",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar fried Var46",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies fried Var47",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies grilled Var48",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with curd Var49",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Honey with chutney Var50",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.5,
+    "carbs": 9,
+    "fat": 7.1,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 248,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with curry Var51",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies with dal Var52",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein stuffed Var53",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein with dal Var54",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies grilled Var55",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with curry Var56",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with pickle Var57",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with curd Var58",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with chutney Var59",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita with sambar Var60",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with curry Var61",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with curry Var62",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with chutney Var63",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies with sambar Var64",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with salad Var65",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies fried Var66",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with salad Var67",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies grilled Var68",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies with dal Var69",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies with curd Var70",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with pickle Var71",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies with chutney Var72",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with masala Var73",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with curry Var74",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with masala Var75",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein grilled Var76",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies fried Var77",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies fried Var78",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with curd Var79",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Veggies with pickle Var80",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 4.9,
+    "carbs": 8,
+    "fat": 3.8,
+    "fiber": 2.1,
+    "sugar": 3.8,
+    "sodium": 222,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Raita fried Var81",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 10.5,
+    "carbs": 11,
+    "fat": 7.1,
+    "fiber": 1.9,
+    "sugar": 4.2,
+    "sodium": 84,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein with salad Var82",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Veggies fried Var83",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.0,
+    "carbs": 13,
+    "fat": 6.7,
+    "fiber": 3.2,
+    "sugar": 6.0,
+    "sodium": 68,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) High Protein with dal Var84",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 111,
+    "protein": 7.2,
+    "carbs": 9,
+    "fat": 5.0,
+    "fiber": 1.2,
+    "sugar": 2.5,
+    "sodium": 224,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with pickle Var85",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.3,
+    "fiber": 3.8,
+    "sugar": 2.9,
+    "sodium": 264,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with masala Var86",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Veggies grilled Var87",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.8,
+    "carbs": 7,
+    "fat": 4.8,
+    "fiber": 1.8,
+    "sugar": 5.9,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Vegetable Sticks with Veggies grilled Var88",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 9.9,
+    "carbs": 8,
+    "fat": 6.9,
+    "fiber": 1.7,
+    "sugar": 3.8,
+    "sodium": 162,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with dal Var89",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 80,
+    "protein": 4.2,
+    "carbs": 6,
+    "fat": 4.2,
+    "fiber": 0.9,
+    "sugar": 4.1,
+    "sodium": 69,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Samosa (1) with Veggies fried Var90",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 139,
+    "protein": 9.7,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 2.4,
+    "sugar": 5.9,
+    "sodium": 79,
+    "category": "protein",
+    "tags": [
+      "heavy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  }
+]

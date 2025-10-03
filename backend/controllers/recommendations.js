@@ -9,7 +9,7 @@ const ErrorResponse = require('../utils/errorResponse');
 async function getRecommendations(req, res, next) {
   try {
     const { userId } = req.params;
-    const { date, limit = 10, sources } = req.query;
+    const { date, limit = 10, sources, mealType, goal: goalParam } = req.query;
 
     if (!req.user || req.user._id.toString() !== userId) {
       return next(new ErrorResponse('Not authorized to access recommendations for this user', 403));
@@ -33,23 +33,36 @@ async function getRecommendations(req, res, next) {
     // - If protein remaining is high, prioritize high protein per 100 kcal
     // - Otherwise, match foods where calories <= remaining + 20% and macros roughly align
     // - Slightly penalize fat if goal is 'lose'
-    const goal = user.goal || 'maintain';
+    const goal = goalParam || user.goal || 'maintain';
 
-    // Select source files to include in recommendations (defaults to the 5 specified datasets)
-    const defaultSources = [
-      'foods',
-      'foods_indian_a',
-      'foods_indian_b',
-      'foods_indian_c',
-      'south_indian_foods'
-    ];
-    const allowedSources = (sources ? String(sources).split(',') : defaultSources).map(s => s.trim()).filter(Boolean);
+    // Build match conditions. By default, do NOT filter by source so recommendations work
+    // even when imported data didn't set the 'source' field. If 'sources' is provided,
+    // restrict to those sources. Also prefer verified foods when available.
+    const match = { };
+    if (sources && String(sources).trim()) {
+      const allowedSources = String(sources)
+        .split(',')
+        .map(s => s.trim())
+        .filter(Boolean);
+      if (allowedSources.length) {
+        match.source = { $in: allowedSources };
+      }
+    }
+    // Prefer to recommend verified items when present in the dataset
+    match.isVerified = { $ne: false };
+    // Apply mealType/goal if provided
+    if (mealType && mealType !== 'all') {
+      match.mealType = mealType;
+    }
+    if (goal && goal !== 'all') {
+      match.goal = goal;
+    }
 
-    // Fetch a diverse random pool filtered by allowed sources; vary on each call
+    // Fetch a diverse random pool; vary on each call
     const pool = await Food.aggregate([
-      { $match: { source: { $in: allowedSources } } },
+      { $match: match },
       { $sample: { size: 800 } },
-      { $project: { name: 1, calories: 1, protein: 1, carbs: 1, fat: 1, servingSize: 1, category: 1 } }
+      { $project: { _id: 1, name: 1, calories: 1, protein: 1, carbs: 1, fat: 1, servingSize: 1, category: 1 } }
     ]);
 
     const scored = pool.map(f => {

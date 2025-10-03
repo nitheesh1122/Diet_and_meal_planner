@@ -1,0 +1,2326 @@
+[
+  {
+    "name": "Fruit Bowl (seasonal) with Honey",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 95,
+    "protein": 7.0,
+    "carbs": 6,
+    "fat": 4.8,
+    "fiber": 2.5,
+    "sugar": 1.2,
+    "sodium": 253,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Greek Yogurt (100g)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 138,
+    "protein": 7.4,
+    "carbs": 11,
+    "fat": 7.2,
+    "fiber": 1.2,
+    "sugar": 1.0,
+    "sodium": 109,
+    "category": "dairy",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) Spicy",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 141,
+    "protein": 9.8,
+    "carbs": 11,
+    "fat": 6.3,
+    "fiber": 1.6,
+    "sugar": 0.8,
+    "sodium": 298,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Chana (30g)",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 112,
+    "protein": 8.0,
+    "carbs": 9,
+    "fat": 4.7,
+    "fiber": 2.6,
+    "sugar": 2.7,
+    "sodium": 181,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Apple",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 148,
+    "protein": 9.7,
+    "carbs": 11,
+    "fat": 7.5,
+    "fiber": 2.9,
+    "sugar": 3.8,
+    "sodium": 190,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Buttermilk (200ml) with Honey",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 128,
+    "protein": 9.2,
+    "carbs": 10,
+    "fat": 5.6,
+    "fiber": 2.3,
+    "sugar": 2.3,
+    "sodium": 243,
+    "category": "dairy",
+    "tags": [
+      "high-fat",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Apple with Honey",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 106,
+    "protein": 7.4,
+    "carbs": 9,
+    "fat": 4.6,
+    "fiber": 1.1,
+    "sugar": 4.7,
+    "sodium": 162,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Greek Yogurt (100g) Spicy",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 146,
+    "protein": 10.4,
+    "carbs": 11,
+    "fat": 6.5,
+    "fiber": 0.8,
+    "sugar": 2.8,
+    "sodium": 259,
+    "category": "dairy",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Bhel Puri (small) Spicy",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 149,
+    "protein": 9.4,
+    "carbs": 11,
+    "fat": 7.3,
+    "fiber": 2.4,
+    "sugar": 1.9,
+    "sodium": 276,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cheese Cubes (30g) with Nuts",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 134,
+    "protein": 7.2,
+    "carbs": 10,
+    "fat": 7.2,
+    "fiber": 0.6,
+    "sugar": 5.9,
+    "sodium": 183,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Samosa (1)",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 118,
+    "protein": 8.8,
+    "carbs": 9,
+    "fat": 5.4,
+    "fiber": 3.3,
+    "sugar": 3.6,
+    "sodium": 162,
+    "category": "other",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Protein Shake (whey) Low Sugar",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 90,
+    "protein": 6.5,
+    "carbs": 6,
+    "fat": 4.6,
+    "fiber": 2.5,
+    "sugar": 5.2,
+    "sodium": 284,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Masala Corn (100g)",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 109,
+    "protein": 6.2,
+    "carbs": 9,
+    "fat": 5.4,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 146,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Popcorn (30g) with Nuts",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 81,
+    "protein": 5.4,
+    "carbs": 6,
+    "fat": 4.1,
+    "fiber": 0.8,
+    "sugar": 2.6,
+    "sodium": 112,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Buttermilk (200ml) Spicy",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 142,
+    "protein": 8.3,
+    "carbs": 13,
+    "fat": 6.3,
+    "fiber": 1.7,
+    "sugar": 3.5,
+    "sodium": 70,
+    "category": "dairy",
+    "tags": [
+      "high-fat",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal)",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 106,
+    "protein": 7.6,
+    "carbs": 7,
+    "fat": 5.3,
+    "fiber": 1.8,
+    "sugar": 5.8,
+    "sodium": 104,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Raita",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 118,
+    "protein": 6.4,
+    "carbs": 10,
+    "fat": 5.8,
+    "fiber": 0.8,
+    "sugar": 1.2,
+    "sodium": 297,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Raita",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 105,
+    "protein": 6.2,
+    "carbs": 7,
+    "fat": 5.6,
+    "fiber": 2.1,
+    "sugar": 3.4,
+    "sodium": 79,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Samosa (1) with Honey",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 99,
+    "protein": 6.1,
+    "carbs": 7,
+    "fat": 5.0,
+    "fiber": 1.0,
+    "sugar": 4.7,
+    "sodium": 210,
+    "category": "other",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Popcorn (30g)",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 117,
+    "protein": 7.4,
+    "carbs": 10,
+    "fat": 5.4,
+    "fiber": 1.5,
+    "sugar": 4.9,
+    "sodium": 112,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Popcorn (30g) High Protein",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 103,
+    "protein": 6.7,
+    "carbs": 8,
+    "fat": 4.8,
+    "fiber": 2.4,
+    "sugar": 2.0,
+    "sodium": 246,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Peanut Butter Sandwich (half) with Honey",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 91,
+    "protein": 5.4,
+    "carbs": 7,
+    "fat": 4.4,
+    "fiber": 2.8,
+    "sugar": 1.5,
+    "sodium": 99,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sprouts Salad (100g)",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 117,
+    "protein": 7.2,
+    "carbs": 10,
+    "fat": 5.4,
+    "fiber": 1.1,
+    "sugar": 2.5,
+    "sodium": 149,
+    "category": "vegetables",
+    "tags": [
+      "healthy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Energy Bar Spicy",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.3,
+    "carbs": 11,
+    "fat": 7.7,
+    "fiber": 0.7,
+    "sugar": 1.1,
+    "sodium": 299,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli (1) as snack",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 103,
+    "protein": 5.4,
+    "carbs": 10,
+    "fat": 4.7,
+    "fiber": 2.3,
+    "sugar": 2.1,
+    "sodium": 67,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Banana",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Murukku (30g) High Protein",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 119,
+    "protein": 8.6,
+    "carbs": 9,
+    "fat": 5.3,
+    "fiber": 1.3,
+    "sugar": 1.7,
+    "sodium": 89,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Murukku (30g) Masala",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 125,
+    "protein": 6.9,
+    "carbs": 9,
+    "fat": 6.7,
+    "fiber": 3.4,
+    "sugar": 5.4,
+    "sodium": 98,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Banana Whole Grain",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Buttermilk (200ml)",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 83,
+    "protein": 6.0,
+    "carbs": 6,
+    "fat": 3.7,
+    "fiber": 2.7,
+    "sugar": 1.5,
+    "sodium": 205,
+    "category": "dairy",
+    "tags": [
+      "high-fat",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Sticks High Protein",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 123,
+    "protein": 7.8,
+    "carbs": 11,
+    "fat": 5.2,
+    "fiber": 2.3,
+    "sugar": 2.1,
+    "sodium": 136,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Masala Corn (100g) with Raita",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 116,
+    "protein": 7.0,
+    "carbs": 11,
+    "fat": 4.9,
+    "fiber": 3.5,
+    "sugar": 1.5,
+    "sodium": 185,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cheese Cubes (30g) with Chutney",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 108,
+    "protein": 7.3,
+    "carbs": 10,
+    "fat": 4.4,
+    "fiber": 3.6,
+    "sugar": 0.4,
+    "sodium": 116,
+    "category": "dairy",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Chana (30g) with Honey",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 149,
+    "protein": 7.6,
+    "carbs": 11,
+    "fat": 8.1,
+    "fiber": 3.6,
+    "sugar": 0.6,
+    "sodium": 87,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dates (3 pcs) with Honey",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 88,
+    "protein": 5.2,
+    "carbs": 8,
+    "fat": 4.0,
+    "fiber": 2.0,
+    "sugar": 4.1,
+    "sodium": 133,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Buttermilk (200ml) Low Sugar",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 129,
+    "protein": 7.7,
+    "carbs": 10,
+    "fat": 6.2,
+    "fiber": 1.2,
+    "sugar": 5.9,
+    "sodium": 111,
+    "category": "dairy",
+    "tags": [
+      "high-fat",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs)",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 123,
+    "protein": 9.2,
+    "carbs": 9,
+    "fat": 5.6,
+    "fiber": 1.1,
+    "sugar": 4.4,
+    "sodium": 243,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Sticks",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 142,
+    "protein": 10.4,
+    "carbs": 12,
+    "fat": 5.9,
+    "fiber": 2.4,
+    "sugar": 1.5,
+    "sodium": 85,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g)",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 129,
+    "protein": 8.0,
+    "carbs": 12,
+    "fat": 5.7,
+    "fiber": 2.5,
+    "sugar": 3.3,
+    "sodium": 275,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Walnuts (15g)",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 104,
+    "protein": 7.2,
+    "carbs": 7,
+    "fat": 5.4,
+    "fiber": 3.9,
+    "sugar": 2.6,
+    "sodium": 235,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Almonds (15g)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 112,
+    "protein": 7.5,
+    "carbs": 9,
+    "fat": 5.2,
+    "fiber": 1.6,
+    "sugar": 1.6,
+    "sodium": 207,
+    "category": "other",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Almonds (15g) with Nuts",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 148,
+    "protein": 10.0,
+    "carbs": 13,
+    "fat": 6.2,
+    "fiber": 2.9,
+    "sugar": 2.3,
+    "sodium": 82,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Chana (30g) Whole Grain",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 96,
+    "protein": 6.9,
+    "carbs": 8,
+    "fat": 3.9,
+    "fiber": 2.5,
+    "sugar": 1.7,
+    "sodium": 250,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Raita",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 95,
+    "protein": 5.8,
+    "carbs": 8,
+    "fat": 4.2,
+    "fiber": 3.4,
+    "sugar": 3.2,
+    "sodium": 142,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Apple Masala",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 127,
+    "protein": 8.7,
+    "carbs": 8,
+    "fat": 6.6,
+    "fiber": 2.4,
+    "sugar": 5.1,
+    "sodium": 98,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Milkshake (banana) with Nuts",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "dairy",
+    "tags": [
+      "high-fat",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Sticks Low Sugar",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 113,
+    "protein": 6.0,
+    "carbs": 8,
+    "fat": 6.2,
+    "fiber": 1.5,
+    "sugar": 0.4,
+    "sodium": 94,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli (1) as snack High Protein",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 105,
+    "protein": 6.3,
+    "carbs": 8,
+    "fat": 5.1,
+    "fiber": 1.5,
+    "sugar": 3.8,
+    "sodium": 68,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "quick",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Almonds (15g) with Fruits",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 131,
+    "protein": 6.9,
+    "carbs": 13,
+    "fat": 5.9,
+    "fiber": 1.0,
+    "sugar": 3.7,
+    "sodium": 51,
+    "category": "other",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Murukku (30g)",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 8.8,
+    "carbs": 12,
+    "fat": 7.5,
+    "fiber": 2.7,
+    "sugar": 3.5,
+    "sodium": 174,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Milkshake (banana)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "dairy",
+    "tags": [
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) Spicy",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 102,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 4.5,
+    "fiber": 2.9,
+    "sugar": 5.4,
+    "sodium": 125,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 9.1,
+    "carbs": 10,
+    "fat": 8.1,
+    "fiber": 0.8,
+    "sugar": 4.6,
+    "sodium": 286,
+    "category": "other",
+    "tags": [
+      "healthy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Protein Shake (whey) with Honey",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 85,
+    "protein": 5.0,
+    "carbs": 6,
+    "fat": 4.4,
+    "fiber": 2.9,
+    "sugar": 2.6,
+    "sodium": 255,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dates (3 pcs) Masala",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 7.9,
+    "carbs": 12,
+    "fat": 6.3,
+    "fiber": 2.6,
+    "sugar": 2.5,
+    "sodium": 133,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli (1) as snack with Chutney",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 106,
+    "protein": 5.7,
+    "carbs": 10,
+    "fat": 4.7,
+    "fiber": 1.4,
+    "sugar": 2.9,
+    "sodium": 232,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) Masala",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 132,
+    "protein": 8.4,
+    "carbs": 11,
+    "fat": 5.9,
+    "fiber": 1.5,
+    "sugar": 2.5,
+    "sodium": 89,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cheese Cubes (30g)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 146,
+    "protein": 9.3,
+    "carbs": 12,
+    "fat": 7.0,
+    "fiber": 2.3,
+    "sugar": 1.4,
+    "sodium": 258,
+    "category": "dairy",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Walnuts (15g) with Honey",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 122,
+    "protein": 6.7,
+    "carbs": 9,
+    "fat": 6.6,
+    "fiber": 3.8,
+    "sugar": 5.9,
+    "sodium": 111,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Banana High Protein",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Fruits",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 90,
+    "protein": 4.6,
+    "carbs": 7,
+    "fat": 5.0,
+    "fiber": 1.6,
+    "sugar": 1.4,
+    "sodium": 164,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Peanut Butter Sandwich (half)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 150,
+    "protein": 11.0,
+    "carbs": 13,
+    "fat": 5.9,
+    "fiber": 1.2,
+    "sugar": 0.6,
+    "sodium": 47,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dates (3 pcs) High Protein",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 125,
+    "protein": 8.8,
+    "carbs": 9,
+    "fat": 5.9,
+    "fiber": 2.6,
+    "sugar": 0.8,
+    "sodium": 218,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Chana Jor Garam",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 134,
+    "protein": 9.3,
+    "carbs": 10,
+    "fat": 6.1,
+    "fiber": 1.6,
+    "sugar": 3.5,
+    "sodium": 206,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dates (3 pcs) Spicy",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 138,
+    "protein": 8.8,
+    "carbs": 10,
+    "fat": 6.8,
+    "fiber": 2.8,
+    "sugar": 3.0,
+    "sodium": 232,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Bhel Puri (small) Whole Grain",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 119,
+    "protein": 8.3,
+    "carbs": 8,
+    "fat": 6.0,
+    "fiber": 2.1,
+    "sugar": 5.1,
+    "sodium": 165,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Bhel Puri (small) with Honey",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 105,
+    "protein": 6.6,
+    "carbs": 7,
+    "fat": 5.5,
+    "fiber": 3.5,
+    "sugar": 5.1,
+    "sodium": 236,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Cheese Cubes (30g) with Honey",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 133,
+    "protein": 7.9,
+    "carbs": 11,
+    "fat": 6.6,
+    "fiber": 1.6,
+    "sugar": 4.9,
+    "sodium": 159,
+    "category": "dairy",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli (1) as snack with Honey",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 94,
+    "protein": 6.6,
+    "carbs": 8,
+    "fat": 4.1,
+    "fiber": 0.9,
+    "sugar": 2.7,
+    "sodium": 131,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Banana Chips (30g) Low Sugar",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "other",
+    "tags": [
+      "heavy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Energy Bar",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 89,
+    "protein": 6.4,
+    "carbs": 8,
+    "fat": 3.6,
+    "fiber": 3.7,
+    "sugar": 0.9,
+    "sodium": 201,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Walnuts (15g) Masala",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 105,
+    "protein": 6.0,
+    "carbs": 7,
+    "fat": 5.8,
+    "fiber": 2.9,
+    "sugar": 1.7,
+    "sodium": 167,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Granola Bar",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 143,
+    "protein": 10.2,
+    "carbs": 10,
+    "fat": 7.0,
+    "fiber": 3.7,
+    "sugar": 1.9,
+    "sodium": 97,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Almonds (15g) Low Sugar",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 142,
+    "protein": 7.8,
+    "carbs": 10,
+    "fat": 7.9,
+    "fiber": 1.1,
+    "sugar": 1.3,
+    "sodium": 140,
+    "category": "other",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Raita",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 120,
+    "protein": 7.3,
+    "carbs": 11,
+    "fat": 5.4,
+    "fiber": 0.6,
+    "sugar": 0.4,
+    "sodium": 49,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Banana with Raita",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Peanut Butter Sandwich (half) Spicy",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 92,
+    "protein": 5.4,
+    "carbs": 7,
+    "fat": 4.7,
+    "fiber": 1.6,
+    "sugar": 2.1,
+    "sodium": 149,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Chana (30g) with Raita",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 121,
+    "protein": 8.1,
+    "carbs": 11,
+    "fat": 4.9,
+    "fiber": 1.7,
+    "sugar": 2.0,
+    "sodium": 142,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) Low Sugar",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 131,
+    "protein": 8.7,
+    "carbs": 10,
+    "fat": 6.2,
+    "fiber": 3.3,
+    "sugar": 3.6,
+    "sodium": 56,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Apple Low Sugar",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 86,
+    "protein": 5.0,
+    "carbs": 6,
+    "fat": 4.6,
+    "fiber": 2.6,
+    "sugar": 1.1,
+    "sodium": 177,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Granola Bar with Fruits",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 149,
+    "protein": 9.6,
+    "carbs": 14,
+    "fat": 6.2,
+    "fiber": 1.5,
+    "sugar": 0.7,
+    "sodium": 72,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dates (3 pcs)",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 89,
+    "protein": 6.4,
+    "carbs": 8,
+    "fat": 3.5,
+    "fiber": 1.3,
+    "sugar": 2.9,
+    "sodium": 61,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Fruits",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 90,
+    "protein": 5.8,
+    "carbs": 6,
+    "fat": 4.7,
+    "fiber": 3.3,
+    "sugar": 2.4,
+    "sodium": 64,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Chana (30g) Spicy",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 135,
+    "protein": 7.3,
+    "carbs": 11,
+    "fat": 6.7,
+    "fiber": 1.3,
+    "sugar": 3.3,
+    "sodium": 169,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Idli (1) as snack Spicy",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 143,
+    "protein": 9.0,
+    "carbs": 12,
+    "fat": 6.8,
+    "fiber": 3.2,
+    "sugar": 4.0,
+    "sodium": 263,
+    "category": "grains",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) Low Sugar",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 106,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 5.1,
+    "fiber": 3.2,
+    "sugar": 3.9,
+    "sodium": 60,
+    "category": "vegetables",
+    "tags": [
+      "healthy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Sprouts Salad (100g) with Chutney",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 90,
+    "protein": 4.8,
+    "carbs": 7,
+    "fat": 4.5,
+    "fiber": 1.8,
+    "sugar": 5.2,
+    "sodium": 179,
+    "category": "vegetables",
+    "tags": [
+      "healthy"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Vegetable Sticks with Fruits",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 148,
+    "protein": 9.1,
+    "carbs": 11,
+    "fat": 7.6,
+    "fiber": 1.7,
+    "sugar": 1.7,
+    "sodium": 243,
+    "category": "other",
+    "tags": [
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with Nuts",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 140,
+    "protein": 10.4,
+    "carbs": 10,
+    "fat": 6.5,
+    "fiber": 3.8,
+    "sugar": 5.0,
+    "sodium": 247,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Walnuts (15g) with Chutney",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 88,
+    "protein": 5.8,
+    "carbs": 6,
+    "fat": 4.3,
+    "fiber": 2.9,
+    "sugar": 2.9,
+    "sodium": 43,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) Spicy with raita Var1",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 102,
+    "protein": 7.0,
+    "carbs": 8,
+    "fat": 4.5,
+    "fiber": 2.9,
+    "sugar": 5.4,
+    "sodium": 125,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Popcorn (30g) High Protein with salad Var2",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 103,
+    "protein": 6.7,
+    "carbs": 8,
+    "fat": 4.8,
+    "fiber": 2.4,
+    "sugar": 2.0,
+    "sodium": 246,
+    "category": "other",
+    "tags": [
+      "high-protein",
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Peanut Butter Sandwich (half) Spicy with dal Var3",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 92,
+    "protein": 5.4,
+    "carbs": 7,
+    "fat": 4.7,
+    "fiber": 1.6,
+    "sugar": 2.1,
+    "sodium": 149,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Walnuts (15g) Masala with pickle Var4",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 105,
+    "protein": 6.0,
+    "carbs": 7,
+    "fat": 5.8,
+    "fiber": 2.9,
+    "sugar": 1.7,
+    "sodium": 167,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) Low Sugar with masala Var5",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 131,
+    "protein": 8.7,
+    "carbs": 10,
+    "fat": 6.2,
+    "fiber": 3.3,
+    "sugar": 3.6,
+    "sodium": 56,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) Spicy with masala Var6",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 141,
+    "protein": 9.8,
+    "carbs": 11,
+    "fat": 6.3,
+    "fiber": 1.6,
+    "sugar": 0.8,
+    "sodium": 298,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Fruit Bowl (seasonal) with Raita fried Var7",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 105,
+    "protein": 6.2,
+    "carbs": 7,
+    "fat": 5.6,
+    "fiber": 2.1,
+    "sugar": 3.4,
+    "sodium": 79,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Dhokla (2 pcs) with curry Var8",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 123,
+    "protein": 9.2,
+    "carbs": 9,
+    "fat": 5.6,
+    "fiber": 1.1,
+    "sugar": 4.4,
+    "sodium": 243,
+    "category": "other",
+    "tags": [],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Milkshake (banana) fried Var9",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "dairy",
+    "tags": [
+      "quick"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  },
+  {
+    "name": "Peanut Butter Sandwich (half) with Honey fried Var10",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 91,
+    "protein": 5.4,
+    "carbs": 7,
+    "fat": 4.4,
+    "fiber": 2.8,
+    "sugar": 1.5,
+    "sodium": 99,
+    "category": "fats",
+    "tags": [
+      "high-fat"
+    ],
+    "mealType": "snacks",
+    "goal": "loss",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "veg"
+  }
+]

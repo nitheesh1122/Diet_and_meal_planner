@@ -1,0 +1,2598 @@
+[
+  {
+    "name": "Roasted Peanuts (30g) with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 206,
+    "protein": 9.6,
+    "carbs": 23,
+    "fat": 8.4,
+    "fiber": 1.9,
+    "sugar": 1.4,
+    "sodium": 92,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1)",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chana Jor Garam with Veggies",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 189,
+    "protein": 9.1,
+    "carbs": 19,
+    "fat": 8.6,
+    "fiber": 1.9,
+    "sugar": 10.1,
+    "sodium": 188,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 172,
+    "protein": 7.7,
+    "carbs": 17,
+    "fat": 8.0,
+    "fiber": 2.4,
+    "sugar": 9.8,
+    "sodium": 235,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T04:58:10.969940Z",
+    "updatedAt": "2025-10-03T04:58:10.969940Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with dal Var1",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with curd Var2",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies with salad Var3",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts with pickle Var4",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with masala Var5",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with curd Var6",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with curd Var7",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with pickle Var8",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with masala Var9",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with chutney Var10",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with raita Var11",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with dal Var12",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies stuffed Var13",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies with salad Var14",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies stuffed Var15",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts with sambar Var16",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts with chutney Var17",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with curd Var18",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 206,
+    "protein": 9.6,
+    "carbs": 23,
+    "fat": 8.4,
+    "fiber": 1.9,
+    "sugar": 1.4,
+    "sodium": 92,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with curry Var19",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with curry Var20",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with masala Var21",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 206,
+    "protein": 9.6,
+    "carbs": 23,
+    "fat": 8.4,
+    "fiber": 1.9,
+    "sugar": 1.4,
+    "sodium": 92,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with curry Var22",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies with curry Var23",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with masala Var24",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies with curry Var25",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts with dal Var26",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies fried Var27",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies stuffed Var28",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies grilled Var29",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies with pickle Var30",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies with masala Var31",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies with salad Var32",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts grilled Var33",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies with dal Var34",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chana Jor Garam with Veggies with pickle Var35",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 189,
+    "protein": 9.1,
+    "carbs": 19,
+    "fat": 8.6,
+    "fiber": 1.9,
+    "sugar": 10.1,
+    "sodium": 188,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies stuffed Var36",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with sambar Var37",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with chutney Var38",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies with chutney Var39",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies with chutney Var40",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with sambar Var41",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chana Jor Garam with Veggies with dal Var42",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 189,
+    "protein": 9.1,
+    "carbs": 19,
+    "fat": 8.6,
+    "fiber": 1.9,
+    "sugar": 10.1,
+    "sodium": 188,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with chutney Var43",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies grilled Var44",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies with raita Var45",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with salad Var46",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with chutney Var47",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with raita Var48",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with masala Var49",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with pickle Var50",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 206,
+    "protein": 9.6,
+    "carbs": 23,
+    "fat": 8.4,
+    "fiber": 1.9,
+    "sugar": 1.4,
+    "sodium": 92,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with pickle Var51",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 172,
+    "protein": 7.7,
+    "carbs": 17,
+    "fat": 8.0,
+    "fiber": 2.4,
+    "sugar": 9.8,
+    "sodium": 235,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies stuffed Var52",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with curd Var53",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies grilled Var54",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies with curd Var55",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 172,
+    "protein": 7.7,
+    "carbs": 17,
+    "fat": 8.0,
+    "fiber": 2.4,
+    "sugar": 9.8,
+    "sodium": 235,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Granola Bar with Veggies stuffed Var56",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 172,
+    "protein": 7.7,
+    "carbs": 17,
+    "fat": 8.0,
+    "fiber": 2.4,
+    "sugar": 9.8,
+    "sodium": 235,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with sambar Var57",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 206,
+    "protein": 9.6,
+    "carbs": 23,
+    "fat": 8.4,
+    "fiber": 1.9,
+    "sugar": 1.4,
+    "sodium": 92,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chana Jor Garam with Veggies with raita Var58",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 189,
+    "protein": 9.1,
+    "carbs": 19,
+    "fat": 8.6,
+    "fiber": 1.9,
+    "sugar": 10.1,
+    "sodium": 188,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with curry Var59",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies grilled Var60",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies with sambar Var61",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with masala Var62",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with curd Var63",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with masala Var64",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with curry Var65",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Popcorn (30g) with Veggies with pickle Var66",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 214,
+    "protein": 7.3,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 2.1,
+    "sugar": 1.2,
+    "sodium": 142,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies grilled Var67",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies with masala Var68",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies with curry Var69",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with masala Var70",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with raita Var71",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts grilled Var72",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies with chutney Var73",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Low Sugar with salad Var74",
+    "servingSize": {
+      "amount": 75,
+      "unit": "g"
+    },
+    "calories": 206,
+    "protein": 9.6,
+    "carbs": 23,
+    "fat": 8.4,
+    "fiber": 1.9,
+    "sugar": 1.4,
+    "sodium": 92,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Veggies with raita Var75",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 226,
+    "protein": 10.9,
+    "carbs": 22,
+    "fat": 10.4,
+    "fiber": 2.6,
+    "sugar": 7.0,
+    "sodium": 89,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with pickle Var76",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Chana Jor Garam with Veggies with chutney Var77",
+    "servingSize": {
+      "amount": 50,
+      "unit": "g"
+    },
+    "calories": 189,
+    "protein": 9.1,
+    "carbs": 19,
+    "fat": 8.6,
+    "fiber": 1.9,
+    "sugar": 10.1,
+    "sodium": 188,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Idli (1) as snack with Veggies with curry Var78",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.8,
+    "carbs": 15,
+    "fat": 7.4,
+    "fiber": 3.8,
+    "sugar": 1.8,
+    "sodium": 61,
+    "category": "grains",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala with chutney Var79",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) with Nuts stuffed Var80",
+    "servingSize": {
+      "amount": 120,
+      "unit": "g"
+    },
+    "calories": 223,
+    "protein": 10.4,
+    "carbs": 21,
+    "fat": 11.0,
+    "fiber": 3.4,
+    "sugar": 2.3,
+    "sodium": 245,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with chutney Var81",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Banana with Veggies with sambar Var82",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 100,
+    "protein": 1.2,
+    "carbs": 23,
+    "fat": 0.3,
+    "fiber": 2.6,
+    "sugar": 12,
+    "sodium": 1,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Cucumber Sticks with Hummus with Veggies stuffed Var83",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 208,
+    "protein": 8.5,
+    "carbs": 22,
+    "fat": 9.5,
+    "fiber": 3.0,
+    "sugar": 5.5,
+    "sodium": 43,
+    "category": "protein",
+    "tags": [
+      "healthy",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) stuffed Var84",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) stuffed Var85",
+    "servingSize": {
+      "amount": 30,
+      "unit": "g"
+    },
+    "calories": 159,
+    "protein": 7.9,
+    "carbs": 16,
+    "fat": 7.0,
+    "fiber": 1.8,
+    "sugar": 3.9,
+    "sodium": 134,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Boiled Egg (1) Masala stuffed Var86",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 171,
+    "protein": 8.4,
+    "carbs": 17,
+    "fat": 7.6,
+    "fiber": 2.5,
+    "sugar": 4.7,
+    "sodium": 200,
+    "category": "protein",
+    "tags": [
+      "high-protein",
+      "non-vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies with raita Var87",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  },
+  {
+    "name": "Roasted Peanuts (30g) with Veggies with pickle Var88",
+    "servingSize": {
+      "amount": 100,
+      "unit": "g"
+    },
+    "calories": 186,
+    "protein": 6.3,
+    "carbs": 20,
+    "fat": 9.1,
+    "fiber": 1.4,
+    "sugar": 6.6,
+    "sodium": 125,
+    "category": "protein",
+    "tags": [
+      "high-fat",
+      "high-protein",
+      "non-vegetarian",
+      "vegetarian"
+    ],
+    "mealType": "snacks",
+    "goal": "maintain",
+    "isVerified": true,
+    "createdAt": "2025-10-03T09:41:15.270151Z",
+    "updatedAt": "2025-10-03T09:41:15.270151Z",
+    "type": "non-veg"
+  }
+]

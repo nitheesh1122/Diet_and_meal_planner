@@ -16,10 +16,10 @@ const getMealsByUser = async (req, res, next) => {
     const targetDate = date ? new Date(date) : new Date();
     let plan = await MealPlan.getOrCreate(userId, targetDate);
   plan = await plan.populate([
-    { path: 'meals.breakfast.food', select: 'name' },
-    { path: 'meals.lunch.food', select: 'name' },
-    { path: 'meals.dinner.food', select: 'name' },
-    { path: 'meals.snacks.food', select: 'name' }
+    { path: 'meals.breakfast.food', select: 'name servingSize category tags' },
+    { path: 'meals.lunch.food', select: 'name servingSize category tags' },
+    { path: 'meals.dinner.food', select: 'name servingSize category tags' },
+    { path: 'meals.snacks.food', select: 'name servingSize category tags' }
   ]);
 
   res.status(200).json({ success: true, data: plan });
@@ -71,10 +71,10 @@ const addMealForUser = async (req, res, next) => {
     plan.meals[mealType] = plan.meals[mealType].concat(builtItems);
     let saved = await plan.save();
   saved = await saved.populate([
-    { path: 'meals.breakfast.food', select: 'name' },
-    { path: 'meals.lunch.food', select: 'name' },
-    { path: 'meals.dinner.food', select: 'name' },
-    { path: 'meals.snacks.food', select: 'name' }
+    { path: 'meals.breakfast.food', select: 'name servingSize category tags' },
+    { path: 'meals.lunch.food', select: 'name servingSize category tags' },
+    { path: 'meals.dinner.food', select: 'name servingSize category tags' },
+    { path: 'meals.snacks.food', select: 'name servingSize category tags' }
   ]);
 
   res.status(200).json({ success: true, data: saved });
@@ -84,3 +84,34 @@ const addMealForUser = async (req, res, next) => {
 };
 
 module.exports = { getMealsByUser, addMealForUser };
+// @desc    Clear meals for a user for a given date (reset all meal items)
+// @route   DELETE /api/meals/:userId?date=YYYY-MM-DD
+// @access  Private (owner)
+const clearMealsByUser = async (req, res, next) => {
+  try {
+    const { userId } = req.params;
+    const { date } = req.query;
+    if (!req.user || req.user._id.toString() !== userId) {
+      return next(new ErrorResponse('Not authorized to clear meals for this user', 403));
+    }
+
+    const targetDate = date ? new Date(date) : new Date();
+    let plan = await MealPlan.getOrCreate(userId, targetDate);
+    plan.meals.breakfast = [];
+    plan.meals.lunch = [];
+    plan.meals.dinner = [];
+    plan.meals.snacks = [];
+    plan = await plan.save();
+    plan = await plan.populate([
+      { path: 'meals.breakfast.food', select: 'name' },
+      { path: 'meals.lunch.food', select: 'name' },
+      { path: 'meals.dinner.food', select: 'name' },
+      { path: 'meals.snacks.food', select: 'name' }
+    ]);
+    res.status(200).json({ success: true, data: plan });
+  } catch (err) {
+    next(err);
+  }
+};
+
+module.exports = { getMealsByUser, addMealForUser, clearMealsByUser };
