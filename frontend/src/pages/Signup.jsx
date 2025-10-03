@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 export default function Signup() {
   const { signup, loading } = useAuth()
   const [form, setForm] = React.useState({
-    name: '', email: '', password: '', age: 25, gender: 'male', height: 175, weight: 70, goal: 'maintain', activityLevel: 'moderate'
+    name: '', email: '', password: '', age: 25, gender: 'male', height: 175, weight: 70, goal: 'maintain', activityLevel: 'moderate', dietaryRestrictions: ['none']
   })
   const [error, setError] = React.useState('')
   const navigate = useNavigate()
@@ -56,6 +56,12 @@ export default function Signup() {
                   <MenuItem value="very_active">Very Active</MenuItem>
                 </TextField>
               </Stack>
+              <TextField select label="Dietary Preference" name="dietaryRestrictions" value={form.dietaryRestrictions[0]} onChange={(e) => setForm({ ...form, dietaryRestrictions: [e.target.value] })}>
+                <MenuItem value="none">No restrictions</MenuItem>
+                <MenuItem value="vegetarian">Vegetarian</MenuItem>
+                <MenuItem value="vegan">Vegan</MenuItem>
+                <MenuItem value="non-vegetarian">Non-vegetarian</MenuItem>
+              </TextField>
               {error && <Typography color="error" variant="body2">{error}</Typography>}
               <Button variant="contained" type="submit" disabled={loading}>Create Account</Button>
             </Stack>

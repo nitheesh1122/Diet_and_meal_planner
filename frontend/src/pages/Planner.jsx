@@ -4,6 +4,7 @@ import { jsPDF } from 'jspdf'
 import FoodSearchDialog from '../components/FoodSearchDialog'
 import RecommendationsDialog from '../components/RecommendationsDialog'
 import GeneratePlanDialog from '../components/GeneratePlanDialog'
+import FoodDetailDrawer from '../components/FoodDetailDrawer'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../utils/api'
 
@@ -13,28 +14,48 @@ export default function Planner() {
   const [open, setOpen] = React.useState(false)
   const [openRec, setOpenRec] = React.useState(false)
   const [openGen, setOpenGen] = React.useState(false)
-  const [plan, setPlan] = React.useState(null)
+  const [drawerOpen, setDrawerOpen] = React.useState(false)
+  const [selectedFood, setSelectedFood] = React.useState(null)
   const today = new Date().toISOString().slice(0,10)
   const [selectedDate, setSelectedDate] = React.useState(today)
   const [recs, setRecs] = React.useState([])
   const mealTypes = ['breakfast','lunch','dinner','snacks']
+  const [plan, setPlan] = React.useState(null)
 
-  const load = async () => {
+  const load = React.useCallback(async () => {
+    if (!user) return
     const data = await api.getMeals(user._id, selectedDate)
     setPlan(data)
+    // notify other components to refresh summaries
+    window.dispatchEvent(new Event('plan-updated'))
+  }, [user, selectedDate])
+
+  React.useEffect(() => {
+    if (user) load()
+  }, [user, selectedDate, load])
+
+  const onSelectFood = (food) => {
+    setSelectedFood(food)
+    setDrawerOpen(true)
+  }
+  const addFromDrawer = async ({ mealType, foodId, quantity, servingSize, calories, protein, carbs, fat }) => {
+    const payload = { date: selectedDate, mealType, items: [{ foodId, quantity, servingSize, calories, protein, carbs, fat }] }
+    await api.addMeal(user._id, payload)
+    setDrawerOpen(false)
+    setOpen(false)
+    await load()
+    window.dispatchEvent(new Event('plan-updated'))
   }
 
-  React.useEffect(() => { if (user) load() }, [user, selectedDate])
-
-  const addFood = async (food) => {
-    const payload = { date: selectedDate, mealType: mealTypes[tab], items: [{ foodId: food._id, quantity: 1 }] }
-    await api.addMeal(user._id, payload)
-    setOpen(false)
-    load()
+  const onClearDay = async () => {
+    if (!user) return
+    await api.clearMeals(user._id, selectedDate)
+    await load()
+    window.dispatchEvent(new Event('plan-updated'))
   }
 
   const openRecommendations = async () => {
-    const items = await api.recommendations(user._id, selectedDate, 12)
+    const items = await api.recommendations(user._id, selectedDate, 12, { mealType: mealTypes[tab], goal: user?.goal })
     setRecs(items)
     setOpenRec(true)
   }
@@ -48,6 +69,7 @@ export default function Planner() {
     })
     // Refresh today's plan after generation
     await load()
+    window.dispatchEvent(new Event('plan-updated'))
   }
 
   const downloadPDF = () => {
@@ -99,6 +121,7 @@ export default function Planner() {
         <Stack direction="row" justifyContent="space-between" alignItems="center">
           <Typography variant="h6">Meal Planner</Typography>
           <Stack direction="row" spacing={1}>
+            <Button variant="outlined" color="error" onClick={onClearDay}>Clear Day</Button>
             <Button variant="outlined" onClick={() => setOpenGen(true)}>Generate Plan</Button>
             <Button variant="outlined" onClick={openRecommendations}>Get Recommendations</Button>
             <Button variant="outlined" onClick={downloadPDF} disabled={!plan}>Download PDF</Button>
@@ -118,9 +141,10 @@ export default function Planner() {
           ))}
         </Stack>
       </CardContent>
-      <FoodSearchDialog open={open} onClose={()=>setOpen(false)} onSelect={addFood} />
-      <RecommendationsDialog open={openRec} onClose={()=>setOpenRec(false)} items={recs} onAdd={(f)=>{ addFood(f); setOpenRec(false); }} />
+      <FoodSearchDialog open={open} onClose={()=>setOpen(false)} onSelect={onSelectFood} mealType={mealTypes[tab]} goal={user?.goal} />
+      <RecommendationsDialog open={openRec} onClose={()=>setOpenRec(false)} items={recs} onAdd={(f)=>{ onSelectFood(f); }} />
       <GeneratePlanDialog open={openGen} onClose={()=>setOpenGen(false)} onGenerate={onGenerate} />
+      <FoodDetailDrawer open={drawerOpen} onClose={()=>setDrawerOpen(false)} food={selectedFood} onAdd={addFromDrawer} />
     </Card>
   )
 }

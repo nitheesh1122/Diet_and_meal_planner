@@ -25,6 +25,8 @@ export function AuthProvider({ children }) {
     try {
       const res = await axios.post('/api/auth/login', { email, password })
       setToken(res.data.token)
+      // Apply Authorization header immediately to avoid race before useEffect runs
+      axios.defaults.headers.common['Authorization'] = `Bearer ${res.data.token}`
       setUser(res.data.data)
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('user', JSON.stringify(res.data.data))
@@ -41,6 +43,8 @@ export function AuthProvider({ children }) {
     try {
       const res = await axios.post('/api/auth/signup', payload)
       setToken(res.data.token)
+      // Apply Authorization header immediately to avoid race before useEffect runs
+      axios.defaults.headers.common['Authorization'] = `Bearer ${res.data.token}`
       setUser(res.data.data)
       localStorage.setItem('token', res.data.token)
       localStorage.setItem('user', JSON.stringify(res.data.data))

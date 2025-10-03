@@ -7,15 +7,20 @@ export default function MacroBar() {
   const { user } = useAuth()
   const [today, setToday] = React.useState(null)
 
-  React.useEffect(() => {
-    const load = async () => {
-      if (!user) return
-      const date = new Date().toISOString().slice(0,10)
-      const plan = await api.getMeals(user._id, date)
-      setToday(plan)
-    }
-    load()
+  const load = React.useCallback(async () => {
+    if (!user) return
+    const date = new Date().toISOString().slice(0,10)
+    const plan = await api.getMeals(user._id, date)
+    setToday(plan)
   }, [user])
+
+  React.useEffect(() => { load() }, [load])
+
+  React.useEffect(() => {
+    const handler = () => { load() }
+    window.addEventListener('plan-updated', handler)
+    return () => window.removeEventListener('plan-updated', handler)
+  }, [load])
 
   if (!user) return null
 

@@ -3,6 +3,8 @@ import { AppBar, Toolbar, Typography, IconButton, Button, Box, Drawer, List, Lis
 import MenuIcon from '@mui/icons-material/Menu'
 import { Link as RouterLink, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import NotificationBell from './NotificationBell'
+import NotificationDrawer from './NotificationDrawer'
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = React.useState(false)
@@ -31,8 +33,10 @@ export default function Navbar() {
                 <Button color={location.pathname==='/'?'secondary':'inherit'} component={RouterLink} to="/">Dashboard</Button>
                 <Button color={location.pathname==='/planner'?'secondary':'inherit'} component={RouterLink} to="/planner">Planner</Button>
                 <Button color={location.pathname==='/progress'?'secondary':'inherit'} component={RouterLink} to="/progress">Progress</Button>
+                <Button color={location.pathname==='/recipes'?'secondary':'inherit'} component={RouterLink} to="/recipes">Recipes</Button>
                 <Button color={location.pathname==='/grocery'?'secondary':'inherit'} component={RouterLink} to="/grocery">Grocery</Button>
                 <Button color={location.pathname==='/settings'?'secondary':'inherit'} component={RouterLink} to="/settings">Settings</Button>
+                <NotificationBell />
               </>
             )}
             {token ? (
@@ -53,6 +57,7 @@ export default function Navbar() {
               <ListItemButton component={RouterLink} to="/"><ListItemText primary="Dashboard" /></ListItemButton>
               <ListItemButton component={RouterLink} to="/planner"><ListItemText primary="Planner" /></ListItemButton>
               <ListItemButton component={RouterLink} to="/progress"><ListItemText primary="Progress" /></ListItemButton>
+              <ListItemButton component={RouterLink} to="/recipes"><ListItemText primary="Recipes" /></ListItemButton>
               <ListItemButton component={RouterLink} to="/grocery"><ListItemText primary="Grocery" /></ListItemButton>
               <ListItemButton component={RouterLink} to="/settings"><ListItemText primary="Settings" /></ListItemButton>
               <Divider sx={{ my: 1 }} />
@@ -66,6 +71,7 @@ export default function Navbar() {
           )}
         </Box>
       </Drawer>
+      <NotificationDrawer />
     </>
   )
 }

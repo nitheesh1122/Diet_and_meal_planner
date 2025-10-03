@@ -11,6 +11,7 @@ import Planner from './pages/Planner'
 import Progress from './pages/Progress'
 import GroceryList from './pages/GroceryList'
 import Settings from './pages/Settings'
+import Recipes from './pages/Recipes'
 import { useAuth } from './context/AuthContext'
 
 function PrivateRoute({ children }) {
@@ -54,6 +55,7 @@ export default function App() {
             <Route path="/progress" element={<PrivateRoute><PageTransition><Progress /></PageTransition></PrivateRoute>} />
             <Route path="/settings" element={<PrivateRoute><PageTransition><Settings /></PageTransition></PrivateRoute>} />
             <Route path="/grocery" element={<PrivateRoute><PageTransition><GroceryList /></PageTransition></PrivateRoute>} />
+            <Route path="/recipes" element={<PrivateRoute><PageTransition><Recipes /></PageTransition></PrivateRoute>} />
           </Routes>
         </AnimatePresence>
       </Container>

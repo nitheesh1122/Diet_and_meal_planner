@@ -2,37 +2,35 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import App from './App'
-import { CssBaseline, ThemeProvider, createTheme } from '@mui/material'
+import { CssBaseline, ThemeProvider } from '@mui/material'
 import { AuthProvider } from './context/AuthContext'
+import { NotificationProvider } from './context/NotificationContext'
+import { getAppTheme } from './theme'
+import { ThemeModeProvider, useThemeMode } from './context/ThemeModeContext'
 import './index.css'
 
-const baseTheme = () => createTheme({
-  palette: {
-    mode: 'light',
-    primary: { main: '#1976d2' }, // blue
-    secondary: { main: '#0288d1' },
-    background: { default: '#ffffff', paper: '#ffffff' }
-  },
-  shape: { borderRadius: 12 },
-  components: {
-    MuiCard: { styleOverrides: { root: { border: '1px solid #eaecef' } } },
-    MuiAppBar: { styleOverrides: { root: { backgroundColor: '#ffffff', color: '#0d47a1' } } },
-    MuiButton: { styleOverrides: { root: { textTransform: 'none', fontWeight: 600 } } }
-  }
-})
-
-function Root() {
-  const theme = React.useMemo(() => baseTheme(), [])
-
+const ThemedApp = () => {
+  const { mode } = useThemeMode()
+  const theme = React.useMemo(() => getAppTheme(mode), [mode])
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AuthProvider>
-        <BrowserRouter>
-          <App />
-        </BrowserRouter>
+        <NotificationProvider>
+          <BrowserRouter>
+            <App />
+          </BrowserRouter>
+        </NotificationProvider>
       </AuthProvider>
     </ThemeProvider>
+  )
+}
+
+function Root() {
+  return (
+    <ThemeModeProvider>
+      <ThemedApp />
+    </ThemeModeProvider>
   )
 }
 

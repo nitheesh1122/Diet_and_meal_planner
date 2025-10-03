@@ -30,12 +30,20 @@ export default function Progress() {
       <Card>
         <CardContent>
           <Typography variant="h6" gutterBottom>Weight Progress</Typography>
+          <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+            Track your weight over time to monitor progress towards your goals.
+          </Typography>
           <div style={{ width: '100%', height: 300 }}>
             <ResponsiveContainer>
               <LineChart data={chartData} margin={{ top: 10, right: 20, bottom: 0, left: -20 }}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" />
-                <YAxis />
+                <XAxis 
+                  dataKey="date" 
+                  label={{ value: 'Date', position: 'insideBottom', offset: -5 }} 
+                />
+                <YAxis 
+                  label={{ value: 'Weight (kg)', angle: -90, position: 'insideLeft' }} 
+                />
                 <Tooltip />
                 <Line type="monotone" dataKey="weight" stroke="#1976d2" strokeWidth={2} dot={false} />
               </LineChart>
