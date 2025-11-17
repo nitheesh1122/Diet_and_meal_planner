@@ -34,64 +34,171 @@ async function importFoods() {
       console.log('  Index sync note:', e.message);
     }
 
-    // Purge old seeded dataset (keep custom)
-    const purge = await Food.deleteMany({ isCustom: false });
-    console.log(`  Purged ${purge.deletedCount} existing seeded foods.`);
+    // Delete ALL foods from database (complete reset)
+    const purge = await Food.deleteMany({});
+    console.log(`  ✅ Deleted ${purge.deletedCount} existing foods from database.`);
 
     const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
+    console.log(`  📁 Found ${files.length} JSON file(s) to import.`);
+    
+    if (files.length === 0) {
+      console.log('  ⚠️  No JSON files found in data directory!');
+      return;
+    }
+
     let foods = [];
+    let totalProcessed = 0;
 
     for (const file of files) {
       const full = path.join(dataDir, file);
-      const raw = fs.readFileSync(full, 'utf-8');
-      const arr = JSON.parse(raw);
       const source = path.basename(file, '.json');
-      const autoTags = [];
-      // infer mealType from filename
-      let mealType = null;
-      if (/breakfast/i.test(source)) mealType = 'breakfast';
-      else if (/lunch/i.test(source)) mealType = 'lunch';
-      else if (/dinner/i.test(source)) mealType = 'dinner';
-      else if (/snack|snacks/i.test(source)) mealType = 'snacks';
-      // infer goal from filename
-      let goal = null;
-      if (/lose/i.test(source)) goal = 'lose';
-      else if (/maintain/i.test(source)) goal = 'maintain';
-      else if (/gain/i.test(source)) goal = 'gain';
-      // infer dietaryType from filename
-      let dietaryType = null;
-      if (source.includes('_veg') || source.includes('-veg')) dietaryType = 'vegetarian';
-      else if (source.includes('_nonveg') || source.includes('-nonveg')) dietaryType = 'non-vegetarian';
-      else dietaryType = 'vegetarian'; // default fallback
+      console.log(`  📄 Processing: ${file}...`);
+      
+      try {
+        const raw = fs.readFileSync(full, 'utf-8');
+        const arr = JSON.parse(raw);
+        console.log(`    Found ${arr.length} items in ${file}`);
+        
+        // Infer goal from filename (maintain, lose, gain)
+        let goalFromFilename = null;
+        if (/lose/i.test(source)) goalFromFilename = 'lose';
+        else if (/maintain/i.test(source)) goalFromFilename = 'maintain';
+        else if (/gain/i.test(source)) goalFromFilename = 'gain';
 
-      for (const item of arr) {
-        // immutable/internal fields
-        delete item._id; delete item.__v; delete item.createdAt; delete item.updatedAt;
-        // dataset flags
-        item.isCustom = false;
-        item.source = source;
-        if (!item.tags) item.tags = [];
-        // merge inferred tags
-        item.tags = Array.from(new Set([...(item.tags||[]), ...autoTags]));
-        // attach mealType and goal inferred from filename unless explicitly provided
-        if (!item.mealType && mealType) item.mealType = mealType;
-        if (!item.goal && goal) item.goal = goal;
-        if (!item.dietaryType && dietaryType) item.dietaryType = dietaryType;
+        for (const item of arr) {
+          // Remove immutable/internal fields
+          delete item._id; 
+          delete item.__v; 
+          delete item.createdAt; 
+          delete item.updatedAt;
+          delete item.type; // Remove old 'type' field if present
+          
+          // Set dataset flags
+          item.isCustom = false;
+          item.source = source;
+          
+          // Ensure tags array exists
+          if (!item.tags) item.tags = [];
+          
+          // Set goal: use item's goal if present, otherwise infer from filename
+          if (!item.goal && goalFromFilename) {
+            item.goal = goalFromFilename;
+          }
+          
+          // Validate required fields
+          if (!item.name) {
+            console.warn(`    ⚠️  Skipping item without name`);
+            continue;
+          }
+          
+          if (!item.mealType) {
+            console.warn(`    ⚠️  Skipping "${item.name}" - missing mealType`);
+            continue;
+          }
+          
+          if (!item.dietaryType) {
+            console.warn(`    ⚠️  Skipping "${item.name}" - missing dietaryType`);
+            continue;
+          }
+          
+          // Normalize dietaryType values
+          if (item.dietaryType === 'veg' || item.dietaryType === 'vegetarian') {
+            item.dietaryType = 'vegetarian';
+          } else if (item.dietaryType === 'nonveg' || item.dietaryType === 'non-vegetarian') {
+            item.dietaryType = 'non-vegetarian';
+          } else if (item.dietaryType === 'vegan') {
+            item.dietaryType = 'vegan';
+          }
+          
+          // Normalize mealType values
+          if (item.mealType === 'snack') {
+            item.mealType = 'snacks';
+          }
+          
+          // Fix category field - JSON has mealType values in category field
+          // Map invalid categories to valid enum values
+          const validCategories = ['dairy', 'protein', 'grains', 'fruits', 'vegetables', 'fats', 'sweets', 'beverages', 'other'];
+          if (item.category && !validCategories.includes(item.category.toLowerCase())) {
+            // If category is a mealType value, set to 'other' and keep mealType separate
+            if (['breakfast', 'lunch', 'dinner', 'snacks'].includes(item.category.toLowerCase())) {
+              item.category = 'other';
+            } else {
+              // Try to infer category from name or set to 'other'
+              const nameLower = item.name.toLowerCase();
+              if (nameLower.includes('milk') || nameLower.includes('cheese') || nameLower.includes('yogurt') || nameLower.includes('paneer')) {
+                item.category = 'dairy';
+              } else if (nameLower.includes('chicken') || nameLower.includes('fish') || nameLower.includes('egg') || nameLower.includes('meat')) {
+                item.category = 'protein';
+              } else if (nameLower.includes('rice') || nameLower.includes('wheat') || nameLower.includes('roti') || nameLower.includes('bread') || nameLower.includes('dal') || nameLower.includes('lentil')) {
+                item.category = 'grains';
+              } else if (nameLower.includes('fruit') || nameLower.includes('banana') || nameLower.includes('apple') || nameLower.includes('orange')) {
+                item.category = 'fruits';
+              } else if (nameLower.includes('vegetable') || nameLower.includes('sabzi') || nameLower.includes('curry')) {
+                item.category = 'vegetables';
+              } else {
+                item.category = 'other';
+              }
+            }
+          } else if (!item.category) {
+            item.category = 'other';
+          } else {
+            item.category = item.category.toLowerCase();
+          }
+          
+          foods.push(item);
+          totalProcessed++;
+        }
+      } catch (err) {
+        console.error(`    ❌ Error processing ${file}:`, err.message);
       }
-      foods = foods.concat(arr);
     }
 
-    // upsert by name + mealType + goal + dietaryType (nulls allowed)
+    console.log(`  📊 Total items processed: ${totalProcessed}`);
+    console.log(`  💾 Inserting foods into database...`);
+
+    // Insert all foods - use a unique combination to avoid duplicates
+    // Include servingSize in the filter to handle same name but different portions
+    let inserted = 0;
+    let updated = 0;
+    let skipped = 0;
+    
     for (const f of foods) {
-      const filter = { name: f.name };
-      filter.mealType = f.mealType ? f.mealType : null;
-      filter.goal = f.goal ? f.goal : null;
-      filter.dietaryType = f.dietaryType ? f.dietaryType : null;
-      await Food.updateOne(filter, { $set: f }, { upsert: true });
+      // Create a more unique filter that includes serving size to distinguish similar items
+      const filter = { 
+        name: f.name,
+        mealType: f.mealType || null,
+        goal: f.goal || null,
+        dietaryType: f.dietaryType || null,
+        'servingSize.amount': f.servingSize?.amount || null,
+        'servingSize.unit': f.servingSize?.unit || null
+      };
+      
+      // Check if this exact combination already exists
+      const existing = await Food.findOne(filter);
+      if (existing) {
+        // Update existing with latest data (including ingredients/recipe)
+        await Food.updateOne(filter, { $set: f });
+        updated++;
+      } else {
+        // Insert new food
+        await Food.create(f);
+        inserted++;
+      }
     }
-    console.log(`  Inserted/updated ${foods.length} foods from ${files.length} file(s). Meal types and goals inferred from filenames.`);
+    
+    console.log(`  ✅ Successfully inserted ${inserted} new foods.`);
+    if (updated > 0) {
+      console.log(`  ✅ Updated ${updated} existing foods.`);
+    }
+    const totalInDb = await Food.countDocuments({});
+    console.log(`  📈 Total foods in database: ${totalInDb}`);
+    
+    if (totalInDb < totalProcessed) {
+      console.log(`  ⚠️  Warning: ${totalProcessed - totalInDb} items may have been duplicates or failed to insert.`);
+    }
   } catch (err) {
-    console.error('  Error importing foods:', err.message);
+    console.error('  ❌ Error importing foods:', err.message);
+    throw err;
   }
 }
 

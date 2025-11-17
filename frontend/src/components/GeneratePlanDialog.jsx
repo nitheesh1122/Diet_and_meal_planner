@@ -10,7 +10,7 @@ export default function GeneratePlanDialog({ open, onClose, onGenerate }) {
   const submit = async () => {
     setSubmitting(true)
     try {
-      await onGenerate({ startDate, span })
+      await onGenerate({ startDate, span, sources: ['general'] })
       onClose()
     } finally {
       setSubmitting(false)

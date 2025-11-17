@@ -17,7 +17,9 @@ const getProgressByUser = async (req, res, next) => {
       progress = await Progress.create({ userId, entries: [] });
     }
 
-    res.status(200).json({ success: true, data: progress });
+    // Convert to JSON to include virtuals
+    const progressData = progress.toJSON({ virtuals: true });
+    res.status(200).json({ success: true, data: progressData });
   } catch (err) {
     next(err);
   }
@@ -49,10 +51,50 @@ const addProgressEntry = async (req, res, next) => {
     });
 
     const saved = await progress.save();
-    res.status(201).json({ success: true, data: saved });
+    const savedData = saved.toJSON({ virtuals: true });
+    res.status(201).json({ success: true, data: savedData });
   } catch (err) {
     next(err);
   }
 };
 
-module.exports = { getProgressByUser, addProgressEntry };
+// @desc    Update progress goal
+// @route   PUT /api/progress/:userId/goal
+// @access  Private (owner)
+const updateProgressGoal = async (req, res, next) => {
+  try {
+    const { userId } = req.params;
+    const { goalWeight, targetDate } = req.body;
+
+    if (!req.user || req.user._id.toString() !== userId) {
+      return next(new ErrorResponse('Not authorized to update this resource', 403));
+    }
+
+    let progress = await Progress.findOne({ userId });
+    if (!progress) {
+      progress = await Progress.create({ userId, entries: [] });
+    }
+
+    progress.goalWeight = {
+      weight: goalWeight,
+      targetDate: targetDate ? new Date(targetDate) : undefined
+    };
+
+    // If starting weight is not set and we have entries, set it
+    if (!progress.startingWeight && progress.entries && progress.entries.length > 0) {
+      const sortedEntries = [...progress.entries].sort((a, b) => a.date - b.date);
+      progress.startingWeight = {
+        weight: sortedEntries[0].weight,
+        date: sortedEntries[0].date
+      };
+    }
+
+    const saved = await progress.save();
+    const savedData = saved.toJSON({ virtuals: true });
+    res.status(200).json({ success: true, data: savedData });
+  } catch (err) {
+    next(err);
+  }
+};
+
+module.exports = { getProgressByUser, addProgressEntry, updateProgressGoal };

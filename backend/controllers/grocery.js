@@ -25,10 +25,10 @@ async function getGroceryList(req, res, next) {
       userId,
       date: { $gte: start, $lte: end }
     }).populate([
-      { path: 'meals.breakfast.food', select: 'name servingSize category' },
-      { path: 'meals.lunch.food', select: 'name servingSize category' },
-      { path: 'meals.dinner.food', select: 'name servingSize category' },
-      { path: 'meals.snacks.food', select: 'name servingSize category' }
+      { path: 'meals.breakfast.food', select: 'name servingSize category ingredients recipe preparation' },
+      { path: 'meals.lunch.food', select: 'name servingSize category ingredients recipe preparation' },
+      { path: 'meals.dinner.food', select: 'name servingSize category ingredients recipe preparation' },
+      { path: 'meals.snacks.food', select: 'name servingSize category ingredients recipe preparation' }
     ]);
 
     // Simple unit normalization
@@ -148,13 +148,43 @@ async function getGroceryList(req, res, next) {
       ['breakfast','lunch','dinner','snacks'].forEach(type => {
         (p.meals[type] || []).forEach((it) => {
           if (!it || !it.food) return;
-          const base = toBase(it.servingSize?.unit, it.servingSize?.amount);
           const qty = Number(it.quantity || 1);
-          const ings = ingredientsFor(it.food.name, it.food.category, it.food.tags, base);
-          for (const ing of ings) {
-            // normalize ingredient units
+          
+          // Use ingredients from database if available, otherwise fall back to heuristic
+          let ingredients = [];
+          
+          // Check if food has ingredients array
+          // Handle both Mongoose document and plain object
+          const food = it.food?.toObject ? it.food.toObject() : it.food;
+          const foodIngredients = food?.ingredients;
+          
+          // Debug: log if ingredients are missing (remove in production)
+          if (!foodIngredients || !Array.isArray(foodIngredients) || foodIngredients.length === 0) {
+            console.log(`[Grocery] Food "${food?.name || it.food?.name}" has no ingredients, using heuristic`);
+          }
+          
+          if (foodIngredients && Array.isArray(foodIngredients) && foodIngredients.length > 0) {
+            // Use actual ingredients from database
+            ingredients = foodIngredients.map(ing => {
+              // Handle both Mongoose subdocument and plain object
+              const ingObj = ing.toObject ? ing.toObject() : ing;
+              return {
+                name: ingObj.name || 'Unknown',
+                unit: ingObj.unit || 'g',
+                amount: Number(ingObj.amount || 0),
+                category: ingObj.category || 'other'
+              };
+            });
+          } else {
+            // Fallback to heuristic for foods without ingredient data
+            const base = toBase(it.servingSize?.unit, it.servingSize?.amount);
+            ingredients = ingredientsFor(food?.name || it.food?.name, food?.category || it.food?.category, food?.tags || it.food?.tags || [], base);
+          }
+          
+          // Scale ingredients by quantity and add to grocery list
+          for (const ing of ingredients) {
             const b = toBase(ing.unit, ing.amount);
-            pushIng(ing.name, b.unit, (b.amount || 0) * qty, ing.category, type);
+            pushIng(ing.name, b.unit, (b.amount || 0) * qty, ing.category || 'other', type);
           }
         });
       })

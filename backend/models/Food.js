@@ -102,6 +102,14 @@ const foodSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  ingredients: [{
+    name: String,
+    amount: Number,
+    unit: String,
+    category: String
+  }],
+  preparation: String,
+  recipe: String,
   createdAt: {
     type: Date,
     default: Date.now

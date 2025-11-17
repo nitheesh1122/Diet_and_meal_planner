@@ -52,10 +52,21 @@ async function generatePlans(req, res, next) {
       const splits = { breakfast: 0.25, lunch: 0.35, dinner: 0.30, snacks: 0.10 };
 
       // Track foods already present in this day's plan to avoid duplicates within the day
+      // Also track per meal type to prevent duplicates within the same meal type
       const usedDay = new Set();
+      const usedPerMealType = {
+        breakfast: new Set(),
+        lunch: new Set(),
+        dinner: new Set(),
+        snacks: new Set()
+      };
+      
       mealTypes.forEach(type => {
         for (const it of (plan.meals[type] || [])) {
-          if (it && it.food) usedDay.add(String(it.food));
+          if (it && it.food) {
+            usedDay.add(String(it.food));
+            usedPerMealType[type].add(String(it.food));
+          }
         }
       });
 
@@ -107,8 +118,17 @@ async function generatePlans(req, res, next) {
           });
         }
 
-        // Filter out duplicates for the day/run
-        pool = pool.filter(f => f && f._id && !usedDay.has(String(f._id)) && !usedGlobal.has(String(f._id)));
+        // Filter out duplicates: not used in this meal type, not used in the day, and not used globally
+        pool = pool.filter(f => {
+          if (!f || !f._id) return false;
+          const foodId = String(f._id);
+          // Prevent duplicates within the same meal type
+          if (usedPerMealType[type].has(foodId)) return false;
+          // Also check day and global to diversify
+          if (usedDay.has(foodId)) return false;
+          if (usedGlobal.has(foodId)) return false;
+          return true;
+        });
         // Sort ascending calories for greedy fit
         pool.sort((a,b) => (a.calories||0) - (b.calories||0));
 
@@ -127,6 +147,7 @@ async function generatePlans(req, res, next) {
               fat: f.fat
             });
             usedDay.add(String(f._id));
+            usedPerMealType[type].add(String(f._id));
             usedGlobal.add(String(f._id));
             remain -= kcal;
             added.push(f);
@@ -134,6 +155,132 @@ async function generatePlans(req, res, next) {
           if (added.length >= 4) break; // keep each meal concise
         }
         totalAdded += added.length;
+      }
+
+      // After initial generation, check nutrition gaps and fill them
+      await plan.save();
+
+      // Calculate current totals (no need to populate - values are already in meal items)
+      const calculateTotals = (mealType) => {
+        return (plan.meals[mealType] || []).reduce((acc, item) => {
+          const qty = item.quantity || 1;
+          return {
+            calories: acc.calories + (item.calories || 0) * qty,
+            protein: acc.protein + (item.protein || 0) * qty,
+            carbs: acc.carbs + (item.carbs || 0) * qty,
+            fat: acc.fat + (item.fat || 0) * qty
+          };
+        }, { calories: 0, protein: 0, carbs: 0, fat: 0 });
+      };
+
+      const breakfastTotals = calculateTotals('breakfast');
+      const lunchTotals = calculateTotals('lunch');
+      const dinnerTotals = calculateTotals('dinner');
+      const snacksTotals = calculateTotals('snacks');
+      
+      const currentTotals = {
+        calories: breakfastTotals.calories + lunchTotals.calories + dinnerTotals.calories + snacksTotals.calories,
+        protein: breakfastTotals.protein + lunchTotals.protein + dinnerTotals.protein + snacksTotals.protein,
+        carbs: breakfastTotals.carbs + lunchTotals.carbs + dinnerTotals.carbs + snacksTotals.carbs,
+        fat: breakfastTotals.fat + lunchTotals.fat + dinnerTotals.fat + snacksTotals.fat
+      };
+
+      // Get user's nutrition goals (dailyGoal already declared above)
+      const proteinGoal = user.dailyProteinGoal || Math.round((dailyGoal * 0.30) / 4);
+      const carbsGoal = user.dailyCarbsGoal || Math.round((dailyGoal * 0.40) / 4);
+      const fatGoal = user.dailyFatGoal || Math.round((dailyGoal * 0.30) / 9);
+
+      // Calculate gaps (allow 5% tolerance)
+      const gaps = {
+        calories: Math.max(0, dailyGoal * 0.95 - currentTotals.calories),
+        protein: Math.max(0, proteinGoal * 0.95 - currentTotals.protein),
+        carbs: Math.max(0, carbsGoal * 0.95 - currentTotals.carbs),
+        fat: Math.max(0, fatGoal * 0.95 - currentTotals.fat)
+      };
+
+      // If there are significant gaps, add more foods
+      const hasSignificantGap = gaps.calories > 100 || gaps.protein > 10 || gaps.carbs > 10 || gaps.fat > 5;
+      
+      if (hasSignificantGap) {
+        // Determine which meal type needs more food (prioritize snacks, then dinner)
+        const mealTypePriority = ['snacks', 'dinner', 'lunch', 'breakfast'];
+        
+        for (const type of mealTypePriority) {
+          if (gaps.calories <= 50) break; // Stop if gap is small
+          
+          // Get a fresh pool for this meal type
+          let pool = await Food.find({ mealType: type, goal: user.goal })
+            .select('name calories protein carbs fat servingSize category dietaryType')
+            .limit(200)
+            .lean();
+          
+          if (!pool || pool.length === 0) {
+            pool = await Food.find({ mealType: type })
+              .select('name calories protein carbs fat servingSize category dietaryType')
+              .limit(200)
+              .lean();
+          }
+
+          // Filter based on dietary restrictions
+          const userDietaryRestrictions = user.preferences?.dietaryRestrictions || ['none'];
+          if (!userDietaryRestrictions.includes('none')) {
+            pool = pool.filter(food => {
+              if (userDietaryRestrictions.includes('vegetarian')) {
+                return food.dietaryType === 'vegetarian' || food.dietaryType === 'vegan';
+              }
+              if (userDietaryRestrictions.includes('vegan')) {
+                return food.dietaryType === 'vegan';
+              }
+              return true;
+            });
+          }
+
+          // Filter out duplicates
+          pool = pool.filter(f => {
+            if (!f || !f._id) return false;
+            const foodId = String(f._id);
+            return !usedPerMealType[type].has(foodId) && !usedDay.has(foodId);
+          });
+
+          // Sort by how well they fill the gaps (prioritize foods that help with multiple gaps)
+          pool.sort((a, b) => {
+            const scoreA = (a.calories || 0) + (a.protein || 0) * 4 + (a.carbs || 0) * 4 + (a.fat || 0) * 9;
+            const scoreB = (b.calories || 0) + (b.protein || 0) * 4 + (b.carbs || 0) * 4 + (b.fat || 0) * 9;
+            return scoreB - scoreA; // Higher score first
+          });
+
+          // Add foods to fill gaps
+          let addedForGaps = 0;
+          for (const f of pool) {
+            if (gaps.calories <= 50) break;
+            if (addedForGaps >= 2) break; // Limit additions per meal type
+            
+            const kcal = f.calories || 0;
+            if (kcal > 0 && kcal <= gaps.calories + 200) { // Allow slight overage
+              plan.meals[type].push({
+                food: f._id,
+                quantity: 1,
+                servingSize: f.servingSize,
+                calories: f.calories,
+                protein: f.protein,
+                carbs: f.carbs,
+                fat: f.fat
+              });
+              
+              usedDay.add(String(f._id));
+              usedPerMealType[type].add(String(f._id));
+              usedGlobal.add(String(f._id));
+              
+              gaps.calories = Math.max(0, gaps.calories - kcal);
+              gaps.protein = Math.max(0, gaps.protein - (f.protein || 0));
+              gaps.carbs = Math.max(0, gaps.carbs - (f.carbs || 0));
+              gaps.fat = Math.max(0, gaps.fat - (f.fat || 0));
+              
+              addedForGaps++;
+              totalAdded++;
+            }
+          }
+        }
       }
 
       await plan.save();

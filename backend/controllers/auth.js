@@ -7,7 +7,21 @@ const generateToken = require('../utils/generateToken');
 // @access  Public
 const registerUser = async (req, res, next) => {
   try {
-    const { name, email, password, age, gender, height, weight, goal, activityLevel, dietaryRestrictions } = req.body;
+    const { 
+      name, 
+      email, 
+      password, 
+      age, 
+      phoneNumber,
+      gender, 
+      height, 
+      weight, 
+      weightLevel,
+      goal, 
+      activityLevel, 
+      dietaryRestrictions,
+      macroRatio
+    } = req.body;
 
     // Check if user exists
     const userExists = await User.findOne({ email });
@@ -21,17 +35,25 @@ const registerUser = async (req, res, next) => {
       email,
       password,
       age,
+      phoneNumber,
       gender,
       height,
       weight,
+      weightLevel,
       goal,
       activityLevel,
+      macroRatio: macroRatio || {
+        protein: 30,
+        carbs: 40,
+        fats: 30
+      },
       preferences: {
         dietaryRestrictions: dietaryRestrictions || ['none']
       }
     });
 
-    // Calculate daily calorie needs
+    // Calculate BMI and daily calorie needs
+    user.calculateBMI();
     user.calculateDailyCalories();
     await user.save();
 
@@ -94,7 +116,7 @@ const getMe = async (req, res, next) => {
 // @access  Private
 const updateUserProfile = async (req, res, next) => {
   try {
-    const { name, email, age, gender, height, weight } = req.body;
+    const { name, email, age, gender, height, weight, phoneNumber, macroRatio } = req.body;
     
     const user = await User.findById(req.user.id);
     
@@ -109,10 +131,21 @@ const updateUserProfile = async (req, res, next) => {
     user.gender = gender || user.gender;
     user.height = height || user.height;
     user.weight = weight || user.weight;
+    user.phoneNumber = phoneNumber || user.phoneNumber;
+    if (macroRatio) {
+      user.macroRatio = {
+        protein: typeof macroRatio.protein === 'number' ? macroRatio.protein : user.macroRatio?.protein,
+        carbs: typeof macroRatio.carbs === 'number' ? macroRatio.carbs : user.macroRatio?.carbs,
+        fats: typeof macroRatio.fats === 'number' ? macroRatio.fats : user.macroRatio?.fats
+      };
+    }
     
     // Recalculate calories if weight, height, age, or gender changed
-    if (weight || height || age || gender) {
+    if (weight || height || age || gender || macroRatio) {
       user.calculateDailyCalories();
+    }
+    if (weight || height) {
+      user.calculateBMI();
     }
     
     const updatedUser = await user.save();
