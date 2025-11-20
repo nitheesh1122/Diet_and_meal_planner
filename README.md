@@ -109,22 +109,18 @@ meal-planner/
     │   │   ├── FoodSearchDialog.jsx
     │   │   ├── Footer.jsx
     │   │   ├── GeneratePlanDialog.jsx
-    │   │   ├── KpiCard.jsx
     │   │   ├── LandingFooter.jsx
     │   │   ├── LoadingSpinner.jsx
     │   │   ├── Logo.jsx
     │   │   ├── MacroBar.jsx
     │   │   ├── MacroDonut.jsx
-    │   │   ├── Navbar.jsx
     │   │   ├── NotificationBell.jsx
     │   │   ├── NotificationDrawer.jsx
     │   │   ├── PageTransitionSpinner.jsx
     │   │   ├── PrivacyTOSModal.jsx
     │   │   ├── RecommendationsDialog.jsx
     │   │   ├── Sidebar.jsx
-    │   │   ├── SidebarNotifications.jsx
-    │   │   ├── TrendChart.jsx
-    │   │   └── UpcomingTimeline.jsx
+    │   │   └── SidebarNotifications.jsx
     │   ├── context/     # React Context providers
     │   │   ├── AuthContext.jsx
     │   │   ├── NotificationContext.jsx

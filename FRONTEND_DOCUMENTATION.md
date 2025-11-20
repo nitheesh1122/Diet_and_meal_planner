@@ -252,14 +252,6 @@ The frontend is built using **React.js** with **Material-UI (MUI)** for UI compo
   - Responsive design (mobile drawer, desktop permanent)
   - Active route highlighting
 
-#### `Navbar.jsx`
-- **Purpose**: Top navigation bar
-- **Function**:
-  - App title and branding
-  - Notification bell icon
-  - User menu
-  - Mobile menu toggle
-  - Responsive navigation
 
 #### `Footer.jsx`
 - **Purpose**: Footer for authenticated pages
@@ -304,14 +296,6 @@ The frontend is built using **React.js** with **Material-UI (MUI)** for UI compo
   - Progressive blur effect
   - Logo animation
   - Prevents interaction during transition
-
-#### `KpiCard.jsx`
-- **Purpose**: Key Performance Indicator card
-- **Function**:
-  - Displays metrics in card format
-  - Gradient backgrounds
-  - Icon and value display
-  - Used in dashboard for statistics
 
 #### `MacroBar.jsx`
 - **Purpose**: Macro nutrient progress bar
@@ -407,21 +391,6 @@ The frontend is built using **React.js** with **Material-UI (MUI)** for UI compo
   - Prevents navigation until accepted
   - "I understand and agree..." text for each
 
-#### `TrendChart.jsx`
-- **Purpose**: Trend visualization chart
-- **Function**:
-  - Displays trends over time
-  - Used for weight, calorie, or macro trends
-  - Line/area chart visualization
-  - Time-based data display
-
-#### `UpcomingTimeline.jsx`
-- **Purpose**: Upcoming events timeline
-- **Function**:
-  - Shows upcoming meals or reminders
-  - Timeline visualization
-  - Date and time display
-  - Quick action buttons
 
 ---
 
