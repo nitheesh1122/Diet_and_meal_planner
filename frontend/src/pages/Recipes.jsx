@@ -106,26 +106,45 @@ export default function Recipes() {
       MEAL_TYPES.slice(1).forEach((type) => {
         const items = plan?.meals?.[type] || []
         if (!items.length) return
-        doc.setFont(undefined, 'bold')
-        doc.text(capitalize(type), 40, y)
-        doc.setFont(undefined, 'normal')
-        y += 12
+        if (y > pageHeight - 100) { 
+          doc.addPage()
+          y = addHeader(doc, 0)
+        }
+        doc.setFont('helvetica', 'bold')
+        doc.setFontSize(16)
+        doc.setTextColor(102, 126, 234)
+        doc.text(capitalize(type), margin, y)
+        doc.setFont('helvetica', 'normal')
+        doc.setFontSize(12)
+        doc.setTextColor(0, 0, 0)
+        y += 18
         items.forEach((it) => {
           const line = `${it.food?.name || ''} — ${fmtServing(it.servingSize)} — ${it.calories} kcal`
           const steps = buildSteps(it)
           const ingredients = buildIngredients(it)
           const text = [`• ${line}`, '  Ingredients:', ...ingredients.map(s=>`   - ${s}`), '  Steps:', ...steps.map((s,i)=>`   ${i+1}. ${s}`)]
-          const chunk = doc.splitTextToSize(text.join('\n'), 520)
+          const chunk = doc.splitTextToSize(text.join('\n'), pageWidth - margin * 2)
           chunk.forEach(row => {
-            if (y > 760) { doc.addPage(); y = 40 }
-            doc.text(row, 40, y)
+            if (y > pageHeight - 50) { 
+              doc.addPage()
+              y = addHeader(doc, 0)
+            }
+            doc.text(row, margin, y)
             y += 14
           })
-          y += 6
+          y += 8
         })
-        y += 4
+        y += 6
       })
     })
+    
+    // Add footer to all pages
+    const totalPages = doc.internal.pages.length - 1
+    for (let i = 1; i <= totalPages; i++) {
+      doc.setPage(i)
+      addFooter(doc, i, totalPages)
+    }
+    
     doc.save(`recipes_${mode}_${selectedDate}.pdf`)
   }
 
@@ -290,7 +309,7 @@ export default function Recipes() {
                         {sumCalories(plan)} kcal • {sumMeals(plan)} dishes
                       </Typography>
                     </Box>
-                    <Button variant="outlined" size="small" onClick={() => downloadPlan(plan)}>
+                    <Button variant="outlined" size="small" onClick={() => downloadPlan(plan, user)}>
                       Download day PDF
                     </Button>
                   </Stack>
@@ -366,35 +385,105 @@ function RecipeTile({ item }) {
   )
 }
 
-function downloadPlan(plan) {
+function downloadPlan(plan, user = null) {
   const doc = new jsPDF({ unit: 'pt' })
-  let y = 40
+  const pageWidth = doc.internal.pageSize.getWidth()
+  const pageHeight = doc.internal.pageSize.getHeight()
+  const margin = 40
+  
+  // Helper function to add header
+  const addHeader = (doc, yPos) => {
+    let y = yPos
+    // Header background
+    doc.setFillColor(102, 126, 234)
+    doc.rect(0, 0, pageWidth, 50, 'F')
+    
+    // Title
+    doc.setTextColor(255, 255, 255)
+    doc.setFontSize(24)
+    doc.setFont('helvetica', 'bold')
+    doc.text('Recipes', margin, y + 20)
+    
+    // User name
+    if (user?.name) {
+      doc.setFontSize(12)
+      doc.setFont('helvetica', 'normal')
+      doc.text(`User: ${user.name}`, pageWidth - margin - 80, y + 12)
+    }
+    
+    // Download date/time
+    const downloadDateTime = new Date().toLocaleString('en-US', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    })
+    doc.setFontSize(10)
+    doc.text(`Downloaded: ${downloadDateTime}`, pageWidth - margin - 80, y + 28)
+    
+    doc.setTextColor(0, 0, 0)
+    return y + 60
+  }
+
+  // Helper function to add footer
+  const addFooter = (doc, pageNum, totalPages) => {
+    doc.setFontSize(9)
+    doc.setTextColor(128, 128, 128)
+    doc.setFont('helvetica', 'italic')
+    const footerText = `Page ${pageNum} of ${totalPages} | Meal Planner App`
+    const textWidth = doc.getTextWidth(footerText)
+    doc.text(footerText, (pageWidth - textWidth) / 2, pageHeight - 15)
+    doc.setTextColor(0, 0, 0)
+  }
+
+  let y = addHeader(doc, 0)
   doc.setFontSize(18)
-  doc.text(`Recipes — ${formatDisplay(plan.date || new Date())}`, 40, y)
+  doc.setFont('helvetica', 'bold')
+  doc.text(`Date: ${formatDisplay(plan.date || new Date())}`, margin, y)
   y += 20
   doc.setFontSize(12)
   MEAL_TYPES.slice(1).forEach((type) => {
     const items = plan?.meals?.[type] || []
     if (!items.length) return
-    doc.setFont(undefined, 'bold')
-    doc.text(capitalize(type), 40, y)
-    doc.setFont(undefined, 'normal')
-    y += 12
+      if (y > pageHeight - 100) { 
+        doc.addPage()
+        y = addHeader(doc, 0)
+      }
+    doc.setFont('helvetica', 'bold')
+    doc.setFontSize(16)
+    doc.setTextColor(102, 126, 234)
+    doc.text(capitalize(type), margin, y)
+    doc.setFont('helvetica', 'normal')
+    doc.setFontSize(12)
+    doc.setTextColor(0, 0, 0)
+    y += 18
     items.forEach((it) => {
       const line = `${it.food?.name || ''} — ${fmtServing(it.servingSize)} — ${it.calories} kcal`
       const steps = buildSteps(it)
       const ingredients = buildIngredients(it)
       const text = [`• ${line}`, '  Ingredients:', ...ingredients.map(s=>`   - ${s}`), '  Steps:', ...steps.map((s,i)=>`   ${i+1}. ${s}`)]
-      const chunk = doc.splitTextToSize(text.join('\n'), 520)
+      const chunk = doc.splitTextToSize(text.join('\n'), pageWidth - margin * 2)
       chunk.forEach(row => {
-        if (y > 760) { doc.addPage(); y = 40 }
-        doc.text(row, 40, y)
+        if (y > pageHeight - 50) { 
+          doc.addPage()
+          y = addHeader(doc, 0)
+        }
+        doc.text(row, margin, y)
         y += 14
       })
-      y += 6
+      y += 8
     })
-    y += 4
+    y += 6
   })
+  
+  // Add footer to all pages
+  const totalPages = doc.internal.pages.length - 1
+  for (let i = 1; i <= totalPages; i++) {
+    doc.setPage(i)
+    addFooter(doc, i, totalPages)
+  }
+  
   doc.save(`recipes_${plan.date || 'day'}.pdf`)
 }
 

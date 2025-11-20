@@ -336,7 +336,7 @@ export default function GroceryList() {
 
   const updateCustomItem = (id, field, value) => {
     setCustomItems(prev => prev.map(item => item.id === id ? { ...item, [field]: field === 'amount' ? Number(value) || 0 : value } : item))
-  }
+    }
 
   const removeCustomItem = (id) => {
     const item = customItems.find(i => i.id === id)
@@ -419,100 +419,227 @@ export default function GroceryList() {
     const margin = 20
     let yPosition = margin
 
+    // Helper function to add header
+    const addHeader = (doc, yPos) => {
+      let y = yPos
+      // Header background (simulated with rectangle)
+      doc.setFillColor(102, 126, 234) // Primary color
+      doc.rect(0, 0, pageWidth, 35, 'F')
+      
+      // Title
+      doc.setTextColor(255, 255, 255)
+      doc.setFontSize(22)
+      doc.setFont('helvetica', 'bold')
+      doc.text('Grocery List', margin, y + 12)
+      
+      // User name
+      if (user?.name) {
+        doc.setFontSize(11)
+        doc.setFont('helvetica', 'normal')
+        doc.text(`User: ${user.name}`, pageWidth - margin - 60, y + 8)
+      }
+      
+      // Download date/time
+      const downloadDateTime = new Date().toLocaleString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      })
+      doc.setFontSize(9)
+      doc.text(`Downloaded: ${downloadDateTime}`, pageWidth - margin - 60, y + 18)
+      
+      doc.setTextColor(0, 0, 0)
+      return y + 40
+    }
+
+    // Helper function to add footer
+    const addFooter = (doc, pageNum, totalPages) => {
+      doc.setFontSize(8)
+      doc.setTextColor(128, 128, 128)
+      doc.setFont('helvetica', 'italic')
+      const footerText = `Page ${pageNum} of ${totalPages} | Meal Planner App`
+      const textWidth = doc.getTextWidth(footerText)
+      doc.text(footerText, (pageWidth - textWidth) / 2, pageHeight - 10)
+      doc.setTextColor(0, 0, 0)
+    }
+
     if (mode === 'day') {
-    doc.setFontSize(20)
-    doc.setFont('helvetica', 'bold')
-      doc.text('Grocery List', margin, yPosition)
-      yPosition += 18
-    doc.setFontSize(12)
-    doc.setFont('helvetica', 'normal')
+      yPosition = addHeader(doc, 0)
+      
+      doc.setFontSize(14)
+      doc.setFont('helvetica', 'bold')
+      doc.setTextColor(0, 0, 0)
       doc.text(`Date: ${formatDate(startDate)}`, margin, yPosition)
+      yPosition += 10
+      
+      // Summary info
+      const totalItems = mealTypes.reduce((sum, mealType) => {
+        const arr = displayMeals[mealType] || []
+        return sum + arr.filter(item => !item.haveIt).length
+      }, 0)
+      doc.setFontSize(10)
+      doc.setFont('helvetica', 'normal')
+      doc.text(`Total Items: ${totalItems}`, margin, yPosition)
       yPosition += 12
+      
+      // Divider line
+      doc.setDrawColor(200, 200, 200)
+      doc.line(margin, yPosition, pageWidth - margin, yPosition)
+      yPosition += 8
       
       mealTypes.forEach(mealType => {
         const arr = displayMeals[mealType] || []
         const filtered = arr.filter(item => !item.haveIt)
         if (!filtered.length) return
-        if (yPosition > pageHeight - 60) { doc.addPage(); yPosition = margin }
+        if (yPosition > pageHeight - 50) { 
+          doc.addPage()
+          yPosition = addHeader(doc, 0)
+        }
         doc.setFont('helvetica', 'bold')
         doc.setFontSize(14)
-        doc.text(`${mealLabels[mealType]} (${filtered.length})`, margin, yPosition)
+        doc.setTextColor(102, 126, 234)
+        doc.text(`${mealLabels[mealType]} (${filtered.length} items)`, margin, yPosition)
         yPosition += 10
         doc.setFont('helvetica', 'normal')
         doc.setFontSize(10)
+        doc.setTextColor(0, 0, 0)
         filtered.forEach((item, idx) => {
           const text = `${idx + 1}. ${item.name} — ${item.amount} ${item.unit}`
           const lines = doc.splitTextToSize(text, pageWidth - margin * 2)
-          if (yPosition + lines.length * 5 > pageHeight - margin) { doc.addPage(); yPosition = margin }
-          doc.text(lines, margin, yPosition)
+          if (yPosition + lines.length * 5 > pageHeight - 30) { 
+            doc.addPage()
+            yPosition = addHeader(doc, 0)
+          }
+          doc.text(lines, margin + 5, yPosition)
           yPosition += lines.length * 5 + 4
         })
         yPosition += 6
       })
+      
+      // Add footer to all pages
+      const totalPages = doc.internal.pages.length - 1
+      for (let i = 1; i <= totalPages; i++) {
+        doc.setPage(i)
+        addFooter(doc, i, totalPages)
+      }
+      
       doc.save(`grocery_${startDate}.pdf`)
     } else if (mode === 'week') {
       const dates = getDateRange(startDate, endDate)
       dates.forEach((date, dateIdx) => {
-        if (dateIdx > 0) doc.addPage()
-        yPosition = margin
+        if (dateIdx > 0) {
+          doc.addPage()
+          yPosition = addHeader(doc, 0)
+        } else {
+          yPosition = addHeader(doc, 0)
+        }
         
-        doc.setFontSize(18)
+        doc.setFontSize(16)
         doc.setFont('helvetica', 'bold')
-        doc.text(`Grocery List - ${formatDate(date)}`, margin, yPosition)
-    yPosition += 15
+        doc.setTextColor(0, 0, 0)
+        doc.text(`Date: ${formatDate(date)}`, margin, yPosition)
+        yPosition += 12
 
         mealTypes.forEach(mealType => {
           const arr = displayMeals[mealType] || []
           const filtered = arr.filter(item => !item.haveIt)
           if (!filtered.length) return
-          if (yPosition > pageHeight - 60) { doc.addPage(); yPosition = margin }
-      doc.setFont('helvetica', 'bold')
+          if (yPosition > pageHeight - 50) { 
+            doc.addPage()
+            yPosition = addHeader(doc, 0)
+          }
+          doc.setFont('helvetica', 'bold')
           doc.setFontSize(12)
-          doc.text(`${mealLabels[mealType]} (${filtered.length})`, margin, yPosition)
-      yPosition += 10
+          doc.setTextColor(102, 126, 234)
+          doc.text(`${mealLabels[mealType]} (${filtered.length} items)`, margin, yPosition)
+          yPosition += 10
           doc.setFont('helvetica', 'normal')
-      doc.setFontSize(10)
+          doc.setFontSize(10)
+          doc.setTextColor(0, 0, 0)
           filtered.forEach((item, idx) => {
             const text = `${idx + 1}. ${item.name} — ${item.amount} ${item.unit}`
             const lines = doc.splitTextToSize(text, pageWidth - margin * 2)
-            if (yPosition + lines.length * 5 > pageHeight - margin) { doc.addPage(); yPosition = margin }
-            doc.text(lines, margin, yPosition)
+            if (yPosition + lines.length * 5 > pageHeight - 30) { 
+              doc.addPage()
+              yPosition = addHeader(doc, 0)
+            }
+            doc.text(lines, margin + 5, yPosition)
             yPosition += lines.length * 5 + 4
           })
           yPosition += 6
         })
       })
+      
+      // Add footer to all pages
+      const totalPages = doc.internal.pages.length - 1
+      for (let i = 1; i <= totalPages; i++) {
+        doc.setPage(i)
+        addFooter(doc, i, totalPages)
+      }
+      
       doc.save(`grocery_week_${startDate}_to_${endDate}.pdf`)
     } else {
-      doc.setFontSize(20)
+      yPosition = addHeader(doc, 0)
+      
+      doc.setFontSize(16)
       doc.setFont('helvetica', 'bold')
-      doc.text('Grocery List', margin, yPosition)
-      yPosition += 18
-      doc.setFontSize(12)
+      doc.setTextColor(0, 0, 0)
+      doc.text(`Date Range: ${formatDate(startDate)} → ${formatDate(endDate)}`, margin, yPosition)
+      yPosition += 10
+      
+      // Summary info
+      const totalItems = mealTypes.reduce((sum, mealType) => {
+        const arr = displayMeals[mealType] || []
+        return sum + arr.filter(item => !item.haveIt).length
+      }, 0)
+      doc.setFontSize(10)
       doc.setFont('helvetica', 'normal')
-      doc.text(`${formatDate(startDate)} → ${formatDate(endDate)}`, margin, yPosition)
+      doc.text(`Total Items: ${totalItems}`, margin, yPosition)
       yPosition += 12
+      
+      // Divider line
+      doc.setDrawColor(200, 200, 200)
+      doc.line(margin, yPosition, pageWidth - margin, yPosition)
+      yPosition += 8
       
       mealTypes.forEach(mealType => {
         const arr = displayMeals[mealType] || []
         const filtered = arr.filter(item => !item.haveIt)
         if (!filtered.length) return
-        if (yPosition > pageHeight - 60) { doc.addPage(); yPosition = margin }
+        if (yPosition > pageHeight - 50) { 
+          doc.addPage()
+          yPosition = addHeader(doc, 0)
+        }
         doc.setFont('helvetica', 'bold')
         doc.setFontSize(14)
-        doc.text(`${mealLabels[mealType]} (${filtered.length})`, margin, yPosition)
+        doc.setTextColor(102, 126, 234)
+        doc.text(`${mealLabels[mealType]} (${filtered.length} items)`, margin, yPosition)
         yPosition += 10
         doc.setFont('helvetica', 'normal')
         doc.setFontSize(10)
+        doc.setTextColor(0, 0, 0)
         filtered.forEach((item, idx) => {
           const text = `${idx + 1}. ${item.name} — ${item.amount} ${item.unit}`
           const lines = doc.splitTextToSize(text, pageWidth - margin * 2)
-          if (yPosition + lines.length * 5 > pageHeight - margin) { doc.addPage(); yPosition = margin }
-          doc.text(lines, margin, yPosition)
+          if (yPosition + lines.length * 5 > pageHeight - 30) { 
+            doc.addPage()
+            yPosition = addHeader(doc, 0)
+          }
+          doc.text(lines, margin + 5, yPosition)
           yPosition += lines.length * 5 + 4
         })
         yPosition += 6
       })
+      
+      // Add footer to all pages
+      const totalPages = doc.internal.pages.length - 1
+      for (let i = 1; i <= totalPages; i++) {
+        doc.setPage(i)
+        addFooter(doc, i, totalPages)
+      }
+      
       doc.save(`grocery_${startDate}_${endDate}.pdf`)
     }
   }
@@ -523,7 +650,7 @@ export default function GroceryList() {
     const endDate = new Date(end)
     for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
       dates.push(iso(new Date(d)))
-    }
+      }
     return dates
   }
 

@@ -120,6 +120,9 @@ export default function Planner() {
   const downloadPDF = async (span = 'day') => {
     if (!user) return
     const doc = new jsPDF()
+    const pageWidth = doc.internal.pageSize.getWidth()
+    const pageHeight = doc.internal.pageSize.getHeight()
+    const margin = 20
     let plansToExport = []
 
     if (span === 'day') {
@@ -133,44 +136,125 @@ export default function Planner() {
       if (!plansToExport.length) return
     }
 
+    // Helper function to add header
+    const addHeader = (doc, yPos) => {
+      let y = yPos
+      // Header background
+      doc.setFillColor(102, 126, 234) // Primary color
+      doc.rect(0, 0, pageWidth, 35, 'F')
+      
+      // Title
+      doc.setTextColor(255, 255, 255)
+      doc.setFontSize(22)
+      doc.setFont('helvetica', 'bold')
+      doc.text('Meal Plan', margin, y + 12)
+      
+      // User name
+      if (user?.name) {
+        doc.setFontSize(11)
+        doc.setFont('helvetica', 'normal')
+        doc.text(`User: ${user.name}`, pageWidth - margin - 60, y + 8)
+      }
+      
+      // Download date/time
+      const downloadDateTime = new Date().toLocaleString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      })
+      doc.setFontSize(9)
+      doc.text(`Downloaded: ${downloadDateTime}`, pageWidth - margin - 60, y + 18)
+      
+      doc.setTextColor(0, 0, 0)
+      return y + 40
+    }
+
+    // Helper function to add footer
+    const addFooter = (doc, pageNum, totalPages) => {
+      doc.setFontSize(8)
+      doc.setTextColor(128, 128, 128)
+      doc.setFont('helvetica', 'italic')
+      const footerText = `Page ${pageNum} of ${totalPages} | Meal Planner App`
+      const textWidth = doc.getTextWidth(footerText)
+      doc.text(footerText, (pageWidth - textWidth) / 2, pageHeight - 10)
+      doc.setTextColor(0, 0, 0)
+    }
+
     plansToExport.forEach((dayPlan, index) => {
       if (!dayPlan) return
-      if (index > 0) doc.addPage()
-      let y = 14
+      if (index > 0) {
+        doc.addPage()
+      }
+      let y = addHeader(doc, 0)
       const dayLabel = formatDisplayDate(dayPlan.date || selectedDate)
-      doc.setFontSize(16)
-      doc.text(`Meal Plan - ${dayLabel}`, 14, y)
-      y += 8
+      doc.setFontSize(18)
+      doc.setFont('helvetica', 'bold')
+      doc.text(`Date: ${dayLabel}`, margin, y)
+      y += 12
       doc.setFontSize(12)
+      doc.setFont('helvetica', 'normal')
       const total = dayPlan.totalCalories || 0
       const tp = dayPlan.totalProtein || 0
       const tc = dayPlan.totalCarbs || 0
       const tf = dayPlan.totalFat || 0
-      doc.text(`Totals: ${total} kcal  •  Protein ${tp}g  •  Carbs ${tc}g  •  Fat ${tf}g`, 14, y)
+      
+      // Nutritional summary box
+      doc.setFillColor(245, 245, 245)
+      doc.rect(margin, y - 5, pageWidth - margin * 2, 20, 'F')
+      doc.setFontSize(11)
+      doc.setFont('helvetica', 'bold')
+      doc.text(`Total Calories: ${total} kcal`, margin + 5, y + 5)
+      doc.setFont('helvetica', 'normal')
+      doc.setFontSize(10)
+      doc.text(`Protein: ${tp}g  |  Carbs: ${tc}g  |  Fat: ${tf}g`, margin + 5, y + 12)
+      y += 18
+      
+      // Divider
+      doc.setDrawColor(200, 200, 200)
+      doc.line(margin, y, pageWidth - margin, y)
       y += 10
       mealTypes.forEach((key) => {
         const lines = formatMealLines(dayPlan, key)
-        doc.setFont(undefined, 'bold')
-        doc.text(`${toTitle(key)}`, 14, y)
-        y += 6
-        doc.setFont(undefined, 'normal')
+        if (y > pageHeight - 50) { 
+          doc.addPage()
+          y = addHeader(doc, 0)
+        }
+        doc.setFont('helvetica', 'bold')
+        doc.setFontSize(14)
+        doc.setTextColor(102, 126, 234)
+        doc.text(`${toTitle(key)}`, margin, y)
+        y += 10
+        doc.setFont('helvetica', 'normal')
+        doc.setFontSize(10)
+        doc.setTextColor(0, 0, 0)
         if (!lines.length) {
-          doc.text('- None -', 18, y)
-          y += 6
+          doc.text('- None -', margin + 5, y)
+          y += 8
         } else {
           lines.forEach(line => {
-            const split = doc.splitTextToSize(line, 180)
+            const split = doc.splitTextToSize(line, pageWidth - margin * 2 - 10)
             split.forEach((l) => {
-              if (y > 280) { doc.addPage(); y = 14 }
-              doc.text(l, 18, y)
+              if (y > pageHeight - 30) { 
+                doc.addPage()
+                y = addHeader(doc, 0)
+              }
+              doc.text(l, margin + 5, y)
               y += 6
             })
           })
         }
-        y += 4
-        if (y > 280) { doc.addPage(); y = 14 }
+        y += 6
       })
     })
+
+    // Add footer to all pages
+    const totalPages = doc.internal.pages.length - 1
+    for (let i = 1; i <= totalPages; i++) {
+      doc.setPage(i)
+      addFooter(doc, i, totalPages)
+    }
 
     doc.save(`meal_plan_${span}_${selectedDate}.pdf`)
   }
