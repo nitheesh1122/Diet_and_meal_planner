@@ -9,8 +9,10 @@ import RestaurantIcon from '@mui/icons-material/Restaurant'
 import MenuBookIcon from '@mui/icons-material/MenuBook'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import SettingsIcon from '@mui/icons-material/Settings'
+import TrendingUpIcon from '@mui/icons-material/TrendingUp'
 import LogoutIcon from '@mui/icons-material/Logout'
 import NotificationDrawer from './NotificationDrawer'
+import SidebarNotifications from './SidebarNotifications'
 import Logo from './Logo'
 
 const drawerWidth = 280
@@ -21,6 +23,7 @@ const menuItems = [
   { path: '/planner', label: 'Meal Planner', icon: <RestaurantIcon /> },
   { path: '/recipes', label: 'Recipes', icon: <MenuBookIcon /> },
   { path: '/grocery', label: 'Grocery List', icon: <ShoppingCartIcon /> },
+  { path: '/progress', label: 'Progress', icon: <TrendingUpIcon /> },
   { path: '/settings', label: 'Settings', icon: <SettingsIcon /> },
 ]
 
@@ -150,22 +153,18 @@ export default function Sidebar({ mobileOpen, onMobileClose, expanded, onExpande
 
       <Divider />
 
+      {/* Notifications Panel */}
+      {token && (
+        <Box sx={{ px: isCollapsed ? 0.5 : 0, py: 1 }}>
+          <SidebarNotifications isCollapsed={isCollapsed} />
+        </Box>
+      )}
+
+      <Divider />
+
       {/* Footer Actions */}
       {token && (
         <Box sx={{ p: isCollapsed ? 1 : 2 }}>
-          <Box 
-            sx={{ 
-              mb: isCollapsed ? 0 : 2, 
-              display: 'flex', 
-              justifyContent: 'center',
-              opacity: isCollapsed ? 0 : 1,
-              height: isCollapsed ? 0 : 'auto',
-              overflow: 'hidden',
-              transition: 'opacity 0.2s ease, height 0.3s ease, margin 0.3s ease'
-            }}
-          >
-            {!isCollapsed && <NotificationDrawer />}
-          </Box>
           {isCollapsed ? (
             <Tooltip title="Logout" placement="right" arrow>
               <ListItemButton

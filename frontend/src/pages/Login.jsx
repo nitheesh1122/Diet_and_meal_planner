@@ -5,23 +5,48 @@ import {
 import { useAuth } from '../context/AuthContext'
 import { Link as RouterLink, useNavigate } from 'react-router-dom'
 import Logo from '../components/Logo'
+import LoadingSpinner from '../components/LoadingSpinner'
 
 export default function Login() {
   const { login, loading } = useAuth()
   const [email, setEmail] = React.useState('')
   const [password, setPassword] = React.useState('')
   const [error, setError] = React.useState('')
+  const [progress, setProgress] = React.useState(0)
   const navigate = useNavigate()
+
+  // Simulate progress during loading
+  React.useEffect(() => {
+    if (loading) {
+      setProgress(0)
+      const interval = setInterval(() => {
+        setProgress((prev) => {
+          if (prev >= 90) return prev
+          return prev + Math.random() * 15
+        })
+      }, 200)
+      return () => clearInterval(interval)
+    } else {
+      setProgress(0)
+    }
+  }, [loading])
 
   const onSubmit = async (e) => {
     e.preventDefault()
+    setProgress(0)
     const res = await login(email, password)
-    if (res.ok) navigate('/')
-    else setError(res.message)
+    if (res.ok) {
+      setProgress(100)
+      setTimeout(() => navigate('/'), 300)
+    } else {
+      setError(res.message)
+      setProgress(0)
+    }
   }
 
   return (
     <Box sx={{ minHeight: '100vh', display: 'flex', alignItems: 'center', bgcolor: 'background.default' }}>
+      <LoadingSpinner loading={loading} progress={progress} />
       <Container maxWidth="md">
         <Grid container spacing={3}>
           {/* Header Section */}

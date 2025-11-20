@@ -6,18 +6,24 @@ import MenuIcon from '@mui/icons-material/Menu'
 import Sidebar from './components/Sidebar'
 import MacroBar from './components/MacroBar'
 import Footer from './components/Footer'
+import PageTransitionSpinner from './components/PageTransitionSpinner'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import Landing from './pages/Landing'
 import Dashboard from './pages/Dashboard'
 import Planner from './pages/Planner'
 import GroceryList from './pages/GroceryList'
 import Settings from './pages/Settings'
 import Recipes from './pages/Recipes'
+import Progress from './pages/Progress'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import TermsOfService from './pages/TermsOfService'
+import Contact from './pages/Contact'
 import { useAuth } from './context/AuthContext'
 
 function PrivateRoute({ children }) {
   const { token } = useAuth()
-  return token ? children : <Navigate to="/login" replace />
+  return token ? children : <Navigate to="/" replace />
 }
 
 const pageVariants = {
@@ -47,12 +53,34 @@ export default function App() {
   const isMobile = useMediaQuery(theme.breakpoints.down('md'))
   const [mobileOpen, setMobileOpen] = React.useState(false)
   const [sidebarExpanded, setSidebarExpanded] = React.useState(false)
+  const [isPageTransitioning, setIsPageTransitioning] = React.useState(false)
+  const prevLocationRef = React.useRef(location.pathname)
+  const isInitialMount = React.useRef(true)
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen)
   }
 
-  // Don't show sidebar on login/signup pages
+  // Handle page transitions with spinner
+  React.useEffect(() => {
+    // Skip on initial mount
+    if (isInitialMount.current) {
+      isInitialMount.current = false
+      prevLocationRef.current = location.pathname
+      return
+    }
+
+    if (prevLocationRef.current !== location.pathname) {
+      setIsPageTransitioning(true)
+      const timer = setTimeout(() => {
+        setIsPageTransitioning(false)
+      }, 5000) // Max 5 seconds
+      prevLocationRef.current = location.pathname
+      return () => clearTimeout(timer)
+    }
+  }, [location.pathname])
+
+  // Don't show sidebar on login/signup pages, or on landing page when not authenticated
   const showSidebar = token && !['/login', '/signup'].includes(location.pathname)
   
   // Calculate sidebar width based on expanded state
@@ -60,6 +88,7 @@ export default function App() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', bgcolor: 'background.default' }}>
+      <PageTransitionSpinner loading={isPageTransitioning} />
       <Box sx={{ display: 'flex', flexGrow: 1 }}>
         {showSidebar && (
           <Sidebar 
@@ -135,11 +164,25 @@ export default function App() {
               <Routes location={location} key={location.pathname}>
                 <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
                 <Route path="/signup" element={<PageTransition><Signup /></PageTransition>} />
-                <Route path="/" element={<PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>} />
+                <Route path="/privacy" element={<PageTransition><PrivacyPolicy /></PageTransition>} />
+                <Route path="/terms" element={<PageTransition><TermsOfService /></PageTransition>} />
+                <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+                <Route 
+                  path="/" 
+                  element={
+                    token ? (
+                      <PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>
+                    ) : (
+                      <PageTransition><Landing /></PageTransition>
+                    )
+                  } 
+                />
+                <Route path="/dashboard" element={<PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>} />
                 <Route path="/planner" element={<PrivateRoute><PageTransition><Planner /></PageTransition></PrivateRoute>} />
                 <Route path="/settings" element={<PrivateRoute><PageTransition><Settings /></PageTransition></PrivateRoute>} />
                 <Route path="/grocery" element={<PrivateRoute><PageTransition><GroceryList /></PageTransition></PrivateRoute>} />
                 <Route path="/recipes" element={<PrivateRoute><PageTransition><Recipes /></PageTransition></PrivateRoute>} />
+                <Route path="/progress" element={<PrivateRoute><PageTransition><Progress /></PageTransition></PrivateRoute>} />
               </Routes>
             </AnimatePresence>
           </Box>

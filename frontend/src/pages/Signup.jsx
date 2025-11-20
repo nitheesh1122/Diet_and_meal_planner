@@ -7,22 +7,25 @@ import InfoIcon from '@mui/icons-material/Info'
 import { useAuth } from '../context/AuthContext'
 import { useNavigate, Link as RouterLink } from 'react-router-dom'
 import Logo from '../components/Logo'
+import LoadingSpinner from '../components/LoadingSpinner'
+import PrivacyTOSModal from '../components/PrivacyTOSModal'
 
 export default function Signup() {
   const { signup, loading } = useAuth()
+  const [progress, setProgress] = React.useState(0)
   const [form, setForm] = React.useState({
     name: '', 
     email: '', 
     password: '', 
-    age: 25, 
+    age: '', 
     phoneNumber: '',
-    gender: 'male', 
-    height: 175, 
-    weight: 70, 
-    weightLevel: 'normal',
-    goal: 'maintain', 
-    activityLevel: 'moderate', 
-    dietaryRestrictions: ['none'],
+    gender: '', 
+    height: '', 
+    weight: '', 
+    weightLevel: '',
+    goal: '', 
+    activityLevel: '', 
+    dietaryRestrictions: [],
     macroRatio: {
       protein: 30,
       carbs: 40,
@@ -30,31 +33,179 @@ export default function Signup() {
     }
   })
   const [error, setError] = React.useState('')
+  const [passwordStrength, setPasswordStrength] = React.useState({ strength: '', color: 'default' })
+  const [macroRatiosManuallyEdited, setMacroRatiosManuallyEdited] = React.useState(false)
+  const [showPrivacyTOSModal, setShowPrivacyTOSModal] = React.useState(false)
   const navigate = useNavigate()
+
+  // Simulate progress during loading
+  React.useEffect(() => {
+    if (loading) {
+      setProgress(0)
+      const interval = setInterval(() => {
+        setProgress((prev) => {
+          if (prev >= 90) return prev
+          return prev + Math.random() * 10
+        })
+      }, 300)
+      return () => clearInterval(interval)
+    } else {
+      setProgress(0)
+    }
+  }, [loading])
 
   const onSubmit = async (e) => {
     e.preventDefault()
+    setError('')
     
-    // Validate macro ratios sum to 100
-    const total = form.macroRatio.protein + form.macroRatio.carbs + form.macroRatio.fats
-    if (Math.abs(total - 100) > 0.1) {
-      setError('Macro ratios must sum to 100%')
+    // Validate all required fields are filled
+    const requiredFields = [
+      { key: 'name', label: 'Full Name' },
+      { key: 'email', label: 'Email' },
+      { key: 'password', label: 'Password' },
+      { key: 'age', label: 'Age' },
+      { key: 'phoneNumber', label: 'Phone Number' },
+      { key: 'gender', label: 'Gender' },
+      { key: 'height', label: 'Height' },
+      { key: 'weight', label: 'Weight' },
+      { key: 'goal', label: 'Goal' },
+      { key: 'activityLevel', label: 'Activity Level' },
+    ]
+    
+    const missingFields = requiredFields.filter(field => {
+      const value = form[field.key]
+      return value === '' || value === null || value === undefined
+    })
+    
+    if (missingFields.length > 0) {
+      setError(`Please fill in all required fields: ${missingFields.map(f => f.label).join(', ')}`)
       return
     }
     
+    // Validate dietary restrictions
+    if (!form.dietaryRestrictions || form.dietaryRestrictions.length === 0) {
+      setError('Please select a dietary preference')
+      return
+    }
+    
+    // Validate macro ratios are valid numbers
+    const protein = Number(form.macroRatio.protein)
+    const carbs = Number(form.macroRatio.carbs)
+    const fats = Number(form.macroRatio.fats)
+    
+    if (isNaN(protein) || isNaN(carbs) || isNaN(fats)) {
+      setError('Please enter valid numbers for all macro ratio fields')
+      return
+    }
+    
+    if (protein < 0 || carbs < 0 || fats < 0) {
+      setError('Macro ratios cannot be negative')
+      return
+    }
+    
+    // Validate macro ratios sum to 100
+    const total = protein + carbs + fats
+    if (Math.abs(total - 100) > 0.1) {
+      setError('Macro ratios must sum to exactly 100%')
+      return
+    }
+    
+    // Validate weight level is calculated (should be set by BMI calculation)
+    if (!form.weightLevel) {
+      setError('Please enter valid height and weight to calculate BMI')
+      return
+    }
+    
+    setProgress(0)
     const res = await signup(form)
-    if (res.ok) navigate('/')
-    else setError(res.message)
+    if (res.ok) {
+      setProgress(100)
+      // Show privacy/TOS modal before navigating
+      setShowPrivacyTOSModal(true)
+    } else {
+      setError(res.message)
+      setProgress(0)
+    }
   }
+
+  // Calculate password strength
+  const checkPasswordStrength = (password) => {
+    if (!password || password.length === 0) {
+      return { strength: '', color: 'default' }
+    }
+    
+    let strength = 0
+    let feedback = []
+    
+    // Length check
+    if (password.length >= 8) strength += 1
+    else feedback.push('At least 8 characters')
+    
+    if (password.length >= 12) strength += 1
+    
+    // Character variety checks
+    if (/[a-z]/.test(password)) strength += 1
+    else feedback.push('lowercase letter')
+    
+    if (/[A-Z]/.test(password)) strength += 1
+    else feedback.push('uppercase letter')
+    
+    if (/[0-9]/.test(password)) strength += 1
+    else feedback.push('number')
+    
+    if (/[^a-zA-Z0-9]/.test(password)) strength += 1
+    else feedback.push('special character')
+    
+    // Determine strength level
+    if (strength <= 2) {
+      return { strength: 'Weak', color: 'error', feedback }
+    } else if (strength <= 4) {
+      return { strength: 'Moderate', color: 'warning', feedback }
+    } else {
+      return { strength: 'Strong', color: 'success', feedback: [] }
+    }
+  }
+
+  // Update password strength on password change
+  React.useEffect(() => {
+    setPasswordStrength(checkPasswordStrength(form.password))
+  }, [form.password])
+
+  // Calculate BMI and set weight level automatically
+  React.useEffect(() => {
+    if (form.height && form.weight && form.height > 0 && form.weight > 0) {
+      // BMI = weight (kg) / (height (m))^2
+      const heightInMeters = form.height / 100
+      const bmi = form.weight / (heightInMeters * heightInMeters)
+      
+      let weightLevel = 'normal'
+      if (bmi < 18.5) {
+        weightLevel = 'underweight'
+      } else if (bmi >= 18.5 && bmi < 25) {
+        weightLevel = 'normal'
+      } else if (bmi >= 25 && bmi < 30) {
+        weightLevel = 'overweight'
+      } else {
+        weightLevel = 'obese'
+      }
+      
+      setForm(prev => ({ ...prev, weightLevel }))
+    } else {
+      // Reset weight level if height or weight is empty
+      setForm(prev => ({ ...prev, weightLevel: '' }))
+    }
+  }, [form.height, form.weight])
 
   const onChange = (e) => {
     if (e.target.name.startsWith('macroRatio.')) {
       const macroType = e.target.name.split('.')[1]
+      const value = e.target.value === '' ? '' : (isNaN(parseFloat(e.target.value)) ? '' : parseFloat(e.target.value))
+      setMacroRatiosManuallyEdited(true)
       setForm({ 
         ...form, 
         macroRatio: { 
           ...form.macroRatio, 
-          [macroType]: parseFloat(e.target.value) || 0 
+          [macroType]: value 
         } 
       })
     } else {
@@ -97,8 +248,8 @@ export default function Signup() {
     </Tooltip>
   )
 
-  const totalMacro = form.macroRatio.protein + form.macroRatio.carbs + form.macroRatio.fats
-  const macroError = Math.abs(totalMacro - 100) > 0.1
+  const totalMacro = (Number(form.macroRatio.protein) || 0) + (Number(form.macroRatio.carbs) || 0) + (Number(form.macroRatio.fats) || 0)
+  const macroError = form.macroRatio.protein !== '' && form.macroRatio.carbs !== '' && form.macroRatio.fats !== '' && Math.abs(totalMacro - 100) > 0.1
 
   // Calculate BMR and TDEE in real-time
   const calculateBMR = () => {
@@ -159,6 +310,108 @@ export default function Signup() {
     }
   }
 
+  // Calculate optimal macro ratios based on BMR, BMI, TDEE, and goal
+  const calculateOptimalMacroRatios = () => {
+    const bmr = calculateBMR()
+    const tdee = calculateTDEE()
+    if (!bmr || !tdee || !form.height || !form.weight || !form.goal || !form.weightLevel) {
+      return null
+    }
+    
+    // Calculate BMI
+    const heightInMeters = form.height / 100
+    const bmi = form.weight / (heightInMeters * heightInMeters)
+    
+    let proteinPct = 30  // Base protein percentage
+    let carbsPct = 40     // Base carbs percentage
+    let fatsPct = 30      // Base fats percentage
+    
+    // Adjust based on goal
+    if (form.goal === 'lose') {
+      // Higher protein for weight loss to preserve muscle
+      proteinPct = 35
+      carbsPct = 35
+      fatsPct = 30
+      
+      // If overweight/obese, increase protein more
+      if (form.weightLevel === 'overweight' || form.weightLevel === 'obese') {
+        proteinPct = 40
+        carbsPct = 30
+        fatsPct = 30
+      }
+    } else if (form.goal === 'gain') {
+      // Higher carbs for weight gain
+      proteinPct = 30
+      carbsPct = 45
+      fatsPct = 25
+      
+      // If underweight, increase carbs more
+      if (form.weightLevel === 'underweight') {
+        proteinPct = 25
+        carbsPct = 50
+        fatsPct = 25
+      }
+    } else {
+      // Maintain - balanced approach
+      // Adjust based on BMI
+      if (bmi < 18.5) {
+        // Underweight - more carbs for energy
+        proteinPct = 25
+        carbsPct = 45
+        fatsPct = 30
+      } else if (bmi >= 25) {
+        // Overweight - more protein
+        proteinPct = 35
+        carbsPct = 35
+        fatsPct = 30
+      } else {
+        // Normal weight - balanced
+        proteinPct = 30
+        carbsPct = 40
+        fatsPct = 30
+      }
+    }
+    
+    // Adjust based on activity level (more active = more carbs)
+    if (form.activityLevel === 'active' || form.activityLevel === 'athlete') {
+      carbsPct = Math.min(carbsPct + 5, 55)
+      proteinPct = Math.max(proteinPct - 2, 25)
+      fatsPct = 100 - carbsPct - proteinPct
+    } else if (form.activityLevel === 'no_activity' || form.activityLevel === 'sedentary') {
+      carbsPct = Math.max(carbsPct - 5, 30)
+      proteinPct = Math.min(proteinPct + 2, 40)
+      fatsPct = 100 - carbsPct - proteinPct
+    }
+    
+    // Ensure they sum to 100
+    const total = proteinPct + carbsPct + fatsPct
+    if (Math.abs(total - 100) > 0.01) {
+      const diff = 100 - total
+      proteinPct += diff / 3
+      carbsPct += diff / 3
+      fatsPct += diff / 3
+    }
+    
+    return {
+      protein: Math.round(proteinPct),
+      carbs: Math.round(carbsPct),
+      fats: Math.round(fatsPct)
+    }
+  }
+
+  // Auto-update macro ratios when relevant fields change (only if not manually edited)
+  React.useEffect(() => {
+    if (macroRatiosManuallyEdited) return // Don't auto-update if user has manually edited
+    
+    const optimalRatios = calculateOptimalMacroRatios()
+    if (optimalRatios && form.height && form.weight && form.age && form.gender && form.goal && form.activityLevel && form.weightLevel) {
+      setForm(prev => ({
+        ...prev,
+        macroRatio: optimalRatios
+      }))
+    }
+  }, [form.height, form.weight, form.age, form.gender, form.goal, form.activityLevel, form.weightLevel, macroRatiosManuallyEdited])
+
   const bmr = calculateBMR()
   const tdee = calculateTDEE()
   const dailyCalories = calculateDailyCalories()
@@ -166,6 +419,7 @@ export default function Signup() {
 
   return (
     <Box sx={{ minHeight: '100vh', py: 4, bgcolor: 'background.default' }}>
+      <LoadingSpinner loading={loading} progress={progress} />
       <Container maxWidth="lg">
         <Grid container spacing={3}>
           {/* Header Section */}
@@ -213,16 +467,33 @@ export default function Signup() {
                       fullWidth
                       size="medium"
                     />
-                    <TextField 
-                      label="Password" 
-                      name="password" 
-                      type="password" 
-                      value={form.password} 
-                      onChange={onChange} 
-                      required 
-                      fullWidth
-                      size="medium"
-                    />
+                    <Box>
+                      <TextField 
+                        label="Password" 
+                        name="password" 
+                        type="password" 
+                        value={form.password} 
+                        onChange={onChange} 
+                        required 
+                        fullWidth
+                        size="medium"
+                      />
+                      {form.password && (
+                        <Box sx={{ mt: 1, display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <Chip 
+                            label={`Password Strength: ${passwordStrength.strength}`}
+                            color={passwordStrength.color}
+                            size="small"
+                            variant="outlined"
+                          />
+                          {passwordStrength.feedback && passwordStrength.feedback.length > 0 && (
+                            <Typography variant="caption" color="text.secondary">
+                              Add: {passwordStrength.feedback.slice(0, 2).join(', ')}
+                            </Typography>
+                          )}
+                        </Box>
+                      )}
+                    </Box>
                     <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
                       <TextField 
                         label="Age" 
@@ -242,6 +513,7 @@ export default function Signup() {
                         value={form.phoneNumber} 
                         onChange={onChange}
                         placeholder="+1234567890"
+                        required
                         fullWidth
                         size="medium"
                       />
@@ -256,19 +528,25 @@ export default function Signup() {
                         required
                         fullWidth
                         size="medium"
+                        displayEmpty
                       >
-                  <MenuItem value="male">Male</MenuItem>
-                  <MenuItem value="female">Female</MenuItem>
-                  <MenuItem value="other">Other</MenuItem>
-                </TextField>
+                        <MenuItem value="" disabled>
+                          <em>Select Gender</em>
+                        </MenuItem>
+                        <MenuItem value="male">Male</MenuItem>
+                        <MenuItem value="female">Female</MenuItem>
+                        <MenuItem value="other">Other</MenuItem>
+                      </TextField>
                       <TextField 
                         select 
-                        label="Weight Level" 
+                        label="Weight Level (Auto-calculated from BMI)" 
                         name="weightLevel" 
                         value={form.weightLevel} 
                         onChange={onChange}
+                        disabled
                         fullWidth
                         size="medium"
+                        helperText="Calculated automatically based on your height and weight"
                       >
                         <MenuItem value="underweight">Underweight</MenuItem>
                         <MenuItem value="normal">Normal</MenuItem>
@@ -310,11 +588,15 @@ export default function Signup() {
                         required
                         fullWidth
                         size="medium"
+                        displayEmpty
                       >
+                        <MenuItem value="" disabled>
+                          <em>Select Goal</em>
+                        </MenuItem>
                         <MenuItem value="lose">Lose Weight</MenuItem>
                         <MenuItem value="maintain">Maintain Weight</MenuItem>
                         <MenuItem value="gain">Gain Weight</MenuItem>
-                </TextField>
+                      </TextField>
                       <TextField 
                         select 
                         label="Activity Level" 
@@ -324,7 +606,11 @@ export default function Signup() {
                         required
                         fullWidth
                         size="medium"
+                        displayEmpty
                       >
+                        <MenuItem value="" disabled>
+                          <em>Select Activity Level</em>
+                        </MenuItem>
                         <MenuItem value="no_activity">No Activity</MenuItem>
                         <MenuItem value="sedentary">Sedentary (Little Exercise)</MenuItem>
                         <MenuItem value="light_moderate">Light Moderate (1-3 days/week)</MenuItem>
@@ -337,16 +623,21 @@ export default function Signup() {
                       select 
                       label="Dietary Preference" 
                       name="dietaryRestrictions" 
-                      value={form.dietaryRestrictions[0]} 
+                      value={form.dietaryRestrictions[0] || ''} 
                       onChange={(e) => setForm({ ...form, dietaryRestrictions: [e.target.value] })}
+                      required
                       fullWidth
                       size="medium"
+                      displayEmpty
                     >
-                <MenuItem value="none">No restrictions</MenuItem>
-                <MenuItem value="vegetarian">Vegetarian</MenuItem>
-                <MenuItem value="vegan">Vegan</MenuItem>
-                <MenuItem value="non-vegetarian">Non-vegetarian</MenuItem>
-              </TextField>
+                      <MenuItem value="" disabled>
+                        <em>Select Dietary Preference</em>
+                      </MenuItem>
+                      <MenuItem value="none">No restrictions</MenuItem>
+                      <MenuItem value="vegetarian">Vegetarian</MenuItem>
+                      <MenuItem value="vegan">Vegan</MenuItem>
+                      <MenuItem value="non-vegetarian">Non-vegetarian</MenuItem>
+                    </TextField>
                     
                     <Divider sx={{ my: 2 }} />
                     
@@ -370,7 +661,7 @@ export default function Signup() {
                             endAdornment: <InputAdornment position="end">%</InputAdornment>
                           }}
                           error={macroError}
-                          helperText={macroError ? 'Total must equal 100%' : ''}
+                          helperText={macroError ? 'Total must equal 100%' : 'Auto-calculated based on BMR, BMI, TDEE, and goal (editable)'}
                           fullWidth
                           size="medium"
                         />
@@ -526,6 +817,19 @@ export default function Signup() {
           </Grid>
         </Grid>
       </Container>
+      
+      {/* Privacy & TOS Acceptance Modal */}
+      <PrivacyTOSModal
+        open={showPrivacyTOSModal}
+        onAccept={() => {
+          setShowPrivacyTOSModal(false)
+          setTimeout(() => navigate('/'), 300)
+        }}
+        onDecline={() => {
+          setShowPrivacyTOSModal(false)
+          setError('You must accept the Privacy Policy and Terms of Service to use our service.')
+        }}
+      />
     </Box>
   )
 }

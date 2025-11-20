@@ -2,9 +2,10 @@ import React from 'react'
 import {
   Grid, Card, CardContent, Typography, Stack, TextField, Button, IconButton, Tooltip,
   Divider, FormControl, Select, MenuItem, InputLabel, Box, Chip, ButtonGroup, ToggleButtonGroup, ToggleButton,
-  LinearProgress, Skeleton, Checkbox, InputAdornment, FormControlLabel, Switch, Paper, Badge, Menu, ListItemIcon, ListItemText,
-  Accordion, AccordionSummary, AccordionDetails
+  LinearProgress, Skeleton, Checkbox, FormControlLabel, Switch, Paper, Badge, Menu, ListItemIcon, ListItemText,
+  CircularProgress
 } from '@mui/material'
+import FilterListIcon from '@mui/icons-material/FilterList'
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive'
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf'
 import DownloadIcon from '@mui/icons-material/Download'
@@ -22,11 +23,11 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp'
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday'
 import FileDownloadIcon from '@mui/icons-material/FileDownload'
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining'
 import LunchDiningIcon from '@mui/icons-material/LunchDining'
 import DinnerDiningIcon from '@mui/icons-material/DinnerDining'
 import LocalCafeIcon from '@mui/icons-material/LocalCafe'
+import SearchIcon from '@mui/icons-material/Search'
 import { useAuth } from '../context/AuthContext'
 import axios from 'axios'
 import { useNotifications } from '../context/NotificationContext'
@@ -41,6 +42,26 @@ const spanOptions = [
 const categoryOptions = ['vegetables', 'fruits', 'protein', 'grains', 'dairy', 'spices', 'fats', 'beverages', 'other']
 const defaultNewItem = { name: '', amount: 1, unit: 'g', category: 'vegetables' }
 const makeId = () => `custom-${Date.now()}-${Math.random().toString(36).slice(2,7)}`
+
+const mealTypes = ['breakfast', 'lunch', 'dinner', 'snacks']
+const mealIcons = {
+  breakfast: <BreakfastDiningIcon />,
+  lunch: <LunchDiningIcon />,
+  dinner: <DinnerDiningIcon />,
+  snacks: <LocalCafeIcon />
+}
+const mealLabels = {
+  breakfast: 'Breakfast',
+  lunch: 'Lunch',
+  dinner: 'Dinner',
+  snacks: 'Snacks'
+}
+const mealColors = {
+  breakfast: { main: '#f093fb', light: 'rgba(240, 147, 251, 0.1)' },
+  lunch: { main: '#4facfe', light: 'rgba(79, 172, 254, 0.1)' },
+  dinner: { main: '#fa709a', light: 'rgba(250, 112, 154, 0.1)' },
+  snacks: { main: '#43e97b', light: 'rgba(67, 233, 123, 0.1)' }
+}
 
 export default function GroceryList() {
   const { user } = useAuth()
@@ -60,11 +81,13 @@ export default function GroceryList() {
   const [savedLists, setSavedLists] = React.useState([])
   const [hideHave, setHideHave] = React.useState(false)
   const [downloadMenuAnchor, setDownloadMenuAnchor] = React.useState(null)
-  const [expandedMeals, setExpandedMeals] = React.useState({
-    breakfast: true,
-    lunch: true,
-    dinner: true,
-    snacks: true
+  const [searchQuery, setSearchQuery] = React.useState('')
+  const [activeMealFilter, setActiveMealFilter] = React.useState('all')
+  const [mealCategoryFilters, setMealCategoryFilters] = React.useState({
+    breakfast: 'all',
+    lunch: 'all',
+    dinner: 'all',
+    snacks: 'all'
   })
 
   const storageKey = user ? `grocery_state_${user._id}_${startDate}_${endDate}` : null
@@ -189,31 +212,14 @@ export default function GroceryList() {
     }
   }, [listState])
 
-  const mealTypes = ['breakfast', 'lunch', 'dinner', 'snacks']
-  const mealIcons = {
-    breakfast: <BreakfastDiningIcon />,
-    lunch: <LunchDiningIcon />,
-    dinner: <DinnerDiningIcon />,
-    snacks: <LocalCafeIcon />
-  }
-  const mealLabels = {
-    breakfast: 'Breakfast',
-    lunch: 'Lunch',
-    dinner: 'Dinner',
-    snacks: 'Snacks'
-  }
-
   const displayMeals = React.useMemo(() => {
     const map = {}
     mealTypes.forEach(mealType => {
       const items = groupedByMeal[mealType] || []
       map[mealType] = items.map(item => attachState(item, item.category || 'other', false))
     })
-    // Add custom items to a "Custom" section or distribute by category
     customItems.forEach(item => {
       const cat = item.category || 'other'
-      // For custom items, we'll add them to a special "custom" meal type or distribute
-      // For now, let's add them to snacks as a default
       if (!map.snacks) map.snacks = []
       map.snacks.push(attachState(item, cat, true))
     })
@@ -221,13 +227,46 @@ export default function GroceryList() {
   }, [groupedByMeal, customItems, attachState])
 
   const visibleMeals = React.useMemo(() => {
-    if (!hideHave) return displayMeals
-    return Object.fromEntries(
-      Object.entries(displayMeals)
+    let filtered = displayMeals
+    
+    // Apply meal type filter
+    if (activeMealFilter !== 'all') {
+      filtered = { [activeMealFilter]: filtered[activeMealFilter] || [] }
+    }
+    
+    // Apply category filters for each meal
+    filtered = Object.fromEntries(
+      Object.entries(filtered).map(([meal, arr]) => {
+        const categoryFilter = mealCategoryFilters[meal]
+        if (categoryFilter === 'all') {
+          return [meal, arr]
+        }
+        return [meal, arr.filter(item => item.category === categoryFilter)]
+      })
+    )
+    
+    // Apply search filter
+    if (searchQuery.trim()) {
+      const q = searchQuery.trim().toLowerCase()
+      filtered = Object.fromEntries(
+        Object.entries(filtered).map(([meal, arr]) => [
+          meal,
+          arr.filter(item => item.name.toLowerCase().includes(q))
+        ])
+      )
+    }
+    
+    // Apply hideHave filter
+    if (hideHave) {
+      filtered = Object.fromEntries(
+        Object.entries(filtered)
         .map(([meal, arr]) => [meal, arr.filter(item => !item.haveIt)])
         .filter(([,arr]) => arr.length)
     )
-  }, [displayMeals, hideHave])
+    }
+    
+    return filtered
+  }, [displayMeals, hideHave, mealCategoryFilters, activeMealFilter, searchQuery])
 
   const allItems = React.useMemo(() => Object.values(displayMeals).flat(), [displayMeals])
   const visibleItems = React.useMemo(() => Object.values(visibleMeals).flat(), [visibleMeals])
@@ -235,12 +274,8 @@ export default function GroceryList() {
   const totalMealTypes = Object.keys(displayMeals).filter(k => displayMeals[k].length > 0).length
   const totalItems = allItems.length
   const checkedItems = allItems.filter(item => item.checked).length
-  const mostNeededMeal = Object.entries(displayMeals).sort((a,b)=>(b[1].length - a[1].length))[0]?.[0]
   const actionableItems = visibleItems.filter(item => !item.haveIt && !item.checked)
-
-  const handleAccordionChange = (mealType) => (event, isExpanded) => {
-    setExpandedMeals(prev => ({ ...prev, [mealType]: isExpanded }))
-  }
+  const progressPercent = totalItems > 0 ? Math.round((checkedItems / totalItems) * 100) : 0
 
   const remindItem = (item) => {
     const when = getSelectedTime()
@@ -261,27 +296,99 @@ export default function GroceryList() {
     })
   }
 
-  // Generate date range array
-  const getDateRange = (start, end) => {
-    const dates = []
-    const startDate = new Date(start)
-    const endDate = new Date(end)
-    for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
-      dates.push(iso(new Date(d)))
-    }
-    return dates
+  const toggleItemState = (id, field) => {
+    setListState(prev => {
+      const next = { ...prev, [id]: { ...prev[id], [field]: !prev[id]?.[field] } }
+      if (!next[id].checked && !next[id].haveIt && next[id].overrideAmount === undefined && !next[id].overrideUnit) {
+        delete next[id]
+      }
+      
+      const item = allItems.find(i => i.id === id)
+      if (item) {
+        if (field === 'checked') {
+          addNotification({
+            title: next[id]?.checked ? 'Item Checked' : 'Item Unchecked',
+            body: `${item.name} has been ${next[id]?.checked ? 'checked off' : 'unchecked'} your grocery list.`,
+            type: 'info'
+          })
+        } else if (field === 'haveIt') {
+          addNotification({
+            title: next[id]?.haveIt ? 'Item Marked as Owned' : 'Item Removed from Owned',
+            body: `${item.name} has been ${next[id]?.haveIt ? 'marked as already owned' : 'removed from owned items'}.`,
+            type: 'info'
+          })
+        }
+      }
+      
+      return next
+    })
   }
 
-  // Get items for a specific date
-  const getItemsForDate = async (date) => {
-    try {
-      const res = await axios.get(`/api/grocery/${user._id}`, { params: { startDate: date, endDate: date } })
-      return res.data.data.grouped || {}
-    } catch {
-      return {}
+  const updateOverride = (id, patch) => {
+    setListState(prev => {
+      const next = { ...prev, [id]: { ...prev[id], ...patch } }
+      if (!next[id].checked && !next[id].haveIt && (next[id].overrideAmount === undefined || next[id].overrideAmount === null) && !next[id].overrideUnit) {
+        delete next[id]
+      }
+      return next
+    })
+  }
+
+  const updateCustomItem = (id, field, value) => {
+    setCustomItems(prev => prev.map(item => item.id === id ? { ...item, [field]: field === 'amount' ? Number(value) || 0 : value } : item))
+  }
+
+  const removeCustomItem = (id) => {
+    const item = customItems.find(i => i.id === id)
+    setCustomItems(prev => prev.filter(item => item.id !== id))
+    if (item) {
+      addNotification({
+        title: 'Item Removed',
+        body: `${item.name} has been removed from your grocery list.`,
+        type: 'info'
+      })
     }
   }
 
+  const addCustomItem = () => {
+    if (!newItem.name.trim()) return
+    setCustomItems(prev => [...prev, { ...newItem, id: makeId(), amount: Number(newItem.amount) || 0 }])
+    addNotification({
+      title: 'Custom Item Added',
+      body: `${newItem.name} has been added to your grocery list.`,
+      type: 'success'
+    })
+    setNewItem(defaultNewItem)
+  }
+
+  const saveCurrentList = () => {
+    const payload = allItems.filter(item => !item.haveIt).map(item => ({
+      name: item.name,
+      amount: item.amount,
+      unit: item.unit,
+      category: item.category
+    }))
+    if (!payload.length) return
+    const name = window.prompt('Name this grocery list snapshot', `Week of ${startDate}`)
+    if (!name) return
+    const entry = { id: Date.now(), name, range: { startDate, endDate }, items: payload }
+    persistSavedLists([entry, ...savedLists].slice(0, 8))
+  }
+
+  const applySavedList = (entry) => {
+    setCustomItems(prev => [
+      ...prev,
+      ...entry.items.map(item => ({ ...item, id: makeId() }))
+    ])
+  }
+
+  const deleteSavedList = (entry) => {
+    persistSavedLists(savedLists.filter(item => item.id !== entry.id))
+  }
+
+  const canExport = actionableItems.length > 0
+
+  // Export functions
   const exportCSV = (mode = 'range') => {
     if (mode === 'day') {
       const rows = actionableItems.map(i => `${escapeCSV(i.name)},${i.amount},${i.unit},${titleCase(i.category)}`).join('\n')
@@ -290,10 +397,7 @@ export default function GroceryList() {
     } else if (mode === 'week') {
       const dates = getDateRange(startDate, endDate)
       const weekData = dates.map(date => {
-        const dayItems = Object.values(displayMeals).flat().filter(item => {
-          // This is simplified - in real implementation, you'd fetch per-day data
-          return true
-        })
+        const dayItems = Object.values(displayMeals).flat()
         return { date, items: dayItems }
       })
       const rows = weekData.flatMap(({ date, items }) => 
@@ -357,8 +461,6 @@ export default function GroceryList() {
         doc.text(`Grocery List - ${formatDate(date)}`, margin, yPosition)
     yPosition += 15
 
-        // For week view, we'll show all items grouped by meal type
-        // In a real implementation, you'd fetch per-day data
         mealTypes.forEach(mealType => {
           const arr = displayMeals[mealType] || []
           const filtered = arr.filter(item => !item.haveIt)
@@ -415,112 +517,62 @@ export default function GroceryList() {
     }
   }
 
-  const toggleItemState = (id, field) => {
-    setListState(prev => {
-      const next = { ...prev, [id]: { ...prev[id], [field]: !prev[id]?.[field] } }
-      if (!next[id].checked && !next[id].haveIt && next[id].overrideAmount === undefined && !next[id].overrideUnit) {
-        delete next[id]
+  const getDateRange = (start, end) => {
+    const dates = []
+    const startDate = new Date(start)
+    const endDate = new Date(end)
+    for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
+      dates.push(iso(new Date(d)))
+    }
+    return dates
+  }
+
+  // Calculate stats by meal type
+  const mealStats = React.useMemo(() => {
+    const stats = {}
+    mealTypes.forEach(mealType => {
+      const items = displayMeals[mealType] || []
+      const checked = items.filter(i => i.checked).length
+      const haveIt = items.filter(i => i.haveIt).length
+      const toBuy = items.filter(i => !i.haveIt && !i.checked).length
+      stats[mealType] = {
+        total: items.length,
+        checked,
+        haveIt,
+        toBuy,
+        progress: items.length > 0 ? Math.round((checked / items.length) * 100) : 0
       }
-      return next
     })
-  }
-
-  const updateOverride = (id, patch) => {
-    setListState(prev => {
-      const next = { ...prev, [id]: { ...prev[id], ...patch } }
-      if (!next[id].checked && !next[id].haveIt && (next[id].overrideAmount === undefined || next[id].overrideAmount === null) && !next[id].overrideUnit) {
-        delete next[id]
-      }
-      return next
-    })
-  }
-
-  const updateCustomItem = (id, field, value) => {
-    setCustomItems(prev => prev.map(item => item.id === id ? { ...item, [field]: field === 'amount' ? Number(value) || 0 : value } : item))
-  }
-
-  const removeCustomItem = (id) => setCustomItems(prev => prev.filter(item => item.id !== id))
-
-  const addCustomItem = () => {
-    if (!newItem.name.trim()) return
-    setCustomItems(prev => [...prev, { ...newItem, id: makeId(), amount: Number(newItem.amount) || 0 }])
-    setNewItem(defaultNewItem)
-  }
-
-  const saveCurrentList = () => {
-    const payload = allItems.filter(item => !item.haveIt).map(item => ({
-      name: item.name,
-      amount: item.amount,
-      unit: item.unit,
-      category: item.category
-    }))
-    if (!payload.length) return
-    const name = window.prompt('Name this grocery list snapshot', `Week of ${startDate}`)
-    if (!name) return
-    const entry = { id: Date.now(), name, range: { startDate, endDate }, items: payload }
-    persistSavedLists([entry, ...savedLists].slice(0, 8))
-  }
-
-  const applySavedList = (entry) => {
-    setCustomItems(prev => [
-      ...prev,
-      ...entry.items.map(item => ({ ...item, id: makeId() }))
-    ])
-  }
-
-  const deleteSavedList = (entry) => {
-    persistSavedLists(savedLists.filter(item => item.id !== entry.id))
-  }
-
-  const canExport = actionableItems.length > 0
-  const progressPercent = totalItems > 0 ? Math.round((checkedItems / totalItems) * 100) : 0
+    return stats
+  }, [displayMeals])
 
   return (
-    <Box sx={{ p: 3 }}>
+    <Box>
       <Grid container spacing={3}>
         {/* Header Section */}
         <Grid item xs={12}>
           <Paper elevation={2} sx={{ p: 3, background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: 'white' }}>
             <Stack spacing={3}>
-              <Stack direction={{ xs: 'column', md: 'row' }} justifyContent="space-between" alignItems={{ xs: 'flex-start', md: 'center' }}>
                 <Box>
                   <Typography variant="h4" fontWeight={800} sx={{ mb: 0.5 }}>Smart Grocery List</Typography>
                   <Typography variant="body1" sx={{ opacity: 0.9 }}>
                     Auto-generated shopping list from your meal plans
                   </Typography>
                 </Box>
-                <Stack direction="row" spacing={1} flexWrap="wrap">
-                  <Button variant="contained" startIcon={<RefreshIcon />} onClick={load} sx={{ bgcolor: 'rgba(255,255,255,0.2)', '&:hover': { bgcolor: 'rgba(255,255,255,0.3)' } }}>
-                    Refresh
-                  </Button>
-                  <Button
-                    variant="contained"
-                    startIcon={<FileDownloadIcon />}
-                    onClick={(e) => setDownloadMenuAnchor(e.currentTarget)}
-                    disabled={!canExport}
-                    sx={{ bgcolor: 'rgba(255,255,255,0.2)', '&:hover': { bgcolor: 'rgba(255,255,255,0.3)' } }}
-                  >
-                    Download
-                  </Button>
-          </Stack>
-        </Stack>
-
-              {/* Date Range Controls */}
               <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} alignItems={{ xs: 'stretch', sm: 'center' }}>
                 <ButtonGroup variant="outlined" size="small" sx={{ bgcolor: 'rgba(255,255,255,0.1)' }}>
                   <Button onClick={() => changeRange(-1)} sx={{ color: 'white', borderColor: 'rgba(255,255,255,0.3)' }}>
-                    <ChevronLeftIcon />
+                    <ChevronLeftIcon fontSize="small" />
                   </Button>
                   <Button onClick={() => { setStartDate(today); setEndDate(today) }} sx={{ color: 'white', borderColor: 'rgba(255,255,255,0.3)' }}>
-                    <TodayIcon />
+                    <TodayIcon fontSize="small" />
                   </Button>
                   <Button onClick={() => changeRange(1)} sx={{ color: 'white', borderColor: 'rgba(255,255,255,0.3)' }}>
-                    <ChevronRightIcon />
+                    <ChevronRightIcon fontSize="small" />
                   </Button>
                 </ButtonGroup>
                 <TextField
                   type="date"
-                  label="Start Date"
                   size="small"
                   value={startDate}
                   onChange={e => setStartDate(e.target.value)}
@@ -529,7 +581,6 @@ export default function GroceryList() {
                 />
                 <TextField
                   type="date"
-                  label="End Date"
                   size="small"
                   value={endDate}
                   onChange={e => setEndDate(e.target.value)}
@@ -550,9 +601,62 @@ export default function GroceryList() {
                     </ToggleButton>
                   ))}
                 </ToggleButtonGroup>
+                <Button
+                  variant="contained"
+                  startIcon={<RefreshIcon />}
+                  onClick={load}
+                  sx={{ bgcolor: 'rgba(255,255,255,0.2)', '&:hover': { bgcolor: 'rgba(255,255,255,0.3)' } }}
+                >
+                  Refresh
+                </Button>
+                <ButtonGroup variant="contained" size="small" sx={{ bgcolor: 'rgba(255,255,255,0.2)' }}>
+                  <Button startIcon={<DownloadIcon />} onClick={(e) => setDownloadMenuAnchor(e.currentTarget)} disabled={!canExport}>
+                    Download
+                  </Button>
+                </ButtonGroup>
               </Stack>
             </Stack>
           </Paper>
+        </Grid>
+
+        {/* Filter Bar */}
+        <Grid item xs={12}>
+          <Card elevation={3}>
+            <CardContent>
+              <Stack direction={{ xs: 'column', md: 'row' }} spacing={2} alignItems={{ xs: 'stretch', md: 'center' }} justifyContent="space-between">
+                <TextField
+                  size="small"
+                  placeholder="Search items..."
+                  value={searchQuery}
+                  onChange={e => setSearchQuery(e.target.value)}
+                  InputProps={{ 
+                    startAdornment: <SearchIcon fontSize="small" sx={{ mr: 1, color: 'text.secondary' }} />
+                  }}
+                  sx={{ flex: 1, maxWidth: 400 }}
+                />
+                <Stack direction="row" spacing={2} alignItems="center" flexWrap="wrap">
+                  <ToggleButtonGroup 
+                    value={activeMealFilter} 
+                    exclusive 
+                    onChange={(_, v) => v && setActiveMealFilter(v)} 
+                    size="small"
+                  >
+                    <ToggleButton value="all">All Meals</ToggleButton>
+                    {mealTypes.map(type => (
+                      <ToggleButton key={type} value={type}>
+                        {mealIcons[type]}
+                        <Box sx={{ ml: 0.5 }}>{mealLabels[type]}</Box>
+                      </ToggleButton>
+                    ))}
+                  </ToggleButtonGroup>
+                  <FormControlLabel
+                    control={<Switch checked={hideHave} onChange={(_, v) => setHideHave(v)} size="small" />}
+                    label="Hide owned"
+                  />
+                </Stack>
+              </Stack>
+            </CardContent>
+          </Card>
         </Grid>
 
         {/* Stats Cards */}
@@ -577,11 +681,11 @@ export default function GroceryList() {
             <CardContent>
               <Stack direction="row" alignItems="center" spacing={2}>
                 <Box sx={{ bgcolor: 'rgba(255,255,255,0.2)', borderRadius: 2, p: 1.5 }}>
-                  <CategoryIcon />
+                  <TrendingUpIcon />
                 </Box>
                 <Box>
-                  <Typography variant="h3" fontWeight={800}>{totalMealTypes}</Typography>
-                  <Typography variant="body2" sx={{ opacity: 0.9 }}>Meal Types</Typography>
+                  <Typography variant="h3" fontWeight={800}>{actionableItems.length}</Typography>
+                  <Typography variant="body2" sx={{ opacity: 0.9 }}>To Buy</Typography>
                 </Box>
               </Stack>
             </CardContent>
@@ -593,11 +697,11 @@ export default function GroceryList() {
             <CardContent>
               <Stack direction="row" alignItems="center" spacing={2}>
                 <Box sx={{ bgcolor: 'rgba(255,255,255,0.2)', borderRadius: 2, p: 1.5 }}>
-                  <TrendingUpIcon />
+                  <CategoryIcon />
                 </Box>
                 <Box>
-                  <Typography variant="h3" fontWeight={800}>{actionableItems.length}</Typography>
-                  <Typography variant="body2" sx={{ opacity: 0.9 }}>To Buy</Typography>
+                  <Typography variant="h3" fontWeight={800}>{totalMealTypes}</Typography>
+                  <Typography variant="body2" sx={{ opacity: 0.9 }}>Meal Types</Typography>
                 </Box>
               </Stack>
             </CardContent>
@@ -619,30 +723,20 @@ export default function GroceryList() {
           </Card>
         </Grid>
 
-        {/* Main Content */}
-        <Grid item xs={12} md={8}>
+        {/* Main Content - Grocery Items by Meal Type */}
+        <Grid item xs={12}>
+          {loading ? (
           <Card elevation={3}>
             <CardContent>
-              <Stack direction="row" justifyContent="space-between" alignItems="center" sx={{ mb: 3 }}>
-                <Box>
-                  <Typography variant="h6" fontWeight={700}>Shopping List</Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {span === 'day' ? 'Today\'s items' : span === 'week' ? 'This week\'s items' : 'This month\'s items'}
-                  </Typography>
-                </Box>
-                <FormControlLabel
-                  control={<Switch checked={hideHave} onChange={(_, v) => setHideHave(v)} />}
-                  label="Hide owned items"
-                />
-              </Stack>
-
-              {loading ? (
                 <Stack spacing={2}>
-                  <Skeleton variant="rounded" height={100} />
-                  <Skeleton variant="rounded" height={100} />
-                  <Skeleton variant="rounded" height={100} />
+                  <Skeleton variant="rounded" height={200} />
+                  <Skeleton variant="rounded" height={200} />
                 </Stack>
+              </CardContent>
+            </Card>
               ) : Object.keys(visibleMeals).length === 0 ? (
+            <Card elevation={3}>
+              <CardContent>
                 <Box sx={{ textAlign: 'center', py: 8 }}>
                   <ShoppingCartIcon sx={{ fontSize: 64, color: 'text.secondary', mb: 2 }} />
                   <Typography variant="h6" color="text.secondary" gutterBottom>
@@ -652,157 +746,59 @@ export default function GroceryList() {
                     Generate a meal plan to populate your grocery list
                   </Typography>
                 </Box>
-              ) : (
-                <Stack spacing={2}>
+              </CardContent>
+            </Card>
+          ) : (
+            <Card elevation={3}>
+              <CardContent>
+                <Stack direction="row" justifyContent="space-between" alignItems="center" sx={{ mb: 3 }}>
+                                <Typography variant="h6" fontWeight={700}>
+                    Shopping List {activeMealFilter !== 'all' ? `(${mealLabels[activeMealFilter]})` : ''}
+                                </Typography>
+                  <Button
+                                  variant="outlined"
+                                    size="small" 
+                    startIcon={<SaveIcon />}
+                    onClick={saveCurrentList}
+                    disabled={actionableItems.length === 0}
+                  >
+                    Save List
+                  </Button>
+                                    </Stack>
+                <Grid container spacing={3}>
                   {mealTypes.map(mealType => {
                     const items = visibleMeals[mealType] || []
-                    if (items.length === 0) return null
+                    if (items.length === 0 && activeMealFilter !== 'all') return null
+                    if (activeMealFilter !== 'all' && activeMealFilter !== mealType) return null
                     
-                    const mealTotal = displayMeals[mealType]?.length || 0
-                    const mealChecked = displayMeals[mealType]?.filter(i => i.checked).length || 0
-                    const mealProgress = mealTotal > 0 ? Math.round((mealChecked / mealTotal) * 100) : 0
+                    const stats = mealStats[mealType] || { total: 0, checked: 0, toBuy: 0, progress: 0 }
+                    const color = mealColors[mealType]
                     
                     return (
-                      <Accordion
-                        key={mealType}
-                        expanded={expandedMeals[mealType]}
-                        onChange={handleAccordionChange(mealType)}
-                        elevation={2}
-                        sx={{
-                          '&:before': { display: 'none' },
-                          borderLeft: 4,
-                          borderColor: mealType === 'breakfast' ? '#f093fb' : mealType === 'lunch' ? '#4facfe' : mealType === 'dinner' ? '#fa709a' : '#43e97b'
-                        }}
-                      >
-                        <AccordionSummary
-                          expandIcon={<ExpandMoreIcon />}
-                          sx={{
-                            bgcolor: mealType === 'breakfast' ? 'rgba(240, 147, 251, 0.1)' : mealType === 'lunch' ? 'rgba(79, 172, 254, 0.1)' : mealType === 'dinner' ? 'rgba(250, 112, 154, 0.1)' : 'rgba(67, 233, 123, 0.1)',
-                            '&:hover': { bgcolor: mealType === 'breakfast' ? 'rgba(240, 147, 251, 0.15)' : mealType === 'lunch' ? 'rgba(79, 172, 254, 0.15)' : mealType === 'dinner' ? 'rgba(250, 112, 154, 0.15)' : 'rgba(67, 233, 123, 0.15)' }
-                          }}
-                        >
-                          <Stack direction="row" spacing={2} alignItems="center" sx={{ flex: 1 }}>
-                            <Box sx={{ color: mealType === 'breakfast' ? '#f093fb' : mealType === 'lunch' ? '#4facfe' : mealType === 'dinner' ? '#fa709a' : '#43e97b' }}>
-                              {mealIcons[mealType]}
-                            </Box>
-                            <Box sx={{ flex: 1 }}>
-                              <Stack direction="row" spacing={2} alignItems="center">
-                                <Typography variant="h6" fontWeight={700}>
-                                  {mealLabels[mealType]}
-                                </Typography>
-                                <Chip 
-                                  label={`${items.length} ${items.length === 1 ? 'item' : 'items'}`} 
-                                  size="small" 
-                                  color="primary"
-                                  variant="outlined"
-                                />
-                                {mealTotal > 0 && (
-                                  <Chip 
-                                    label={`${mealProgress}% done`} 
-                                    size="small" 
-                                    color={mealProgress === 100 ? 'success' : 'default'}
-                                  />
-                                )}
-                              </Stack>
-                              {mealTotal > 0 && (
-                                <LinearProgress 
-                                  variant="determinate" 
-                                  value={mealProgress} 
-                                  sx={{ mt: 1, height: 6, borderRadius: 3 }}
-                                  color={mealProgress === 100 ? 'success' : 'primary'}
-                                />
-                              )}
-                            </Box>
-                          </Stack>
-                        </AccordionSummary>
-                        <AccordionDetails sx={{ pt: 2 }}>
-                          <Stack spacing={1.5}>
-                            {items.map(item => (
-                              <Paper
-                                key={item.id}
-                                elevation={0}
-                                sx={{
-                                  p: 2,
-                                  border: 1,
-                                  borderColor: item.checked ? 'success.main' : item.haveIt ? 'warning.main' : 'divider',
-                                  borderRadius: 2,
-                                  bgcolor: item.checked ? 'success.50' : item.haveIt ? 'warning.50' : 'background.paper',
-                                  opacity: item.haveIt ? 0.7 : 1,
-                                  transition: 'all 0.2s',
-                                  '&:hover': { boxShadow: 2 }
-                                }}
-                              >
-                                <Stack direction="row" spacing={2} alignItems="center">
-                                  <Checkbox
-                                    checked={item.checked}
-                                    onChange={() => toggleItemState(item.id, 'checked')}
-                                    color="success"
-                                  />
-                                  <Box sx={{ flex: 1 }}>
-                                    <Typography
-                                      variant="body1"
-                                      fontWeight={600}
-                                      sx={{ textDecoration: item.checked ? 'line-through' : 'none', mb: 1 }}
-                                    >
-                                      {item.name}
-                                    </Typography>
-                                    <Stack direction="row" spacing={1} flexWrap="wrap" alignItems="center">
-                                      <TextField
-                                        size="small"
-                                        type="number"
-                                        label="Quantity"
-                                        value={item.amount}
-                                        onChange={(e) => item.isCustom ? updateCustomItem(item.id, 'amount', e.target.value) : updateOverride(item.id, { overrideAmount: Number(e.target.value) })}
-                                        sx={{ width: 100 }}
-                                      />
-                                      <TextField
-                                        size="small"
-                                        label="Unit"
-                                        value={item.unit}
-                                        onChange={(e) => item.isCustom ? updateCustomItem(item.id, 'unit', e.target.value) : updateOverride(item.id, { overrideUnit: e.target.value })}
-                                        sx={{ width: 90 }}
-                                      />
-                                      <Chip label={titleCase(item.category)} size="small" variant="outlined" />
-                                    </Stack>
-                                  </Box>
-                                  <Stack direction="row" spacing={0.5}>
-                                    <Tooltip title={item.haveIt ? 'Bring back to list' : 'I already have this'}>
-                                      <IconButton
-                                        onClick={() => toggleItemState(item.id, 'haveIt')}
-                                        color={item.haveIt ? 'warning' : 'default'}
-                                        size="small"
-                                      >
-                                        <Inventory2OutlinedIcon />
-                                      </IconButton>
-                                    </Tooltip>
-                                    <Tooltip title="Set reminder">
-                                      <IconButton onClick={() => remindItem(item)} size="small">
-                                        <NotificationsActiveIcon />
-                                      </IconButton>
-                                    </Tooltip>
-                                    {item.isCustom && (
-                                      <Tooltip title="Remove">
-                                        <IconButton onClick={() => removeCustomItem(item.id)} size="small" color="error">
-                                          <DeleteOutlineIcon />
-                                        </IconButton>
-                                      </Tooltip>
-                                    )}
-                                  </Stack>
-                                </Stack>
-                              </Paper>
-                            ))}
-                          </Stack>
-                        </AccordionDetails>
-                      </Accordion>
+                      <Grid item xs={12} md={6} key={mealType}>
+                        <MealGroceryColumn
+                          mealType={mealType}
+                          items={items}
+                          stats={stats}
+                          color={color}
+                          categoryFilter={mealCategoryFilters[mealType]}
+                          onCategoryFilterChange={(value) => setMealCategoryFilters(prev => ({ ...prev, [mealType]: value }))}
+                          onToggleItemState={toggleItemState}
+                          onUpdateOverride={updateOverride}
+                          onUpdateCustomItem={updateCustomItem}
+                          onRemoveCustomItem={removeCustomItem}
+                          onRemindItem={remindItem}
+                        />
+                      </Grid>
                     )
                   })}
-                </Stack>
-              )}
+                </Grid>
             </CardContent>
           </Card>
+          )}
         </Grid>
 
-        {/* Sidebar */}
+        {/* Sidebar - Tools & Settings */}
         <Grid item xs={12} md={4}>
           <Stack spacing={3}>
             {/* Reminder Settings */}
@@ -841,6 +837,12 @@ export default function GroceryList() {
                     onClick={remindAllToday}
                     disabled={!actionableItems.length}
                     fullWidth
+                    sx={{
+                      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                      '&:hover': {
+                        background: 'linear-gradient(135deg, #5568d3 0%, #6a3d8f 100%)',
+                      }
+                    }}
                   >
                     Remind All ({actionableItems.length})
                   </Button>
@@ -890,7 +892,13 @@ export default function GroceryList() {
                   >
                     {categoryOptions.map(opt => <MenuItem key={opt} value={opt}>{titleCase(opt)}</MenuItem>)}
                   </TextField>
-                  <Button variant="outlined" startIcon={<AddIcon />} onClick={addCustomItem} fullWidth>
+                  <Button 
+                    variant="outlined" 
+                    startIcon={<AddIcon />} 
+                    onClick={addCustomItem} 
+                    fullWidth
+                    disabled={!newItem.name.trim()}
+                  >
                     Add Item
             </Button>
           </Stack>
@@ -963,12 +971,229 @@ export default function GroceryList() {
   )
 }
 
-function InsightRow({ label, value }) {
+function MealGroceryColumn({ mealType, items, stats, color, categoryFilter, onCategoryFilterChange, onToggleItemState, onUpdateOverride, onUpdateCustomItem, onRemoveCustomItem, onRemindItem }) {
+  const [expanded, setExpanded] = React.useState(true)
+  
   return (
-    <Stack direction="row" justifyContent="space-between" alignItems="center">
-      <Typography variant="body2">{label}</Typography>
-      <Typography variant="body2" fontWeight={700}>{value}</Typography>
+    <Box 
+      sx={{ 
+        border: 2, 
+        borderColor: color.main, 
+        borderRadius: 3, 
+        p: 2.5,
+        bgcolor: color.light,
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column'
+      }}
+    >
+      {/* Header */}
+      <Stack direction="row" spacing={2} alignItems="center" sx={{ mb: 2 }}>
+        <Box sx={{ color: color.main, fontSize: 32 }}>
+          {mealIcons[mealType]}
+        </Box>
+        <Box sx={{ flex: 1 }}>
+          <Typography variant="h6" fontWeight={700} sx={{ color: color.main }}>
+            {mealLabels[mealType]}
+          </Typography>
+          <Stack direction="row" spacing={1} alignItems="center" sx={{ mt: 0.5 }}>
+            <Chip 
+              label={`${items.length} items`} 
+              size="small" 
+              sx={{ bgcolor: 'white', color: color.main }}
+            />
+            {stats.total > 0 && (
+              <Chip 
+                label={`${stats.progress}% done`} 
+                size="small" 
+                color={stats.progress === 100 ? 'success' : 'default'}
+                sx={{ bgcolor: 'white' }}
+              />
+            )}
     </Stack>
+        </Box>
+        <IconButton size="small" onClick={() => setExpanded(!expanded)}>
+          {expanded ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+        </IconButton>
+      </Stack>
+
+      {/* Progress Bar */}
+      {stats.total > 0 && (
+        <Box sx={{ mb: 2 }}>
+          <LinearProgress 
+            variant="determinate" 
+            value={stats.progress} 
+            sx={{ 
+              height: 8, 
+              borderRadius: 4,
+              bgcolor: 'rgba(255,255,255,0.5)',
+              '& .MuiLinearProgress-bar': {
+                bgcolor: color.main
+              }
+            }} 
+          />
+          <Stack direction="row" justifyContent="space-between" sx={{ mt: 0.5 }}>
+            <Typography variant="caption" color="text.secondary">
+              {stats.checked} checked
+            </Typography>
+            <Typography variant="caption" color="text.secondary">
+              {stats.toBuy} to buy
+            </Typography>
+          </Stack>
+        </Box>
+      )}
+
+      {/* Category Filter */}
+      {expanded && (
+        <>
+          <Box sx={{ mb: 2 }}>
+            <Stack direction="row" spacing={1} alignItems="center" sx={{ mb: 1 }}>
+              <FilterListIcon sx={{ fontSize: 16, color: 'text.secondary' }} />
+              <Typography variant="caption" fontWeight={600} color="text.secondary">
+                Filter by Category
+              </Typography>
+            </Stack>
+            <FormControl size="small" fullWidth>
+              <Select
+                value={categoryFilter}
+                onChange={(e) => onCategoryFilterChange(e.target.value)}
+                displayEmpty
+                sx={{ bgcolor: 'white' }}
+              >
+                <MenuItem value="all">
+                  <em>All Categories</em>
+                </MenuItem>
+                {categoryOptions.map(cat => (
+                  <MenuItem key={cat} value={cat}>
+                    {titleCase(cat)}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Box>
+
+          <Divider sx={{ mb: 2 }} />
+
+          {/* Items List */}
+          <Box sx={{ flex: 1, overflowY: 'auto', maxHeight: 500 }}>
+            {items.length === 0 ? (
+              <Box sx={{ textAlign: 'center', py: 4 }}>
+                <Typography variant="body2" color="text.secondary">
+                  No items in this category
+                </Typography>
+              </Box>
+            ) : (
+              <Stack spacing={1.5}>
+                {items.map(item => (
+                  <GroceryItemCard
+                    key={item.id}
+                    item={item}
+                    color={color}
+                    onToggleState={onToggleItemState}
+                    onUpdateOverride={onUpdateOverride}
+                    onUpdateCustomItem={onUpdateCustomItem}
+                    onRemoveCustomItem={onRemoveCustomItem}
+                    onRemindItem={onRemindItem}
+                  />
+                ))}
+              </Stack>
+            )}
+          </Box>
+        </>
+      )}
+    </Box>
+  )
+}
+
+function GroceryItemCard({ item, color, onToggleState, onUpdateOverride, onUpdateCustomItem, onRemoveCustomItem, onRemindItem }) {
+  return (
+    <Paper
+      elevation={0}
+      sx={{
+        p: 1.5,
+        border: 1,
+        borderColor: item.checked ? 'success.main' : item.haveIt ? 'warning.main' : color.main,
+        borderRadius: 2,
+        bgcolor: item.checked ? 'success.50' : item.haveIt ? 'warning.50' : 'background.paper',
+        opacity: item.haveIt ? 0.7 : 1,
+        transition: 'all 0.2s',
+        '&:hover': { 
+          boxShadow: 3,
+          transform: 'translateY(-2px)'
+        }
+      }}
+    >
+      <Stack direction="row" spacing={1.5} alignItems="flex-start">
+        <Checkbox
+          checked={item.checked}
+          onChange={() => onToggleState(item.id, 'checked')}
+          color="success"
+          size="small"
+          sx={{ mt: 0.5 }}
+        />
+        <Box sx={{ flex: 1, minWidth: 0 }}>
+          <Typography
+            variant="body1"
+            fontWeight={600}
+            sx={{ 
+              textDecoration: item.checked ? 'line-through' : 'none',
+              mb: 1,
+              color: item.checked ? 'text.secondary' : 'text.primary'
+            }}
+          >
+            {item.name}
+          </Typography>
+          <Stack direction="row" spacing={1} flexWrap="wrap" alignItems="center">
+            <TextField
+              size="small"
+              type="number"
+              label="Qty"
+              value={item.amount}
+              onChange={(e) => item.isCustom ? onUpdateCustomItem(item.id, 'amount', e.target.value) : onUpdateOverride(item.id, { overrideAmount: Number(e.target.value) })}
+              sx={{ width: 80 }}
+              inputProps={{ style: { fontSize: '0.875rem' } }}
+            />
+            <TextField
+              size="small"
+              label="Unit"
+              value={item.unit}
+              onChange={(e) => item.isCustom ? onUpdateCustomItem(item.id, 'unit', e.target.value) : onUpdateOverride(item.id, { overrideUnit: e.target.value })}
+              sx={{ width: 70 }}
+              inputProps={{ style: { fontSize: '0.875rem' } }}
+            />
+            <Chip 
+              label={titleCase(item.category)} 
+              size="small" 
+              variant="outlined"
+              sx={{ fontSize: '0.7rem', height: 24 }}
+            />
+          </Stack>
+        </Box>
+        <Stack direction="row" spacing={0.5}>
+          <Tooltip title={item.haveIt ? 'Bring back to list' : 'I already have this'}>
+            <IconButton
+              onClick={() => onToggleState(item.id, 'haveIt')}
+              color={item.haveIt ? 'warning' : 'default'}
+              size="small"
+            >
+              <Inventory2OutlinedIcon fontSize="small" />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Set reminder">
+            <IconButton onClick={() => onRemindItem(item)} size="small">
+              <NotificationsActiveIcon fontSize="small" />
+            </IconButton>
+          </Tooltip>
+          {item.isCustom && (
+            <Tooltip title="Remove">
+              <IconButton onClick={() => onRemoveCustomItem(item.id)} size="small" color="error">
+                <DeleteOutlineIcon fontSize="small" />
+              </IconButton>
+            </Tooltip>
+          )}
+        </Stack>
+      </Stack>
+    </Paper>
   )
 }
 

@@ -68,6 +68,21 @@ export default function Recipes() {
     })
   }, [data, activeMeal, search])
 
+  // Calculate workload based on filtered meals
+  const filteredWorkloadData = React.useMemo(() => {
+    return filteredPlans.map((plan) => {
+      const filteredMeals = {}
+      MEAL_TYPES.slice(1).forEach(type => {
+        if (activeMeal === 'all' || type === activeMeal) {
+          filteredMeals[type] = plan.filteredMeals ? plan.filteredMeals[type] : plan?.meals?.[type] || []
+        } else {
+          filteredMeals[type] = []
+        }
+      })
+      return { ...plan, filteredMeals }
+    })
+  }, [filteredPlans, activeMeal])
+
   const downloadRecipes = async (mode = 'day') => {
     const doc = new jsPDF({ unit: 'pt' })
     const plans = mode === span ? data : await (async () => {
@@ -223,14 +238,22 @@ export default function Recipes() {
         <Grid item xs={12} md={8}>
           <Card elevation={3}>
             <CardContent>
-              <Typography variant="subtitle1" fontWeight={700} gutterBottom>Prep workload</Typography>
+              <Typography variant="subtitle1" fontWeight={700} gutterBottom>
+                Prep workload {activeMeal !== 'all' ? `(${capitalize(activeMeal)})` : ''}
+              </Typography>
               {loading ? (
                 <Skeleton variant="rounded" height={120} />
               ) : data.length === 0 ? (
                 <Typography variant="body2" color="text.secondary">No planned meals in this range.</Typography>
+              ) : filteredWorkloadData.length === 0 || !filteredWorkloadData.some(plan => 
+                Object.values(plan.filteredMeals || {}).some(arr => arr.length > 0)
+              ) ? (
+                <Typography variant="body2" color="text.secondary">
+                  No {activeMeal !== 'all' ? capitalize(activeMeal) : ''} meals in this range.
+                </Typography>
               ) : (
                 <Stack spacing={1}>
-                  {workloadBlocks(data).map(block => (
+                  {workloadBlocks(filteredWorkloadData).map(block => (
                     <Box key={block.label}>
                       <Stack direction="row" justifyContent="space-between">
                         <Typography variant="caption">{block.label}</Typography>
@@ -435,7 +458,9 @@ function workloadBlocks(plans) {
   }
   plans.forEach(plan => {
     MEAL_TYPES.slice(1).forEach(type => {
-      (plan?.meals?.[type] || []).forEach(item => {
+      // Use filteredMeals if available (when meal type filter is active), otherwise use meals
+      const items = plan.filteredMeals?.[type] || plan?.meals?.[type] || []
+      items.forEach(item => {
         totals.prep += Math.max(5, Math.round(item.servingSize?.amount/20 || 5))
         totals.cook += Math.max(10, Math.round(item.calories/20 || 10))
         totals.plate += 5

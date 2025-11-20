@@ -19,13 +19,16 @@ import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../utils/api'
 import { useNavigate } from 'react-router-dom'
+import { useNotifications } from '../context/NotificationContext'
 import MacroDonut from '../components/MacroDonut'
+import Checkbox from '@mui/material/Checkbox'
 
 const COLORS = ['#22C55E', '#3B82F6', '#F59E0B'] // Protein, Carbs, Fat
 
 export default function Dashboard() {
   const { user } = useAuth()
   const navigate = useNavigate()
+  const { scheduleReminder, addNotification, toISTDate } = useNotifications()
   const [today, setToday] = React.useState(null)
   const [weekData, setWeekData] = React.useState([])
   const [timeRange, setTimeRange] = React.useState('7d')
@@ -34,6 +37,21 @@ export default function Dashboard() {
     return Number(localStorage.getItem(k) || 0)
   })
   const [loading, setLoading] = React.useState(false)
+  
+  // Manual meal completion state
+  const todayKey = React.useMemo(() => `meal_completion_${new Date().toISOString().slice(0,10)}`, [])
+  const [mealCompletionState, setMealCompletionState] = React.useState(() => {
+    try {
+      const stored = localStorage.getItem(todayKey)
+      return stored ? JSON.parse(stored) : { breakfast: false, lunch: false, dinner: false, snacks: false }
+    } catch {
+      return { breakfast: false, lunch: false, dinner: false, snacks: false }
+    }
+  })
+
+  React.useEffect(() => {
+    localStorage.setItem(todayKey, JSON.stringify(mealCompletionState))
+  }, [mealCompletionState, todayKey])
 
   const hydrationKey = React.useMemo(() => `hydration_${new Date().toISOString().slice(0,10)}`, [])
   React.useEffect(() => { localStorage.setItem(hydrationKey, String(hydrationMl)) }, [hydrationMl, hydrationKey])
@@ -65,39 +83,144 @@ export default function Dashboard() {
     return () => window.removeEventListener('plan-updated', handler)
   }, [load])
 
-  // Calculate today's totals
-  const total = today?.totalCalories || 0
-  const goal = user?.dailyCalorieGoal || 2000
-  const rem = Math.max(0, goal - total)
-  const pct = Math.min(100, Math.round((total / goal) * 100))
+  // Schedule meal reminders
+  React.useEffect(() => {
+    if (!user) return
+    
+    const scheduleMealReminders = () => {
+      const istNow = toISTDate(new Date())
+      const todayStr = istNow.toISOString().slice(0, 10)
+      
+      // Schedule reminders for each meal type
+      Object.entries(mealReminderTimes).forEach(([type, time]) => {
+        const reminderTime = new Date(istNow)
+        reminderTime.setHours(time.hour, time.minute, 0, 0)
+        
+        // If time has passed today, schedule for tomorrow
+        if (reminderTime <= istNow) {
+          reminderTime.setDate(reminderTime.getDate() + 1)
+        }
+        
+        // Check if reminder already scheduled for today
+        const reminderKey = `meal_reminder_${type}_${todayStr}`
+        if (!localStorage.getItem(reminderKey)) {
+          scheduleReminder({
+            itemId: `meal_${type}`,
+            title: `Time for ${mealLabels[mealTypes.indexOf(type)]}! Don't forget to log your meal.`,
+            whenIST: reminderTime
+          })
+          localStorage.setItem(reminderKey, 'scheduled')
+        }
+      })
+      
+      // Schedule evening snacks reminder (5:30 PM)
+      const eveningSnacksDate = new Date(istNow)
+      eveningSnacksDate.setHours(eveningSnacksTime.hour, eveningSnacksTime.minute, 0, 0)
+      if (eveningSnacksDate <= istNow) {
+        eveningSnacksDate.setDate(eveningSnacksDate.getDate() + 1)
+      }
+      const eveningKey = `meal_reminder_evening_snacks_${todayStr}`
+      if (!localStorage.getItem(eveningKey)) {
+        scheduleReminder({
+          itemId: 'meal_evening_snacks',
+          title: 'Evening Snacks Time! (5:30 PM) - Don\'t forget to log your snacks.',
+          whenIST: eveningSnacksDate
+        })
+        localStorage.setItem(eveningKey, 'scheduled')
+      }
+    }
+    
+    scheduleMealReminders()
+    
+    // Clear reminder flags at midnight
+    const now = new Date()
+    const tomorrow = new Date(now)
+    tomorrow.setDate(tomorrow.getDate() + 1)
+    tomorrow.setHours(0, 0, 0, 0)
+    const msUntilMidnight = tomorrow.getTime() - now.getTime()
+    
+    const midnightTimer = setTimeout(() => {
+      // Clear all reminder flags
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith('meal_reminder_')) {
+          localStorage.removeItem(key)
+        }
+      })
+    }, msUntilMidnight)
+    
+    return () => clearTimeout(midnightTimer)
+  }, [user, scheduleReminder, toISTDate])
 
-  const tp = today?.totalProtein || 0
-  const tc = today?.totalCarbs || 0
-  const tf = today?.totalFat || 0
+  // Goal values
+  const goal = user?.dailyCalorieGoal || 2000
   const gp = user?.dailyProteinGoal || 0
   const gc = user?.dailyCarbsGoal || 0
   const gf = user?.dailyFatGoal || 0
-
-  const protRem = Math.max(0, gp - tp)
-  const carbRem = Math.max(0, gc - tc)
-  const fatRem = Math.max(0, gf - tf)
 
   // Hydration
   const hydrationGoal = user?.dailyWaterMl || 2000
   const hydrationPct = Math.min(100, Math.round((hydrationMl / hydrationGoal) * 100))
   const addWater250 = () => setHydrationMl((v) => Math.min(hydrationGoal, v + 250))
 
-  // Meal completion tracking
+  // Meal completion tracking - manual
   const mealTypes = ['breakfast', 'lunch', 'dinner', 'snacks']
   const mealLabels = ['Breakfast', 'Lunch', 'Dinner', 'Snacks']
   const mealIcons = ['🌅', '☀️', '🌙', '🍎']
+  const mealReminderTimes = {
+    breakfast: { hour: 9, minute: 0 },
+    snacks: { hour: 11, minute: 0 }, // Morning snacks
+    lunch: { hour: 14, minute: 0 },
+    dinner: { hour: 20, minute: 0 }
+  }
+  const eveningSnacksTime = { hour: 17, minute: 30 } // Evening snacks at 5:30 PM
+  
   const mealCompletion = mealTypes.map(type => ({
     type,
     label: mealLabels[mealTypes.indexOf(type)],
     icon: mealIcons[mealTypes.indexOf(type)],
-    completed: (today?.meals?.[type] || []).length > 0
+    completed: mealCompletionState[type] || false
   }))
   const completedMeals = mealCompletion.filter(m => m.completed).length
+
+  // Toggle meal completion
+  const toggleMealCompletion = (type) => {
+    setMealCompletionState(prev => ({ ...prev, [type]: !prev[type] }))
+  }
+
+  // Calculate totals only from completed meals
+  const calculateCompletedMealTotals = () => {
+    if (!today) return { calories: 0, protein: 0, carbs: 0, fat: 0 }
+    
+    let totalCal = 0, totalProt = 0, totalCarbs = 0, totalFat = 0
+    
+    mealTypes.forEach(type => {
+      if (mealCompletionState[type] && today.meals?.[type]) {
+        today.meals[type].forEach(meal => {
+          totalCal += meal.calories || 0
+          totalProt += meal.protein || 0
+          totalCarbs += meal.carbs || 0
+          totalFat += meal.fat || 0
+        })
+      }
+    })
+    
+    return { calories: totalCal, protein: totalProt, carbs: totalCarbs, fat: totalFat }
+  }
+
+  const completedTotals = calculateCompletedMealTotals()
+  
+  // Calculate totals only from completed meals
+  const total = completedTotals.calories
+  const tp = completedTotals.protein
+  const tc = completedTotals.carbs
+  const tf = completedTotals.fat
+  
+  // Calculate remaining values
+  const rem = Math.max(0, goal - total)
+  const pct = Math.min(100, Math.round((total / goal) * 100))
+  const protRem = Math.max(0, gp - tp)
+  const carbRem = Math.max(0, gc - tc)
+  const fatRem = Math.max(0, gf - tf)
 
   // Weekly summary
   const weeklySummary = React.useMemo(() => {
@@ -520,7 +643,7 @@ export default function Dashboard() {
             <CardContent>
               <Stack direction="row" alignItems="center" spacing={1}>
                 <Typography variant="h6" fontWeight={700}>Meal Completion</Typography>
-                <Tooltip title="Tracks which meals you've planned for today (Breakfast, Lunch, Dinner, Snacks). Green checkmarks indicate completed meals. Plan all meals to meet your daily nutrition goals." arrow>
+                <Tooltip title="Manually mark meals as completed by clicking the checkboxes. Only completed meals count towards your daily calorie and macro totals. Plan all meals to meet your daily nutrition goals." arrow>
                   <InfoOutlinedIcon sx={{ fontSize: 18, color: 'text.secondary', cursor: 'help' }} />
                 </Tooltip>
               </Stack>
@@ -531,14 +654,32 @@ export default function Dashboard() {
               <Grid container spacing={2}>
                 {mealCompletion.map((meal, idx) => (
                   <Grid item xs={6} key={meal.type}>
-                    <Box sx={{ p: 1.5, border: 1, borderColor: meal.completed ? 'success.main' : 'divider', borderRadius: 2, textAlign: 'center' }}>
+                    <Box 
+                      sx={{ 
+                        p: 1.5, 
+                        border: 1, 
+                        borderColor: meal.completed ? 'success.main' : 'divider', 
+                        borderRadius: 2, 
+                        textAlign: 'center',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s',
+                        '&:hover': {
+                          borderColor: meal.completed ? 'success.dark' : 'primary.main',
+                          bgcolor: meal.completed ? 'success.50' : 'action.hover'
+                        }
+                      }}
+                      onClick={() => toggleMealCompletion(meal.type)}
+                    >
                       <Typography variant="h5">{meal.icon}</Typography>
-                      <Typography variant="caption" color="text.secondary">{meal.label}</Typography>
-                      {meal.completed ? (
-                        <CheckCircleIcon sx={{ color: 'success.main', fontSize: 20, mt: 0.5 }} />
-                      ) : (
-                        <RadioButtonUncheckedIcon sx={{ color: 'text.disabled', fontSize: 20, mt: 0.5 }} />
-                      )}
+                      <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mb: 1 }}>{meal.label}</Typography>
+                      <Checkbox
+                        checked={meal.completed}
+                        onChange={() => toggleMealCompletion(meal.type)}
+                        onClick={(e) => e.stopPropagation()}
+                        color="success"
+                        size="small"
+                        sx={{ p: 0 }}
+                      />
                     </Box>
                   </Grid>
                 ))}
@@ -663,6 +804,30 @@ export default function Dashboard() {
             </Card>
           </Grid>
         )}
+
+        {/* Hydration Card */}
+        <Grid item xs={12} md={3}>
+          <Card elevation={3} sx={{ height: '100%', background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', color: 'white' }}>
+            <CardContent>
+              <Stack direction="row" alignItems="center" spacing={0.5}>
+                <Typography variant="subtitle2" sx={{ opacity: 0.9 }}>Hydration</Typography>
+                <Tooltip title="Tracks your daily water intake. Staying hydrated is essential for metabolism, energy levels, and overall health. Click the +250ml button to log water consumption." arrow>
+                  <InfoOutlinedIcon sx={{ fontSize: 14, color: 'rgba(255,255,255,0.9)', cursor: 'help' }} />
+                </Tooltip>
+              </Stack>
+              <Typography variant="h3" fontWeight={800}>{hydrationMl} / {hydrationGoal} ml</Typography>
+              <LinearProgress variant="determinate" value={hydrationPct} sx={{ mt: 2, height: 8, borderRadius: 1 }} color="inherit" />
+              <Button
+                size="small"
+                variant="outlined"
+                onClick={addWater250}
+                sx={{ mt: 1, borderColor: 'rgba(255,255,255,0.5)', color: 'white', '&:hover': { borderColor: 'white' } }}
+              >
+                +250 ml
+              </Button>
+            </CardContent>
+          </Card>
+        </Grid>
 
         {/* Adherence Score Card */}
         <Grid item xs={12} md={6}>
@@ -913,29 +1078,6 @@ export default function Dashboard() {
                   </Typography>
                 </Box>
               )}
-            </CardContent>
-          </Card>
-        </Grid>
-
-        <Grid item xs={12} md={3}>
-          <Card elevation={3} sx={{ height: '100%', background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)', color: 'white' }}>
-            <CardContent>
-              <Stack direction="row" alignItems="center" spacing={0.5}>
-                <Typography variant="subtitle2" sx={{ opacity: 0.9 }}>Hydration</Typography>
-                <Tooltip title="Tracks your daily water intake. Staying hydrated is essential for metabolism, energy levels, and overall health. Click the +250ml button to log water consumption." arrow>
-                  <InfoOutlinedIcon sx={{ fontSize: 14, color: 'rgba(255,255,255,0.9)', cursor: 'help' }} />
-                </Tooltip>
-              </Stack>
-              <Typography variant="h3" fontWeight={800}>{hydrationMl} / {hydrationGoal} ml</Typography>
-              <LinearProgress variant="determinate" value={hydrationPct} sx={{ mt: 2, height: 8, borderRadius: 1 }} color="inherit" />
-              <Button
-                size="small"
-                variant="outlined"
-                onClick={addWater250}
-                sx={{ mt: 1, borderColor: 'rgba(255,255,255,0.5)', color: 'white', '&:hover': { borderColor: 'white' } }}
-              >
-                +250 ml
-              </Button>
             </CardContent>
           </Card>
         </Grid>
