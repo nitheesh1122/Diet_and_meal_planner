@@ -15,9 +15,28 @@ const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
-// Middleware
+// Middleware - CORS configuration
+// Normalize frontend URL by removing trailing slash
+const frontendUrl = process.env.FRONTEND_URL 
+  ? process.env.FRONTEND_URL.trim().replace(/\/$/, '') 
+  : '*';
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || '*', // Allow all origins in development, set specific in production
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // Normalize origin by removing trailing slash
+    const normalizedOrigin = origin.replace(/\/$/, '');
+    
+    // Check if origin matches (with or without trailing slash)
+    if (frontendUrl === '*' || normalizedOrigin === frontendUrl || origin === frontendUrl) {
+      callback(null, true);
+    } else {
+      console.log(`CORS blocked: ${origin} (normalized: ${normalizedOrigin}) not in allowed: ${frontendUrl}`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']

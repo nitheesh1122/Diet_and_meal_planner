@@ -265,7 +265,7 @@ This project is prepared to deploy the frontend to **Vercel** and the backend to
    - Important environment variables (set these in Render's Dashboard or using Render's secrets):
       - `MONGO_URI` — your MongoDB connection string
       - `JWT_SECRET` — JWT signing secret
-      - `FRONTEND_URL` — the Vercel frontend URL (so CORS can be restricted in production)
+      - `FRONTEND_URL` — the Vercel frontend URL without trailing slash (e.g., `https://diet-and-meal-planner.vercel.app`) for CORS configuration
    - To deploy:
       1. Create a new Web Service in Render and either connect your GitHub/GitLab repo or use the `render.yaml` to create the service.
       2. Set the build command to `cd backend && npm install` and the start command to `cd backend && npm start` (these are already set in `render.yaml`).
