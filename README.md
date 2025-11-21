@@ -248,6 +248,33 @@ npm start
 - `POST /api/auth/login` - Login user
 - `GET /api/auth/me` - Get current user profile
 
+## Deployment
+
+This project is prepared to deploy the frontend to **Vercel** and the backend to **Render**. The repository includes a `frontend/vercel.json` for Vercel and a `render.yaml` template for Render.
+
+- **Frontend (Vercel)**:
+   - The frontend is a Vite React app. Vercel will run `npm run build` in the `frontend/` folder and serve the `dist/` directory.
+   - To deploy:
+      1. In Vercel, create a new project and point it at the `frontend` directory of the repo.
+      2. Set the build command to `npm run build` and the output directory to `dist` (this is configured in `frontend/vercel.json`).
+      3. (Optional) Configure any environment variables in Vercel Dashboard (e.g., `VITE_API_URL` pointing to your Render backend URL).
+
+- **Backend (Render)**:
+   - The backend is an Express Node app in the `backend/` folder. Render can run it as a Web Service.
+   - A sample `render.yaml` is included at the repository root as a template. It instructs Render to install dependencies and run `npm start` from the `backend` folder.
+   - Important environment variables (set these in Render's Dashboard or using Render's secrets):
+      - `MONGO_URI` — your MongoDB connection string
+      - `JWT_SECRET` — JWT signing secret
+      - `FRONTEND_URL` — the Vercel frontend URL (so CORS can be restricted in production)
+   - To deploy:
+      1. Create a new Web Service in Render and either connect your GitHub/GitLab repo or use the `render.yaml` to create the service.
+      2. Set the build command to `cd backend && npm install` and the start command to `cd backend && npm start` (these are already set in `render.yaml`).
+      3. Add the environment variables listed above in the Render dashboard (do not commit secrets to the repo).
+
+Notes:
+- Do not commit real secrets to the repository. Use `backend/.env.example` as a template for local development only.
+- After deploying the backend, update `VITE_API_URL` (or `FRONTEND_URL`) in Vercel to point to your Render service URL.
+
 ### Users
 - `GET /api/users/:id` - Get user by ID
 - `PUT /api/users/:id` - Update user profile

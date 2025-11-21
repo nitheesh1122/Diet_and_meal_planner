@@ -1,0 +1,21 @@
+# Render service definition (template)
+# Use this file to create a Web Service on Render via the "Infrastructure as Code" feature.
+# Do NOT store secrets here. Set them in the Render dashboard or via CLI.
+
+services:
+  - type: web
+    name: meal-planner-backend
+    env: node
+    plan: free
+    branch: main
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
+    # root: optional if your app is at the repository root; backend is in the "backend" folder
+    root: backend
+    envVars:
+      - key: MONGO_URI
+        fromEnv: MONGO_URI
+      - key: JWT_SECRET
+        fromEnv: JWT_SECRET
+      - key: FRONTEND_URL
+        fromEnv: FRONTEND_URL
