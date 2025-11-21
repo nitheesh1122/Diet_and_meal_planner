@@ -257,7 +257,7 @@ This project is prepared to deploy the frontend to **Vercel** and the backend to
    - To deploy:
       1. In Vercel, create a new project and point it at the `frontend` directory of the repo.
       2. Set the build command to `npm run build` and the output directory to `dist` (this is configured in `frontend/vercel.json`).
-      3. (Optional) Configure any environment variables in Vercel Dashboard (e.g., `VITE_API_URL` pointing to your Render backend URL).
+      3. (Optional) Configure any environment variables in Vercel Dashboard. The default backend URL is `https://diet-and-meal-planner.onrender.com`. To override, set `VITE_API_URL` in Vercel Dashboard.
 
 - **Backend (Render)**:
    - The backend is an Express Node app in the `backend/` folder. Render can run it as a Web Service.
