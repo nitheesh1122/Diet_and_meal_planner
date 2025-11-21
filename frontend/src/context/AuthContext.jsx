@@ -1,6 +1,10 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
 import axios from 'axios'
 
+// Set base URL immediately when module loads
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://diet-and-meal-planner.onrender.com'
+axios.defaults.baseURL = API_BASE_URL
+
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
@@ -12,7 +16,6 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    axios.defaults.baseURL = import.meta.env.VITE_API_URL
     if (token) {
       axios.defaults.headers.common['Authorization'] = `Bearer ${token}`
     } else {
