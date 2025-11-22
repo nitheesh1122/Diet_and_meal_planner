@@ -3,6 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const morgan = require('morgan');
+const compression = require('compression');
 
 // Import routes
 const authRoutes = require('./routes/auth');
@@ -17,18 +18,18 @@ const app = express();
 
 // Middleware - CORS configuration
 // Normalize frontend URL by removing trailing slash
-const frontendUrl = process.env.FRONTEND_URL 
-  ? process.env.FRONTEND_URL.trim().replace(/\/$/, '') 
+const frontendUrl = process.env.FRONTEND_URL
+  ? process.env.FRONTEND_URL.trim().replace(/\/$/, '')
   : '*';
 
 app.use(cors({
   origin: function (origin, callback) {
     // Allow requests with no origin (like mobile apps or curl requests)
     if (!origin) return callback(null, true);
-    
+
     // Normalize origin by removing trailing slash
     const normalizedOrigin = origin.replace(/\/$/, '');
-    
+
     // Check if origin matches (with or without trailing slash)
     if (frontendUrl === '*' || normalizedOrigin === frontendUrl || origin === frontendUrl) {
       callback(null, true);
@@ -41,22 +42,23 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
+app.use(compression());
 app.use(express.json());
 app.use(morgan('dev'));
 
 // Connect to MongoDB and start server only after successful connection
 mongoose.connect(process.env.MONGO_URI)
-.then(() => {
-  console.log('MongoDB connected');
-  const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  .then(() => {
+    console.log('MongoDB connected');
+    const PORT = process.env.PORT || 5000;
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  })
+  .catch(err => {
+    console.error('MongoDB connection error:', err);
+    process.exit(1);
   });
-})
-.catch(err => {
-  console.error('MongoDB connection error:', err);
-  process.exit(1);
-});
 
 // Routes
 app.use('/api/auth', authRoutes);

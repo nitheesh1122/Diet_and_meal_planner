@@ -12,5 +12,17 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom', 'axios'],
+          ui: ['@mui/material', '@mui/icons-material', '@emotion/react', '@emotion/styled', 'framer-motion'],
+          charts: ['recharts'],
+          pdf: ['jspdf', 'html2canvas']
+        }
+      }
+    }
   }
 })

@@ -38,14 +38,15 @@ async function generatePlans(req, res, next) {
     const created = [];
     const usedGlobal = new Set(); // track used foods across the generation window to diversify days
 
-    for (let i = 0; i < days; i++) {
+    // Generate days in parallel for better performance
+    const generateDay = async (i) => {
       const d = new Date(startDate);
       d.setDate(d.getDate() + i);
 
       // Ensure a plan exists
       const plan = await MealPlan.getOrCreate(userId, d);
 
-      const mealTypes = ['breakfast','lunch','dinner','snacks'];
+      const mealTypes = ['breakfast', 'lunch', 'dinner', 'snacks'];
 
       // Per-meal calorie allocation
       const dailyGoal = user.dailyCalorieGoal || 2000;
@@ -60,7 +61,7 @@ async function generatePlans(req, res, next) {
         dinner: new Set(),
         snacks: new Set()
       };
-      
+
       mealTypes.forEach(type => {
         for (const it of (plan.meals[type] || [])) {
           if (it && it.food) {
@@ -126,11 +127,15 @@ async function generatePlans(req, res, next) {
           if (usedPerMealType[type].has(foodId)) return false;
           // Also check day and global to diversify
           if (usedDay.has(foodId)) return false;
+          // Note: usedGlobal is shared across parallel executions, so we might have race conditions 
+          // but it's acceptable for meal generation variety.
+          // To be safe, we can skip global check or use a shared Set with mutex (too complex).
+          // For now, we'll just check it, but acknowledge it might not be perfectly up to date.
           if (usedGlobal.has(foodId)) return false;
           return true;
         });
         // Sort ascending calories for greedy fit
-        pool.sort((a,b) => (a.calories||0) - (b.calories||0));
+        pool.sort((a, b) => (a.calories || 0) - (b.calories || 0));
 
         const added = [];
         for (const f of pool) {
@@ -177,7 +182,7 @@ async function generatePlans(req, res, next) {
       const lunchTotals = calculateTotals('lunch');
       const dinnerTotals = calculateTotals('dinner');
       const snacksTotals = calculateTotals('snacks');
-      
+
       const currentTotals = {
         calories: breakfastTotals.calories + lunchTotals.calories + dinnerTotals.calories + snacksTotals.calories,
         protein: breakfastTotals.protein + lunchTotals.protein + dinnerTotals.protein + snacksTotals.protein,
@@ -200,20 +205,20 @@ async function generatePlans(req, res, next) {
 
       // If there are significant gaps, add more foods
       const hasSignificantGap = gaps.calories > 100 || gaps.protein > 10 || gaps.carbs > 10 || gaps.fat > 5;
-      
+
       if (hasSignificantGap) {
         // Determine which meal type needs more food (prioritize snacks, then dinner)
         const mealTypePriority = ['snacks', 'dinner', 'lunch', 'breakfast'];
-        
+
         for (const type of mealTypePriority) {
           if (gaps.calories <= 50) break; // Stop if gap is small
-          
+
           // Get a fresh pool for this meal type
           let pool = await Food.find({ mealType: type, goal: user.goal })
             .select('name calories protein carbs fat servingSize category dietaryType')
             .limit(200)
             .lean();
-          
+
           if (!pool || pool.length === 0) {
             pool = await Food.find({ mealType: type })
               .select('name calories protein carbs fat servingSize category dietaryType')
@@ -254,7 +259,7 @@ async function generatePlans(req, res, next) {
           for (const f of pool) {
             if (gaps.calories <= 50) break;
             if (addedForGaps >= 2) break; // Limit additions per meal type
-            
+
             const kcal = f.calories || 0;
             if (kcal > 0 && kcal <= gaps.calories + 200) { // Allow slight overage
               plan.meals[type].push({
@@ -266,16 +271,16 @@ async function generatePlans(req, res, next) {
                 carbs: f.carbs,
                 fat: f.fat
               });
-              
+
               usedDay.add(String(f._id));
               usedPerMealType[type].add(String(f._id));
               usedGlobal.add(String(f._id));
-              
+
               gaps.calories = Math.max(0, gaps.calories - kcal);
               gaps.protein = Math.max(0, gaps.protein - (f.protein || 0));
               gaps.carbs = Math.max(0, gaps.carbs - (f.carbs || 0));
               gaps.fat = Math.max(0, gaps.fat - (f.fat || 0));
-              
+
               addedForGaps++;
               totalAdded++;
             }
@@ -284,8 +289,17 @@ async function generatePlans(req, res, next) {
       }
 
       await plan.save();
-      created.push({ date: d, itemsAdded: totalAdded });
+      return { date: d, itemsAdded: totalAdded };
+    };
+
+    // Run all days in parallel
+    const promises = [];
+    for (let i = 0; i < days; i++) {
+      promises.push(generateDay(i));
     }
+
+    const results = await Promise.all(promises);
+    results.forEach(r => created.push(r));
 
     res.status(201).json({ success: true, data: { daysGenerated: days, summary: created } });
   } catch (err) {

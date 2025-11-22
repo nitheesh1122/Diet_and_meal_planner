@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { Box, AppBar, Toolbar, IconButton, useTheme, useMediaQuery } from '@mui/material'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -7,19 +7,21 @@ import Sidebar from './components/Sidebar'
 import MacroBar from './components/MacroBar'
 import Footer from './components/Footer'
 import PageTransitionSpinner from './components/PageTransitionSpinner'
-import Login from './pages/Login'
-import Signup from './pages/Signup'
-import Landing from './pages/Landing'
-import Dashboard from './pages/Dashboard'
-import Planner from './pages/Planner'
-import GroceryList from './pages/GroceryList'
-import Settings from './pages/Settings'
-import Recipes from './pages/Recipes'
-import Progress from './pages/Progress'
-import PrivacyPolicy from './pages/PrivacyPolicy'
-import TermsOfService from './pages/TermsOfService'
-import Contact from './pages/Contact'
 import { useAuth } from './context/AuthContext'
+
+// Lazy load pages
+const Login = React.lazy(() => import('./pages/Login'))
+const Signup = React.lazy(() => import('./pages/Signup'))
+const Landing = React.lazy(() => import('./pages/Landing'))
+const Dashboard = React.lazy(() => import('./pages/Dashboard'))
+const Planner = React.lazy(() => import('./pages/Planner'))
+const GroceryList = React.lazy(() => import('./pages/GroceryList'))
+const Settings = React.lazy(() => import('./pages/Settings'))
+const Recipes = React.lazy(() => import('./pages/Recipes'))
+const Progress = React.lazy(() => import('./pages/Progress'))
+const PrivacyPolicy = React.lazy(() => import('./pages/PrivacyPolicy'))
+const TermsOfService = React.lazy(() => import('./pages/TermsOfService'))
+const Contact = React.lazy(() => import('./pages/Contact'))
 
 function PrivateRoute({ children }) {
   const { token } = useAuth()
@@ -160,31 +162,33 @@ export default function App() {
               overflowX: 'hidden' // Prevent horizontal scrolling
             }}
           >
-            <AnimatePresence mode="wait">
-              <Routes location={location} key={location.pathname}>
-                <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
-                <Route path="/signup" element={<PageTransition><Signup /></PageTransition>} />
-                <Route path="/privacy" element={<PageTransition><PrivacyPolicy /></PageTransition>} />
-                <Route path="/terms" element={<PageTransition><TermsOfService /></PageTransition>} />
-                <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
-                <Route 
-                  path="/" 
-                  element={
-                    token ? (
-                      <PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>
-                    ) : (
-                      <PageTransition><Landing /></PageTransition>
-                    )
-                  } 
-                />
-                <Route path="/dashboard" element={<PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>} />
-                <Route path="/planner" element={<PrivateRoute><PageTransition><Planner /></PageTransition></PrivateRoute>} />
-                <Route path="/settings" element={<PrivateRoute><PageTransition><Settings /></PageTransition></PrivateRoute>} />
-                <Route path="/grocery" element={<PrivateRoute><PageTransition><GroceryList /></PageTransition></PrivateRoute>} />
-                <Route path="/recipes" element={<PrivateRoute><PageTransition><Recipes /></PageTransition></PrivateRoute>} />
-                <Route path="/progress" element={<PrivateRoute><PageTransition><Progress /></PageTransition></PrivateRoute>} />
-              </Routes>
-            </AnimatePresence>
+            <Suspense fallback={<PageTransitionSpinner loading={true} />}>
+              <AnimatePresence mode="wait">
+                <Routes location={location} key={location.pathname}>
+                  <Route path="/login" element={<PageTransition><Login /></PageTransition>} />
+                  <Route path="/signup" element={<PageTransition><Signup /></PageTransition>} />
+                  <Route path="/privacy" element={<PageTransition><PrivacyPolicy /></PageTransition>} />
+                  <Route path="/terms" element={<PageTransition><TermsOfService /></PageTransition>} />
+                  <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+                  <Route 
+                    path="/" 
+                    element={
+                      token ? (
+                        <PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>
+                      ) : (
+                        <PageTransition><Landing /></PageTransition>
+                      )
+                    } 
+                  />
+                  <Route path="/dashboard" element={<PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>} />
+                  <Route path="/planner" element={<PrivateRoute><PageTransition><Planner /></PageTransition></PrivateRoute>} />
+                  <Route path="/settings" element={<PrivateRoute><PageTransition><Settings /></PageTransition></PrivateRoute>} />
+                  <Route path="/grocery" element={<PrivateRoute><PageTransition><GroceryList /></PageTransition></PrivateRoute>} />
+                  <Route path="/recipes" element={<PrivateRoute><PageTransition><Recipes /></PageTransition></PrivateRoute>} />
+                  <Route path="/progress" element={<PrivateRoute><PageTransition><Progress /></PageTransition></PrivateRoute>} />
+                </Routes>
+              </AnimatePresence>
+            </Suspense>
           </Box>
         </Box>
       </Box>
