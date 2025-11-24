@@ -23,9 +23,19 @@ const PrivacyPolicy = React.lazy(() => import('./pages/PrivacyPolicy'))
 const TermsOfService = React.lazy(() => import('./pages/TermsOfService'))
 const Contact = React.lazy(() => import('./pages/Contact'))
 
+// Admin Pages
+const AdminLogin = React.lazy(() => import('./pages/admin/AdminLogin'))
+const AdminDashboard = React.lazy(() => import('./pages/admin/AdminDashboard'))
+const AdminUsers = React.lazy(() => import('./pages/admin/AdminUsers'))
+
 function PrivateRoute({ children }) {
   const { token } = useAuth()
   return token ? children : <Navigate to="/" replace />
+}
+
+function AdminRoute({ children }) {
+  const { adminToken } = useAuth()
+  return adminToken ? children : <Navigate to="/admin/login" replace />
 }
 
 const pageVariants = {
@@ -50,7 +60,7 @@ function PageTransition({ children }) {
 
 export default function App() {
   const location = useLocation()
-  const { token } = useAuth()
+  const { token, adminToken } = useAuth()
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down('md'))
   const [mobileOpen, setMobileOpen] = React.useState(false)
@@ -76,15 +86,15 @@ export default function App() {
       setIsPageTransitioning(true)
       const timer = setTimeout(() => {
         setIsPageTransitioning(false)
-      }, 5000) // Max 5 seconds
+      }, 2000) // Max 2 seconds
       prevLocationRef.current = location.pathname
       return () => clearTimeout(timer)
     }
   }, [location.pathname])
 
-  // Don't show sidebar on login/signup pages, or on landing page when not authenticated
-  const showSidebar = token && !['/login', '/signup'].includes(location.pathname)
-  
+  // Don't show sidebar on login/signup pages, or on landing page when not authenticated, or on admin pages
+  const showSidebar = token && !['/login', '/signup'].includes(location.pathname) && !location.pathname.startsWith('/admin')
+
   // Calculate sidebar width based on expanded state
   const sidebarWidth = sidebarExpanded ? 280 : 64
 
@@ -93,22 +103,22 @@ export default function App() {
       <PageTransitionSpinner loading={isPageTransitioning} />
       <Box sx={{ display: 'flex', flexGrow: 1 }}>
         {showSidebar && (
-          <Sidebar 
-            mobileOpen={mobileOpen} 
+          <Sidebar
+            mobileOpen={mobileOpen}
             onMobileClose={handleDrawerToggle}
             expanded={sidebarExpanded}
             onExpandedChange={setSidebarExpanded}
           />
         )}
-        
+
         <Box
           component="main"
           sx={{
             flexGrow: 1,
             display: 'flex',
             flexDirection: 'column',
-            width: { 
-              md: showSidebar ? `calc(100% - ${sidebarWidth}px)` : '100%' 
+            width: {
+              md: showSidebar ? `calc(100% - ${sidebarWidth}px)` : '100%'
             },
             minHeight: 0, // Important for flex children to allow scrolling
             transition: theme.transitions.create(['width', 'margin'], {
@@ -121,11 +131,11 @@ export default function App() {
             <AppBar
               position="fixed"
               sx={{
-                width: { 
-                  md: showSidebar ? `calc(100% - ${sidebarWidth}px)` : '100%' 
+                width: {
+                  md: showSidebar ? `calc(100% - ${sidebarWidth}px)` : '100%'
                 },
-                ml: { 
-                  md: showSidebar ? `${sidebarWidth}px` : 0 
+                ml: {
+                  md: showSidebar ? `${sidebarWidth}px` : 0
                 },
                 bgcolor: 'background.paper',
                 color: 'text.primary',
@@ -149,13 +159,13 @@ export default function App() {
               </Toolbar>
             </AppBar>
           )}
-          
+
           {showSidebar && <MacroBar />}
-          
-          <Box 
-            sx={{ 
-              mt: showSidebar ? 8 : 0, 
-              p: { xs: 2, sm: 3 }, 
+
+          <Box
+            sx={{
+              mt: showSidebar ? 8 : 0,
+              p: { xs: 2, sm: 3 },
               flexGrow: 1,
               minHeight: 0, // Important for flex children to allow scrolling
               overflowY: 'auto', // Enable vertical scrolling
@@ -170,15 +180,15 @@ export default function App() {
                   <Route path="/privacy" element={<PageTransition><PrivacyPolicy /></PageTransition>} />
                   <Route path="/terms" element={<PageTransition><TermsOfService /></PageTransition>} />
                   <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
-                  <Route 
-                    path="/" 
+                  <Route
+                    path="/"
                     element={
                       token ? (
                         <PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>
                       ) : (
                         <PageTransition><Landing /></PageTransition>
                       )
-                    } 
+                    }
                   />
                   <Route path="/dashboard" element={<PrivateRoute><PageTransition><Dashboard /></PageTransition></PrivateRoute>} />
                   <Route path="/planner" element={<PrivateRoute><PageTransition><Planner /></PageTransition></PrivateRoute>} />
@@ -186,13 +196,18 @@ export default function App() {
                   <Route path="/grocery" element={<PrivateRoute><PageTransition><GroceryList /></PageTransition></PrivateRoute>} />
                   <Route path="/recipes" element={<PrivateRoute><PageTransition><Recipes /></PageTransition></PrivateRoute>} />
                   <Route path="/progress" element={<PrivateRoute><PageTransition><Progress /></PageTransition></PrivateRoute>} />
+
+                  {/* Admin Routes */}
+                  <Route path="/admin/login" element={<PageTransition><AdminLogin /></PageTransition>} />
+                  <Route path="/admin/dashboard" element={<AdminRoute><PageTransition><AdminDashboard /></PageTransition></AdminRoute>} />
+                  <Route path="/admin/users" element={<AdminRoute><PageTransition><AdminUsers /></PageTransition></AdminRoute>} />
                 </Routes>
               </AnimatePresence>
             </Suspense>
           </Box>
         </Box>
       </Box>
-      
+
       {/* Footer - Only show on authenticated pages */}
       {showSidebar && <Footer />}
     </Box>

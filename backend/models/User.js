@@ -111,6 +111,15 @@ const userSchema = new mongoose.Schema({
   dailyProteinGoal: Number,
   dailyCarbsGoal: Number,
   dailyFatGoal: Number,
+  status: {
+    type: String,
+    enum: ['active', 'suspended'],
+    default: 'active'
+  },
+  lastLogin: {
+    type: Date,
+    default: null
+  },
   createdAt: {
     type: Date,
     default: Date.now

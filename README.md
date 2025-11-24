@@ -39,6 +39,7 @@ A comprehensive full-stack meal planning application designed to help users trac
 - **Progress Charts**: Multi-metric tracking with weight, body measurements, and body fat percentage charts
 - **Grocery List Organization**: Grocery items organized by meal type with category filtering
 - **Enhanced PDF Design**: Professional PDF exports with headers, footers, user information, and download timestamps
+- **Super Admin Console**: `/admin` area with guarded access, KPI dashboards, system health signals, actionable alerts, advanced user management, CSV export, and status controls
 
 ## Tech Stack
 

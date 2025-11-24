@@ -12,6 +12,7 @@ const foodRoutes = require('./routes/foods');
 const mealRoutes = require('./routes/meals');
 const progressRoutes = require('./routes/progress');
 const groceryRoutes = require('./routes/grocery');
+const adminRoutes = require('./routes/admin');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
@@ -30,11 +31,18 @@ app.use(cors({
     // Normalize origin by removing trailing slash
     const normalizedOrigin = origin.replace(/\/$/, '');
 
+    // Allowed origins
+    const allowedOrigins = [
+      frontendUrl,
+      'http://localhost:5173',
+      'http://localhost:3000'
+    ];
+
     // Check if origin matches (with or without trailing slash)
-    if (frontendUrl === '*' || normalizedOrigin === frontendUrl || origin === frontendUrl) {
+    if (frontendUrl === '*' || allowedOrigins.includes(normalizedOrigin) || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
-      console.log(`CORS blocked: ${origin} (normalized: ${normalizedOrigin}) not in allowed: ${frontendUrl}`);
+      console.log(`CORS blocked: ${origin} (normalized: ${normalizedOrigin}) not in allowed: ${allowedOrigins}`);
       callback(new Error('Not allowed by CORS'));
     }
   },
@@ -42,6 +50,7 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 app.use(compression());
 app.use(express.json());
 app.use(morgan('dev'));
@@ -67,6 +76,7 @@ app.use('/api/foods', foodRoutes);
 app.use('/api/meals', mealRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/grocery', groceryRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Basic route for testing
 app.get('/', (req, res) => {

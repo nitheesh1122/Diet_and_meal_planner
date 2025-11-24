@@ -13,6 +13,11 @@ export function AuthProvider({ children }) {
     const raw = localStorage.getItem('user')
     return raw ? JSON.parse(raw) : null
   })
+  const [adminToken, setAdminToken] = useState(() => localStorage.getItem('adminToken'))
+  const [adminProfile, setAdminProfile] = useState(() => {
+    const raw = localStorage.getItem('adminProfile')
+    return raw ? JSON.parse(raw) : null
+  })
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
@@ -36,6 +41,22 @@ export function AuthProvider({ children }) {
       return { ok: true }
     } catch (e) {
       return { ok: false, message: e.response?.data?.error || 'Login failed' }
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const loginAdmin = async (email, password) => {
+    setLoading(true)
+    try {
+      const res = await axios.post('/api/admin/login', { email, password })
+      setAdminToken(res.data.token)
+      setAdminProfile(res.data.data)
+      localStorage.setItem('adminToken', res.data.token)
+      localStorage.setItem('adminProfile', JSON.stringify(res.data.data))
+      return { ok: true }
+    } catch (e) {
+      return { ok: false, message: e.response?.data?.error || 'Admin login failed' }
     } finally {
       setLoading(false)
     }
@@ -66,7 +87,27 @@ export function AuthProvider({ children }) {
     localStorage.removeItem('user')
   }
 
-  const value = { token, user, setUser, login, signup, logout, loading }
+  const logoutAdmin = () => {
+    setAdminToken(null)
+    setAdminProfile(null)
+    localStorage.removeItem('adminToken')
+    localStorage.removeItem('adminProfile')
+  }
+
+  const value = {
+    token,
+    setToken,
+    user,
+    setUser,
+    adminToken,
+    adminProfile,
+    login,
+    signup,
+    loginAdmin,
+    logout,
+    logoutAdmin,
+    loading
+  }
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 
